@@ -1,0 +1,738 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+<!-- ============================================================== -->
+<!-- End Topbar header -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<!--Desktop view sidebar menu-->
+<aside class="left-sidebar with-vertical">
+  <!-- Sidebar scroll-->
+  <!-- ============================================================== -->
+  <!-- Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+  >
+    <a href="../index.html" class="text-nowrap logo-img">
+      <img
+        src="../assets/images/logos/dark-logo.svg"
+        class="dark-logo"
+        alt="Logo-Dark"
+      />
+    </a>
+    <a
+      href="javascript:void(0)"
+      class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+    >
+      <i class="ti ti-x"></i>
+    </a>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="scroll-sidebar"
+    style="height: calc(100vh - 100px)"
+    data-simplebar
+  >
+    <!-- Sidebar navigation-->
+    <nav class="sidebar-nav">
+      <ul id="sidebarnav" class="">
+        <nav class="nav nav-pills flex-column sidebar-nav">
+          <ul class="list-unstyled">
+            <!--Getting Started-->
+            <li class="nav-small-cap">
+              <span class="hide-menu">Getting Started</span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="introduction.html"
+              >
+                <i class="ti ti-home-2"></i> Introduction
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+              <i class="ti ti-packages"></i> Package Structure
+            </a>
+          </li> -->
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-start.html"
+              >
+                <i class="ti ti-brand-abstract"></i> Quick Start
+              </a>
+            </li>
+            <!--CUSTOMIZATION-->
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Lesson content </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-program-struct.html"
+              >
+                โครงสร้างของโปรแกรม
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-variables-and-types.html"
+              >
+                ตัวแปรและประเภทข้อมูล
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-constants.html"
+              >
+                ค่าคงที่
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-typography.html"
+              >
+                ตัวดำเนินการ
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-input-output.html"
+              >
+                อินพุต เอาต์พุต พื้นฐาน
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-if-else-statements.html"
+              >
+                คำสั่ง if else
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-switch-case-statement.html"
+              >
+                คำสั่ง switch case
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-while-loop.html"
+              >
+                คำสั่งวนซ้ำ while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-for-loop.html"
+              >
+                คำสั่งวนซ้ำ for loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-do-while-loop.html"
+              >
+                คำสั่งวนซ้ำ do-while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-break-and-continue.html"
+              >
+                คำสั่ง break และ continue
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Team </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="team.html"
+              >
+                ผู้จัดทำ
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+              <i class="ti ti-refresh-dot"></i>Changelog
+            </a>
+          </li> -->
+          </ul>
+        </nav>
+      </ul>
+    </nav>
+    <!-- End Sidebar navigation -->
+  </div>
+  <!-- End Sidebar scroll-->
+</aside>
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<div class="page-wrapper">
+  <!-- ============================================================== -->
+  <!-- Topbar header - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <header class="topbar position-relative">
+<div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
+  <!-- ============================================================== -->
+  <!-- Toggle which is visible on mobile only -->
+  <!-- ============================================================== -->
+  <!-- Logo icon -->
+  <a href="../index.html">
+<b class="logo-icon d-xl-none d-block">
+  <!-- Dark Logo icon -->
+  <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
+</b>
+<!--End Logo icon -->
+  </a>
+  <div class="d-flex align-items-center">
+<!---Mobile view canvas button--->
+<a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+  <i class="ti ti-menu-2"></i>
+</a>
+  </div>
+</div>
+  </header>
+  <!-- ============================================================== -->
+  <!-- Page wrapper  -->
+  <!-- ============================================================== -->
+  <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
+<!-- ============================================================== -->
+<!-- Container fluid  -->
+<!-- ============================================================== -->
+<div class="container-fluid mt-4">
+  <div class="mt-1">
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="d-sm-flex align-items-center justify-content-between">
+  <!-- <h4 class="mb-4 pb-2 fs-5">Change Global Skin Color</h3> -->
+</div>
+<article class="article-container mb-4" style="height: auto !important;">
+  <h1>คำสั่ง switch case ในภาษา C</h1>
+
+  <section>
+      <div class="text-body-secondary cleafix mb-3">
+                          </div>
+  </section>
+
+  <p>ในบทนี้ คุณจะได้เรียนรู้การใช้งานคำสั่ง switch case ในภาษา C สำหรับควบคุมเพื่อให้โปรแกรมสามารถทำงานแบบหลายทางเลือกจากเงื่อนไขที่กำหนด และเปรียบเทียบการใช้งานคำสั่ง switch case กับคำสั่ง if else-if ซึ่งเป็นคำสั่งที่มีการทำงานคล้ายกัน นี่เป็นเนื้อหาในบทนี้</p>
+
+<ul>
+<li>คำสั่ง switch case</li>
+<li>การใช้งานคำสั่ง switch case</li>
+<li>การสร้างเงื่อนไขแบบ OR</li>
+<li>คำสั่ง switch case กับคำสั่ง if else-if</li>
+<li>ตัวอย่างโปรแกรมสัญญาณไฟจราจร</li>
+</ul>
+
+<h2>คำสั่ง switch case</h2>
+
+<p>คำสั่ง switch case เป็นคำสั่งควบคุมเพื่อให้โปรแกรมทำงานแบบหลายทางเลือกคล้ายกับคำสั่ง if else-if แต่การใช้งานของมันจะเรียบง่ายและจำกัดกว่ามาก และในการกำหนดเงื่อนไขจะเป็นการเปรียบเทียบความเท่ากันเท่านั้น นี่เป็นรูปแบบการใช้งานคำสั่ง switch case ในภาษา C</p>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">switch (input)
+{
+case VALUE_1:
+// statements
+break;
+case VALUE_2:
+// statements
+break;
+case VALUE_3:
+// statements
+break;
+default:
+// statements
+}
+</code></pre>
+
+<p>ในการใช้งานกำหนดบล็อคด้วยคำสั่ง <code>switch</code> โดยส่งค่า <code>input</code> เพื่อนำไปตรวจสอบกับเงื่อนไข สำหรับแต่ละเงื่อนไขจะกำหนดด้วยคำสั่ง <code>case</code> โดยระบุ <code>VALUE_N</code> ที่เป็นค่าสำหรับนำไปเปรียบเทียบกับ <code>input</code> ในกรณีที่ค่าทั้งสองเท่ากัน โปรแกรมจะทำงานคำสั่งที่กำหนดหลังเครื่องหมายโคลอน (<code>:</code>) ของ case ดังกล่าว</p>
+
+<p>เนื่องจากคำสั่ง switch case ไม่ได้ใช้วงเล็บ <code>{}</code> สำหรับกำหนดบล็อคของแต่ละ <code>case</code> ดังนั้นเราต้องจบการทำงานของแต่ละเงื่อนไขด้วยคำสั่ง <code>break</code> เสมอ ถ้าหากละเว้น โปรแกรมจะทำงานคำสั่งที่เหลือทั้งหมดของ case อื่นด้วย ซึ่งนี่สามารถใช้สำหรับสร้างเงื่อนไขแบบ OR ได้ ซึ่งเราจะพูดถึงเรื่องนี้ในภายหลัง</p>
+
+<p>คุณสามารถกำหนด case <code>default</code> เพื่อให้โปรแกรมทำงานในกรณีที่ <code>input</code> ไม่ตรงกับเงื่อนไขของ case ใดๆ ก่อนหน้า ซึ่งนี่จะคล้ายกับการใช้งานคำสั่ง else</p>
+
+<p>คำสั่ง switch จะเปรียบเทียบ <code>input</code> กับค่าของแต่ละ case ด้วยตัวดำเนินการตรวจสอบความเท่ากัน (<code>==</code>) และสำหรับแต่ละ case ค่าที่กำหนดจะต้องเป็นค่าคงที่ (Literal) ของตัวเลข Integer หรือ Char เท่านั้น คุณไม่สามารถใช้ค่าจากตัวแปรหรือข้อมูลประเภทอื่นๆ ได้ ยกตัวอย่างเช่น</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">case</span> a<span class="token operator">:</span>
+<span class="token keyword">case</span> <span class="token number">1.5f</span><span class="token operator">:</span>
+<span class="token keyword">case</span> <span class="token string">"hello"</span><span class="token operator">:</span>
+</code></pre>
+
+<p>ทั้งสาม case นี้เป็นการกำหนดเงื่อนไขที่ไม่ถูกต้องเนื่องจากค่าที่ใช้เป็นค่าจากตัวแปร <code>a</code> ตัวเลขทศนิยม และ String ซึ่งเป็นค่าที่ไม่ได้รับอนุญาติโดยคำสั่ง switch case</p>
+
+<h2>การใช้งานคำสั่ง switch case</h2>
+
+<p>ต่อไปเป็นตัวอย่างการใช้งานคำสั่ง switch case ในการเขียนโปรแกรมในภาษา C สำหรับตรวจสอบค่าของตัวเลขในตัวแปร และแสดงผลลัพธ์ออกมาเป็นคำอ่านของตัวเลขดังกล่าว นี่เป็นโค้ดการทำงานของโปรแกรม</p>
+
+<div class="codehead">switch_example.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">switch</span> <span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"One\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Two\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">3</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Three\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token keyword">default</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Unknown\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Two
+</code></pre>
+
+<p>เราได้ประกาศตัวแปร <code>n</code> สำหรับเก็บค่าของตัวเลขจำนวนเต็ม จากนั้นใช้คำสั่ง switch case เพื่อตรวจสอบค่าในตัวแปรนี้ เนื่องจากค่าในตัวแปรตรงกับเงื่อนไขที่กำหนดใน <code>case 2</code> ดังนั้นโปรแกรมทำงานคำสั่งของเคสดังกล่าวโดยแสดงข้อความ "Two" ออกทางหน้าจอ</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Two\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>และเมื่อพบกับคำสั่ง <code>break</code> ถือว่าเป็นการจบการทำงานสำหรับเคส นั่นหมายความว่าคุณจะต้องใช้คำสั่งนี้ก่อนเริ่มต้นเคสใหม่เสมอ</p>
+
+<p>ตอนนี้ลองเปลี่ยนค่าในตัวแปร <code>n</code> เป็นค่าอื่นๆ ที่ไม่ตรงกับ case ใดๆ ที่กำหนดในคำสั่ง switch case ยกตัวอย่างเช่น</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เราได้เปลี่ยนค่าในตัวแปรเป็น <code>5</code> และรันโปรแกรมอีกครั้ง เนื่องจากค่าในตัวแปรไม่ตรงกับเงื่อนไขใดๆ เลย โปรแกรมทำงานในบล็อคของเงื่อนไข <code>default</code> แทน และ "Unknown" ถูกแสดงออกทางหน้าจอ</p>
+
+<div class="my-3">
+<!-- marcuscode - middle banner -->
+<ins class="adsbygoogle" style="display: block; height: 350px;" data-ad-client="ca-pub-9075045589988569" data-ad-slot="9605104032" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_2_host" style="border: none; height: 350px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden;"><iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 714px; height: 350px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="714" height="350" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9075045589988569&amp;output=html&amp;h=280&amp;slotname=9605104032&amp;adk=1190255532&amp;adf=3595001987&amp;pi=t.ma~as.9605104032&amp;w=714&amp;abgtt=3&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1727370392&amp;rafmt=1&amp;format=714x280&amp;url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Fswitch-case-statement&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&amp;dt=1727370392037&amp;bpp=25&amp;bdt=715&amp;idt=639&amp;shv=r20240924&amp;mjsv=m202409230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727369846%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&amp;gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727369846%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&amp;eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727369846%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&amp;prev_fmts=0x0%2C252x600%2C722x280&amp;nras=1&amp;correlator=8193087150931&amp;frm=20&amp;pv=1&amp;u_tz=420&amp;u_his=12&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=12&amp;ady=3160&amp;biw=1108&amp;bih=911&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759837%2C31087376%2C44798934%2C95342016&amp;oid=2&amp;pvsid=3596576567865333&amp;tmod=721002215&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1125%2C911&amp;vis=1&amp;rsz=%7C%7CEebr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.71&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=3&amp;uci=a!3&amp;btvi=2&amp;fsb=1&amp;dtd=649" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNjo3pWM4YgDFQPOPAId7DgrMA" data-load-complete="true"></iframe></div></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<h2>การสร้างเงื่อนไขแบบ OR</h2>
+
+<p>คำสั่ง switch case สามารถใช้สำหรับสร้างเงื่อนไขแบบ OR ได้ เพื่อทำเช่นนี้เราเพียงกำหนดเคสต่อเนื่องกันและกำหนดสั่งการทำงานในเงื่อนไขสุดท้ายที่ร่วมกัน นี่เป็นตัวอย่างของระบบประเมินความพึงพอใจของหนังสือที่สามารถให้คะแนนจาก 1 - 5</p>
+
+<div class="codehead">book_rating.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> rating<span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter 1-5 to rate this book: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>rating<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">switch</span> <span class="token punctuation">(</span>rating<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Bad\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">3</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Average\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">4</span><span class="token operator">:</span>
+<span class="token keyword">case</span> <span class="token number">5</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Good\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token keyword">default</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid value\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรมจากการรันสองครั้ง และเรากรอกค่านำเข้าเป็น 3 และ 4 ตามลำดับ</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter 1-5 to rate this book: 3
+Average
+</code></pre>
+
+<pre class="code-result language-result"><code class=" language-result">Enter 1-5 to rate this book: 4
+Good
+</code></pre>
+
+<p>ในตัวอย่าง เป็นโปรแกรมโหวตความพึงพอใจของการอ่านหนังสือโดยการใช้คะแนนจาก 1 - 5 ที่รับค่ามาจากทางคีย์บอร์ด สำหรับเงื่อนไขในการประเมินคะแนนนั้นจะมีอยู่เพียงสามระดับได้แก่</p>
+
+<ul>
+<li>คะแนนโหวต 1-2 ประเมินผลเป็น Bad</li>
+<li>คะแนนโหวต 3 ประเมินผลเป็น Average</li>
+<li>คะแนนโหวต 4-5 ประเมินผลเป็น Good</li>
+</ul>
+
+<p>จะเห็นว่าบางคะแนนนั้นให้ผลการประเมินที่เหมือนกัน และถ้าหากเงื่อนไขใดๆ มีการทำงานที่เหมือนกัน เราสามารถเขียน case เชื่อมต่อกันได้ เหมือนกับเคส 1,2 และ 4,5 ที่คุณเห็นในโปรแกรม</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">case</span> <span class="token number">4</span><span class="token operator">:</span>
+<span class="token keyword">case</span> <span class="token number">5</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Good\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>นั่นหมายความว่าเมื่อค่าของ <code>rating</code> เป็น <code>4</code> โปรแกรมจะทำงานคำสั่งของ case ใกล้ที่สุดที่มันเจอจนกว่าจะพบกับคำสั่ง <code>break</code> ซึ่งนี่เป็นวิธีที่เราสามารถละเว้นคำสั่ง break ในคำสั่ง switch case เนื่องจากมันสามารถใช้สำหรับสร้างเงื่อนไขแบบ OR ได้นั่นเอง</p>
+
+<h2>คำสั่ง switch case กับคำสั่ง if else-if</h2>
+
+<p>อย่างที่บอกไปแล้วในตอนต้น คำสั่ง switch case ใช้สำหรับเปรียบเทียบกับค่าที่แน่นอนเท่านั้น มันไม่สามารถใช้เปรียบเทียบกับค่าในตัวแปร หรือข้อมูลประเภทอื่นๆ นอกจาก Integer ได้ และนอกจากนี้ มันยังไม่สนับสนุนการกำหนดเงื่อนไขแบบช่วงข้อมูล</p>
+
+<p>ยกตัวอย่างเช่น นี่เป็นโปรแกรมที่สามารถเขียนโดยใช้คำสั่ง if else แต่ยากที่จะเขียนโดยใช้คำสั่ง switch case เนื่องจากมันมีการตรวจสอบข้อมูลในรูปแบบของช่วงข้อมูล</p>
+
+<div class="codehead">if_comparison.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> age<span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter your age: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>age <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> age <span class="token operator">&lt;</span> <span class="token number">12</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"You're a children\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>age <span class="token operator">&gt;=</span> <span class="token number">12</span> <span class="token operator">&amp;&amp;</span> age <span class="token operator">&lt;</span> <span class="token number">18</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"You're a teenager\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>age <span class="token operator">&gt;=</span> <span class="token number">18</span> <span class="token operator">&amp;&amp;</span> age <span class="token operator">&lt;=</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"You're an adult\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid age\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรมเมื่อเรากรอกอายุเป็น 15</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter your age: 15
+You're a teenager
+</code></pre>
+
+<p>ในตัวอย่าง เป็นโปรแกรมตรวจสอบอายุว่าคุณเป็นเด็ก วัยรุ่น หรือผู้ใหญ่ โดยการพิจารณาจากอายุที่กรอกเข้ามาผ่านทางคีย์บอร์ด เราได้ใช้คำสั่ง if else-if สำหรับตรวจสอบอายุที่มีอยู่สามช่วงได้แก่</p>
+
+<ul>
+<li>อายุ 0-12 เป็นเด็ก</li>
+<li>อายุ 12-18 เป็นวันรุ่น</li>
+<li>และอายุ 18-100 เป็นผู้ใหญ่</li>
+</ul>
+
+<p>จะเห็นว่านี่สามารถเขียนได้อย่างง่ายดายโดยการใช้คำสั่ง if else-if ในการกำหนดเงื่อนไขแบบช่วง แต่ในการใช้คำสั่ง switch case เราจะทำแบบนี้ไม่ได้ วิธีเดียวที่จะทำได้คือการระบุ case ของอายุทั้งหมดจาก <code>0 - 100</code> แบบนี้</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">case</span> <span class="token number">0</span><span class="token operator">:</span>
+<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+<span class="token keyword">case</span> <span class="token number">3</span><span class="token operator">:</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token keyword">case</span> <span class="token number">11</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"You're a children\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>จะเห็นว่าคุณจะต้องกำหนดทั้งหมด 12 เคสโดยการใช้เงื่อนไขแบบ OR สำหรับเงื่อนไขแรก ซึ่งนี่เป็นวิธีที่ไม่ยืดหยุ่น ดังนั้นจึงสามารถสรุปได้ว่าคำสั่ง switch case ไม่เหมาะสำหรับการตรวจสอบข้อมูลแบบช่วงของข้อมูล และเมื่อคุณพบกับปัญหาในลักษณะนี้การใช้คำสั่ง if else-if จะง่ายกว่า</p>
+
+<p>แต่สิ่งหนึ่งที่คำสั่ง switch case ถูกออกแบบมาสำหรับก็คือ มันถูกออกแบบมาเพื่อสำหรับเปร่ียบเทียบกับค่าที่ตรงกัน ยกตัวอย่างเช่น ถ้าหากคุณมีโปรแกรมในลักษณะนี้ที่เขียนด้วยคำสั่ง if else-if ที่เปรียบเทียบค่ากับตัวเลขตรงๆ ด้วยตัวดำเนินการตรวจสอบความเท่ากัน (<code>==</code>)</p>
+
+<div class="codehead">cmp_using_if.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> priority <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>priority <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Low\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>priority <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Medium\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>priority <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"High\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>คุณสามารถเขียนมันโดยการใช้คำสัง switch case ได้เป็น</p>
+
+<div class="codehead">cmp_using_switch.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> priority <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">switch</span> <span class="token punctuation">(</span>priority<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">case</span> <span class="token number">0</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Low\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Medium\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"High\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>เนื่องจากเงื่อนที่เราใช้เปรียบเทียบโดยคำสั่ง if else-if นั้นเป็นการเปรียบเทียบความเท่ากันด้วยตัวดำเนินการเท่ากับ (<code>==</code>) คุณสามารถใช้คำสั่ง switch case แทนเพื่อทำให้โค้ดอ่านง่ายขึ้น และนี่เป็นวัตถุประสงค์การใช้งานของคำสั้ง switch case ถูกสร้างมา</p>
+
+<h2>ตัวอย่างโปรแกรมสัญญาณไฟจราจร</h2>
+
+<p>สำหรับตัวอย่างสุดท้ายในบทนี้ เราจะมาเขียนโปรแกรมจำลองการทำงานของสัญญาณไฟจราจรที่ใช้ตัวเลขเก็บค่าของสัญญาณไฟ และแปลงมันเป็นค่าที่มีความหมายด้วยคำสั่ง switch case นี่เป็นโค้ดการทำงานของโปรแกรม</p>
+
+<div class="codehead">traffic_light.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">char</span> <span class="token operator">*</span><span class="token function">get_label</span><span class="token punctuation">(</span>light<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">switch</span> <span class="token punctuation">(</span>light <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">case</span> <span class="token number">0</span><span class="token operator">:</span>
+<span class="token keyword">return</span> <span class="token string">"Red"</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+<span class="token keyword">return</span> <span class="token string">"Orange"</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+<span class="token keyword">return</span> <span class="token string">"Green"</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> light <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Traffic light: %s\n"</span><span class="token punctuation">,</span> <span class="token function">get_label</span><span class="token punctuation">(</span>light<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Next light</span>
+light<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Traffic light: %s\n"</span><span class="token punctuation">,</span> <span class="token function">get_label</span><span class="token punctuation">(</span>light<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+light<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Traffic light: %s\n"</span><span class="token punctuation">,</span> <span class="token function">get_label</span><span class="token punctuation">(</span>light<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Next two steps</span>
+light <span class="token operator">+=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Traffic light: %s\n"</span><span class="token punctuation">,</span> <span class="token function">get_label</span><span class="token punctuation">(</span>light<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Previous light</span>
+light<span class="token operator">--</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Traffic light: %s\n"</span><span class="token punctuation">,</span> <span class="token function">get_label</span><span class="token punctuation">(</span>light<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Traffic light: Red
+Traffic light: Orange
+Traffic light: Green
+Traffic light: Red
+Traffic light: Green
+Traffic light: Orange
+</code></pre>
+
+<p>นี่เป็นตัวอย่างจำลองการทำงานโปรแกรมสัญญาณไฟจราจรที่สามารถพบเห็นได้ทั่วไปบนท้องถนน เราได้กำหนดค่าของสัญญาณไฟเป็นตัวเลขจำนวนเต็มเก็บในตัวแปร <code>light</code> โดยความหมายของแต่ละค่าของตัวเลขจะเป็น</p>
+
+<ul>
+<li>0 หมายถึงสัญญาณไฟสีแดง</li>
+<li>1 หมายถึงสัญญาณไฟสีส้ม</li>
+<li>2 หมายถึงสัญญาณไฟสีเขียว</li>
+</ul>
+
+<p>ดังนั้นเรามีฟังก์ชันสำหรับรับเอาชื่อของสัญญาณไฟจากตัวเลขของมันโดยการใช้คำสั่ง switch case สำหรับการตรวจสอบเงื่อนไข</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">char</span> <span class="token operator">*</span><span class="token function">get_label</span><span class="token punctuation">(</span>light<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">switch</span> <span class="token punctuation">(</span>light <span class="token operator">%</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">case</span> <span class="token number">0</span><span class="token operator">:</span>
+<span class="token keyword">return</span> <span class="token string">"Red"</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+<span class="token keyword">return</span> <span class="token string">"Orange"</span><span class="token punctuation">;</span>
+<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+<span class="token keyword">return</span> <span class="token string">"Green"</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ฟังก์ชันรับสัญญาณไฟที่เป็นตัวเลขเข้ามา และในตอนส่งค่าเข้าไปยังคำสั่ง switch case เป็นการเอาเศษที่ได้จากการหารด้วย 3 (<code>light % 3</code>) นั่นหมายความว่าค่าที่ถูกเข้าไปจะมีค่าอยู่ระหว่าง 0 - 2 เท่านั้น และในคำสัง switch case เราสามารถใช้คำสั่ง return เพื่อส่งค่ากลับจากฟังก์ชันได้ทันที</p>
+
+<pre class=" language-c"><code class=" language-c">light<span class="token operator">++</span><span class="token punctuation">;</span>
+light <span class="token operator">+=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+light<span class="token operator">--</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>ค่าของสัญญาณไฟถูกเก็บเป็นตัวเลข เนื่องจากนี่จะทำให้ง่ายในตอนคำนวณ เหมือนกับที่คุณเห็นวิธีเราเพิ่มและลดค่าในตัวแปร <code>light</code> และเมื่อต้องการแสดงผลมันควรเป็นค่าที่ม่ีความหมายกับผู้ใช้งาน ดังนั้นเราแปลงจากตัวเลขเป็นชื่อของสัญญาณไฟโดยการใช้คำสั่ง switch case</p>
+
+<p>ในบทนี้ คุณได้เรียนรู้เกี่ยวกับคำสั่ง switch case ในภาษา C เราได้พูดถึงการใช้งานคำสั่งสำหรับสร้างเงื่อนไขแบบมีทางเลือกให้กับโปรแกรม การสร้างเงื่อนไขแบบ OR และพูดถึงข้อดีและข้อจำกัดในการใช้งานของคำสั่ง switch case เมื่อเทียบกับคำสั่ง if else-if</p>
+
+          </article>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Container fluid  -->
+<!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Page wrapper  -->
+  <!-- ============================================================== -->
+</div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  function handleSidebar() {
+document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+  element.addEventListener("click", function () {
+document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+  el.checked = true;
+});
+document
+  .getElementById("main-wrapper")
+  .classList.toggle("show-sidebar");
+document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+  el.classList.toggle("close");
+});
+var dataTheme = document.body.getAttribute("data-sidebartype");
+if (dataTheme === "full") {
+  document.body.setAttribute("data-sidebartype", "mini-sidebar");
+} else {
+  document.body.setAttribute("data-sidebartype", "full");
+}
+  });
+});
+  }
+
+  handleSidebar();
+
+  function findMatchingElement() {
+var currentUrl = window.location.href;
+var anchors = document.querySelectorAll("#sidebarnav a");
+for (var i = 0; i < anchors.length; i++) {
+  if (anchors[i].href === currentUrl) {
+return anchors[i];
+  }
+}
+
+return null; // Return null if no matching element is found
+  }
+  var elements = findMatchingElement();
+
+  // Do something with the matching element
+  if (elements) {
+elements.classList.add("active");
+  }
+
+  document
+.querySelectorAll("ul#sidebarnav ul li a.active")
+.forEach(function (link) {
+  link.closest("ul").classList.add("in");
+  link.closest("ul").parentElement.classList.add("selected");
+});
+
+  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+const isActive = li.classList.contains("selected");
+if (isActive) {
+  const anchor = li.querySelector("a");
+  if (anchor) {
+anchor.classList.add("active");
+  }
+}
+  });
+
+  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+link.addEventListener("click", function (e) {
+  const isActive = this.classList.contains("active");
+  const parentUl = this.closest("ul");
+  if (!isActive) {
+// hide any open menus and remove all other classes
+parentUl.querySelectorAll("ul").forEach(function (submenu) {
+  submenu.classList.remove("in");
+});
+parentUl.querySelectorAll("a").forEach(function (navLink) {
+  navLink.classList.remove("active");
+});
+
+// open our new menu and add the open class
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.add("in");
+}
+
+this.classList.add("active");
+  } else {
+this.classList.remove("active");
+parentUl.classList.remove("active");
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.remove("in");
+}
+  }
+});
+  });
+</script>
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

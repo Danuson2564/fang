@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+<!-- ============================================================== -->
+<!-- End Topbar header -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<!--Desktop view sidebar menu-->
+<aside class="left-sidebar with-vertical">
+  <!-- Sidebar scroll-->
+  <!-- ============================================================== -->
+  <!-- Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+  >
+    <a href="../index.html" class="text-nowrap logo-img">
+      <img
+        src="../assets/images/logos/dark-logo.svg"
+        class="dark-logo"
+        alt="Logo-Dark"
+      />
+    </a>
+    <a
+      href="javascript:void(0)"
+      class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+    >
+      <i class="ti ti-x"></i>
+    </a>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="scroll-sidebar"
+    style="height: calc(100vh - 100px)"
+    data-simplebar
+  >
+    <!-- Sidebar navigation-->
+    <nav class="sidebar-nav">
+      <ul id="sidebarnav" class="">
+        <nav class="nav nav-pills flex-column sidebar-nav">
+          <ul class="list-unstyled">
+            <!--Getting Started-->
+            <li class="nav-small-cap">
+              <span class="hide-menu">Getting Started</span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="introduction.html"
+              >
+                <i class="ti ti-home-2"></i> Introduction
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+              <i class="ti ti-packages"></i> Package Structure
+            </a>
+          </li> -->
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-start.html"
+              >
+                <i class="ti ti-brand-abstract"></i> Quick Start
+              </a>
+            </li>
+            <!--CUSTOMIZATION-->
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Lesson content </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-program-struct.html"
+              >
+                โครงสร้างของโปรแกรม
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-variables-and-types.html"
+              >
+                ตัวแปรและประเภทข้อมูล
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-constants.html"
+              >
+                ค่าคงที่
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-typography.html"
+              >
+                ตัวดำเนินการ
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-input-output.html"
+              >
+                อินพุต เอาต์พุต พื้นฐาน
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-if-else-statements.html"
+              >
+                คำสั่ง if else
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-switch-case-statement.html"
+              >
+                คำสั่ง switch case
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-while-loop.html"
+              >
+                คำสั่งวนซ้ำ while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-for-loop.html"
+              >
+                คำสั่งวนซ้ำ for loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-do-while-loop.html"
+              >
+                คำสั่งวนซ้ำ do-while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-break-and-continue.html"
+              >
+                คำสั่ง break และ continue
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Team </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="team.html"
+              >
+                ผู้จัดทำ
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+              <i class="ti ti-refresh-dot"></i>Changelog
+            </a>
+          </li> -->
+          </ul>
+        </nav>
+      </ul>
+    </nav>
+    <!-- End Sidebar navigation -->
+  </div>
+  <!-- End Sidebar scroll-->
+</aside>
+
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<div class="page-wrapper">
+  <!-- ============================================================== -->
+  <!-- Topbar header - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <header class="topbar position-relative">
+<div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
+  <!-- ============================================================== -->
+  <!-- Toggle which is visible on mobile only -->
+  <!-- ============================================================== -->
+  <!-- Logo icon -->
+  <a href="../index.html">
+<b class="logo-icon d-xl-none d-block">
+  <!-- Dark Logo icon -->
+  <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
+</b>
+<!--End Logo icon -->
+  </a>
+  <div class="d-flex align-items-center">
+<!---Mobile view canvas button--->
+<a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+  <i class="ti ti-menu-2"></i>
+</a>
+  </div>
+</div>
+  </header>
+  <!-- ============================================================== -->
+  <!-- Page wrapper  -->
+  <!-- ============================================================== -->
+  <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
+<!-- ============================================================== -->
+<!-- Container fluid  -->
+<!-- ============================================================== -->
+<div class="container-fluid mt-4">
+  <div class="mt-1">
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<h4 class="mb-4 pb-2 fs-5">ตัวดำเนินการ
+</h3>
+  <article class="article-container mb-4" style="height: auto !important;">
+<!-- <h1>ตัวดำเนินการ</h1> -->
+
+<section>
+<div class="text-body-secondary cleafix mb-3">
+</div>
+</section>
+
+<p>ตัวดำเนินการจะถูกใช้กับตัวแปรและค่าคงที่ในการดำเนินการบางอย่าง เช่น การดำเนินการทางคณิตศาสตร์ ในภาษา C มีตัวดำเนินการประเภทต่างๆ ที่ทำหน้าที่แตกต่างกันไป ในบทนี้ คุณจะได้เรียนรู้เกี่ยวกับตัวดำเนินการและตัวอย่างการใช้ตัวดำเนินการประเภทต่างๆ ในภาษา C</p>
+
+<p>ข้างล่างนี้เป็นรายการของตัวดำเนินการในภาษา C</p>
+
+<ul>
+<li>Assignment operator</li>
+<li>Arithmetic operators</li>
+<li>Compound assignment</li>
+<li>Increment and decrement</li>
+<li>Relational and comparison operators</li>
+<li>Logical operators</li>
+<li>Bitwise operators</li>
+<li>Operator precedence</li>
+</ul>
+
+<h2>Assignment operator</h2>
+
+<p>ตัวดำเนินการกำหนดค่า ในภาษา C ใช้สัญลักษณ์เท่ากับ (=) มันถูกใช้เพื่อกำหนดค่าให้กับตัวแปรหรือค่าคงที่ ตัวดำเนินการจะมีสอง Operand การทำงานของมันคือการนำค่าทางด้านขวาไปใส่ทางด้านซ้าย และ Operand ทางด้านขวาสามารถเป็น Expression ใดๆ</p>
+
+<pre class=" language-c"><code class=" language-c">a <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+b <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+c <span class="token operator">=</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+</code></pre>
+
+<p>ในตัวอย่างนี้ เราได้สร้างสามตัวแปรและกำหนดค่า <code>2</code> ให้กับตัวแปร <code>a</code> กำหนดค่า <code>3</code>  ให้กับตัวแปร <code>b</code> และผลรวมของ <code>a</code> และ <code>b</code> ให้กับตัวแปร <code>c</code> ตามลำดับ</p>
+
+<h2>Arithmetic operators ( +, -, *, /, % )</h2>
+
+<p>ตัวดำเนินการทางคณิตศาสตร์ คือตัวดำเนินการที่ใช้เพื่อกระทำการดำเนินการทางคณิตศาสตร์ระหว่างตัวแปรหรือค่าคงที่ เช่น การบวก การลบ การคูณ และการหาร สำหรับในการเขียนโปรแกรมในภาษา C นั้นจะมีตัวดำเนินการสำหรับการหารเอาเศษ (Modulo) เพิ่มเข้ามา</p>
+
+<p>ตารางข้างล่างนี้คือตัวดำเนินการทางคณิตศาสตร์ในภาษา C</p>
+
+<table class="table">
+<tbody><tr><th>Symbol</th><th>Name</th><th>Example</th></tr>
+<tr><td>+</td><td>Addition</td><td>c = a + b</td></tr>
+<tr><td>-</td><td>Subtraction</td><td>c = a - b</td></tr>
+<tr><td>*</td><td>Multiplication</td><td>c = a * b</td></tr>
+<tr><td>/</td><td>Division</td><td>c = a / b</td></tr>
+<tr><td>%</td><td>Modulo</td><td>c = a % b</td></tr>
+</tbody></table>
+
+<p>จากในตารางของตัวดำเนินการข้างบน คุณน่าจะคุ้นเคยกับมันมาบ้างแล้วในการเรียนในวิชาคณิตศาสตร์ นอกจากตัวดำเนินการ Modulo ที่เป็นการหารเอาเศษ ต่อไปมาดูตัวอย่างการใช้ตัวดำเนินการทางคณิตศาสตร์ ในการเขียนโปรแกรมในภาษา C</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a + b = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">+</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a - b = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">-</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a * b = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">*</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a / b = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">/</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a % b = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">%</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ในตัวอย่าง เป็นการใช้งานตัวดำเนินการประเภทต่างๆ ในภาษา C เราได้ประกาศตัวแปร <code>a</code> และ <code>b</code> และพร้อมกับกำหนดค่าให้กับมันและใช้ตัวดำเนินการต่างๆ ซึ่งคุณคงจะคุ้นเคยดี และในตัวดำเนินการ Modulo นั้นเป็นการหารเอาเศษซึ่งคำตอบที่ได้จะเป็นเศษของการหาร เมื่อรันโปรแกรม มันจะได้ผลลัพธ์ดังนี้</p>
+
+<pre class="code-result language-result"><code class=" language-result">a + b = 15
+a - b = -5
+a * b = 50
+a / b = 0
+a % b = 5
+</code></pre>
+
+<div class="my-3">
+<!-- marcuscode - middle banner -->
+<ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-client="ca-pub-9075045589988569" data-ad-slot="9605104032" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_2_host" style="border: none; height: 0px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 714px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="714" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9075045589988569&amp;output=html&amp;h=280&amp;slotname=9605104032&amp;adk=1190255532&amp;adf=3057870885&amp;pi=t.ma~as.9605104032&amp;w=714&amp;abgtt=3&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1727368460&amp;rafmt=1&amp;format=714x280&amp;url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Foperators&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&amp;dt=1727368460311&amp;bpp=52&amp;bdt=1075&amp;idt=52&amp;shv=r20240924&amp;mjsv=m202409230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727368255%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&amp;gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727368255%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&amp;eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727368255%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=4052663469998&amp;frm=20&amp;pv=1&amp;u_tz=420&amp;u_his=6&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=12&amp;ady=2415&amp;biw=1108&amp;bih=911&amp;scr_x=0&amp;scr_y=0&amp;eid=44759876%2C44759927%2C44759842%2C31087375%2C31087440%2C44795922%2C95338243%2C95341937%2C95335247&amp;oid=2&amp;pvsid=3490668949140105&amp;tmod=1396808123&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1125%2C911&amp;vis=1&amp;rsz=%7C%7CEebr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.71&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=3&amp;uci=a!3&amp;btvi=1&amp;fsb=1&amp;dtd=99" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CIS3rfyE4YgDFWLUPAIdD6MizQ" data-load-complete="true"></iframe></div></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<h2>Compound assignment (+=, -=, *=, /=, %=, &gt;&gt;=, &lt;&lt;=, &amp;=, ^=, |=)</h2>
+
+<p>Compound assignment คือตัวดำเนินการที่ใช้เพื่ออัพเดทหรือแก้ไขค่าปัจจุบันของตัวแปรโดยการกระทำทางคณิตศาสตร์และใช้ตัวดำเนินการกำหนดค่าร่วมด้วย ซึ่งตัวดำเนินการแบบ Compound assignment มักจะใช้เป็นรูปแบบสั้นของตัวดำเนินการทางคณิตศาสตร์และตัวดำเนินการระดับบิตเพื่อให้การเขียนสั้นลง</p>
+
+<p>ข้างล่างนี้เป็นตารางของ Compound assignment operators ในภาษา C</p>
+
+<table class="table">
+<tbody><tr><th>Operator</th><th>Example</th><th>Equivalent to</th></tr>
+<tr><td>+=</td><td>a += 2;</td><td>a = a + 2</td></tr>
+<tr><td>-=</td><td>a -= 2;</td><td>a = a - 2</td></tr>
+<tr><td>*=</td><td>a *= 2;</td><td>a = a * 2</td></tr>
+<tr><td>/=</td><td>a /= 2;</td><td>a= a / 2</td></tr>
+<tr><td>%=</td><td>a %= 2;</td><td>a = a % 2</td></tr>
+<tr><td>&gt;&gt;=</td><td>a &gt;&gt;=  2;</td><td>a = a &gt;&gt; 2</td></tr>
+<tr><td>&lt;&lt;=</td><td>a &lt;&lt;= 2</td><td>a = a &lt;&lt; 2</td></tr>
+<tr><td>&amp;=</td><td>a &amp; = 2;</td><td>a = a &amp; 2</td></tr>
+<tr><td>^=</td><td>a ^= 2;</td><td>a= a ^ 2</td></tr>
+<tr><td>|=</td><td>a |= 2;</td><td>a = a | 2</td></tr>
+</tbody></table>
+
+<p>มาดูตัวอย่างของการใช้งานของตัวดำเนินการ Compound assignment</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> x <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> y <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+x <span class="token operator">+=</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment">//equivalent to x = x + 10</span>
+y <span class="token operator">-=</span> <span class="token number">2</span><span class="token punctuation">;</span>  <span class="token comment">//equivalent to y = y - 2</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"x = %d, y = %d"</span><span class="token punctuation">,</span> x<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ในตัวอย่าง นั้นเป็นรูปแบบอย่างสั้นในการดำเนินการทางคณิตศาสตร์ของมัน โดยการทำงานของตัวดำเนินการจะอ้างอิงจากค่าเดิม เช่น ในตัวแปร <code>x</code> นั้นเป็นการบวกค่าเข้าไปในตัวแปรเดิมอีก <code>10</code> และในตัวแปร <code>y</code> นั้นเป็นการลบค่าออกจากตัวแปรเดิมออก <code>2</code> และมันจะได้ผลลัพธ์ดังนี้</p>
+
+<pre class="code-result language-result"><code class=" language-result">x = 20, y = 0
+</code></pre>
+
+<h2>Increment and decrement (++, --)</h2>
+
+<p>ตัวดำเนินการเพิ่มและลดค่า คือตัวดำเนินการที่ใช้เพื่อบวกหรือลบค่าออกจากตัวแปรโดย 1 โดยการเพิ่มเครื่องหมาย <code>++</code> หรือ<code>--</code> ใส่ข้างหน้าหรือข้างหลังตัวแปร ซึ่งมีรูปแบบการใช้ดังนี้</p>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">identifier++
+</code></pre>
+
+<p>มาดูตัวอย่างของการใช้ตัวดำเนินการเพิ่มและลดค่า</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+a<span class="token operator">++</span><span class="token punctuation">;</span>
+b<span class="token operator">--</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a=%d, b=%d"</span><span class="token punctuation">,</span> a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>เมื่อเรารันโปรแกรม นี่เป็นผลลัพธ์ที่เราจะได้</p>
+
+<pre class="code-result language-result"><code class=" language-result">a=2, b=9
+</code></pre>
+
+<p>เหมือนที่คุณเห็นในตัวอย่าง มันเป็นรูปแบบอย่างสั้นของ <code>a = a + 1</code> และ <code>b = b - 1</code> มันมักจะใช้กับคำสั่ง <code>for</code> loop เพื่อเพิ่มของการรัน Index หรือตำแหน่ง Index ของอาเรย์</p>
+
+<p>และยังมีรูปแบบอื่นของตัวดำเนินการนี้คือ Prefix เช่น <code>++a</code> <code>--b</code> โดยมันหมายถึงจะมีการเพิ่มหรือลดค่าก่อนที่จะมีการประมวลผลคำสั่งปัจจุบัน</p>
+
+<h2>Relational และ comparison operators ( ==, !=, &gt;, &lt;, &gt;=, &lt;= )</h2>
+
+<p>ตัวดำเนินการความสัมพันธ์และเปรียบเทียบ คือตัวดำเนินการที่ถูกใช้เพื่อประเมินค่า <code>true</code> และ <code>false</code> ระหว่างสองค่าถูกดำเนินการ ซึ่งขึ้นกับเงื่อนไขและความสัมพันธ์ของมัน</p>
+
+<p>ข้างล่างนี้เป็นรายการของตัวดำเนินการ Relational และตัวดำเนินการเปรียบเทียบ</p>
+
+<table class="table">
+<tbody><tr><th>Operater</th><th>Example</th><th>Result</th></tr>
+<tr><td>==</td><td>a == b</td><td>true if `a` equal to `b`, otherwise false</td></tr>
+<tr><td>!=</td><td>a != b</td><td>true if `a` not equal to `b`, otherwise false</td></tr>
+<tr><td>&lt;</td><td>a &lt; b</td><td>true if `a` less than `b`, otherwise false</td></tr>
+<tr><td>&gt;</td><td>a &gt; b</td><td>true if `a` greater than `b`, otherwise false</td></tr>
+<tr><td>&lt;=</td><td>a &lt;= b</td><td>true if `a` less than or equal to `b`, otherwise false</td></tr>
+<tr><td>&gt;=</td><td>a &gt;= b</td><td>true if `a` greater than or equal to `b`, otherwise false</td></tr>
+</tbody></table>
+
+<p>ตัวดำเนินการเหล่านี้ถูกใช้ เช่น เพื่อเปรียบเทียบค่าระหว่างตัวแปรว่าเท่ากันหรือไม่ หรือเปรียบการมากกว่าน้อยกว่าหรือค่าในตัวแปร และผลลัพธ์ของการเปรียบเทียบจะเป็น <code>true</code> และ <code>false</code></p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token operator">==</span> b<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token function">printf</span> <span class="token punctuation">(</span><span class="token string">"a and b are equal"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">else</span>
+<span class="token punctuation">{</span>
+<span class="token function">printf</span> <span class="token punctuation">(</span><span class="token string">"a and b are not equal"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ในตัวอย่าง เป็นโปรแกรมในการเปรียบเทียบค่าในตัวแปร <code>a</code> และ <code>b</code> โดยการใช้คำสั่ง if ซึ่งถ้าหากค่าของตัวแปรทั้งสองเท่ากันซึ่งจะทำให้เงื่อนไขเป็นจริง จะทำให้โปรแกรทำงานในบล็อคของคำสั่ง if ไม่เช่นนั้นโปรแกรมจะทำในบล็อคของคำสั่ง else แทน</p>
+
+<pre class="code-result language-result"><code class=" language-result">a and b are not equal
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม จะเห็นว่าโปรแกรมทำงานในบล็อคของคำสั่ง else เพราะว่าค่าในตัวแปรทั้งสองนั้นไม่เท่ากัน ให้คุณลองเปลี่ยนค่าในตัวแปรให้เท่ากันแล้วลองรันโปรแกรมอีกครั้งเพื่อดูผลลัพธ์</p>
+
+<div class="my-3">
+<!-- marcuscode - middle banner -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-9075045589988569" data-ad-slot="9605104032" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done"><div id="aswift_3_host" style="border: none; height: 280px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<h2>Logical operators ( !, &amp;&amp;, || )</h2>
+
+<p>ตัวดำเนินการทางตรรกศาสตร์ถูกใช้เพื่อประเมิน Expression ย่อยหลายๆ Expression ให้เหลือเพียงอันเดียว โดยผลลัพธ์สุดท้ายนั้นจะเป็นจริงหรือเท็จ</p>
+
+<p>ข้างล่างนี้เป็นรายการตัวดำเนินการทางตรรกศาสตร์ในภาษา C</p>
+
+<table class="table">
+<tbody><tr><th>Name</th><th>Symbol</th><th>Example</th></tr>
+<tr><td>not</td><td>!</td><td>!a</td></tr>
+<tr><td>and</td><td>&amp;&amp;</td><td>a &amp;&amp; b</td></tr>
+<tr><td>or</td><td>||</td><td>a || b</td></tr>
+</tbody></table>
+
+<p>ในการทำงานของตัวดำเนินการนั้น ตัวดำเนินการ <code>!</code> (not) จะกลับค่าของ Boolean expression ตัวดำเนินการ <code>&amp;&amp;</code> (and) ทำการเชื่อมสอง Expression เข้าด้วยกัน โดยจะได้ผลลัพธ์เป็นจริงหากทั้งสองค่าเป็นจริง ไม่เช่นนั้นจะเป็นเท็จ และตัวดำเนินการ <code>||</code> (or) เชื่อมสอง Expression เข้าด้วยกัน โดยจะได้ผลลัพธ์เป็นจริงหากมีอย่างน้อยหนึ่ง Expression ที่เป็นจริง ไม่เช่นนั้นจะเป็นเท็จ ต่อไปมาดูตัวอย่างการใช้งานของตัวดำเนินการตรรกศาสตร์</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+bool b <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+bool c <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token comment">// using "not" operator</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token punctuation">(</span>a <span class="token operator">==</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a is not equal to 10.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a is equal to 10.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// using "and" operator</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>b <span class="token operator">&amp;&amp;</span> c<span class="token punctuation">)</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"True.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"False.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// using "or" operator</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>b <span class="token operator">||</span> c<span class="token punctuation">)</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"True.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"False.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ในตัวอย่างเรามีตัวแปรสามตัว ตัวแปร <code>a</code> เป็น integer ในขณะที่ตัวแปร <code>b</code> และ <code>c</code> เป็น boolean ในภาษา C ค่าของ boolean ที่เป็นจริงนั้นจะมีค่าเป็น <code>1</code> และเท็จจะเป็น <code>0</code></p>
+
+<p>และนี่คือผลลัพธ์ของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">a is equal to 10.
+False.
+True.
+</code></pre>
+
+<h2>Bitwise operators ( &amp;, |, ^, ~, &lt;&lt;, &gt;&gt; )</h2>
+
+<p>Bitwise operators นั้นถูกใช้ในการดำเนินการระดับบิตของตัวแปรหรือข้อมูล มันมีประโยชน์มากในการเขียนโปรแกรมระดับต่ำ ตัวดำเนินการ Bitwise นั้นใช้หลักการทำงานเหมือนกับตัวดำเนินการทางตรรกศาสตร์ โดยใช้ <code>1</code> สำหรับค่าจริงและ <code>0</code> สำหรับค่าเท็จ</p>
+
+<p>นี่เป็นรายการของตัวดำเนินการ Bitwise ในภาษา C</p>
+
+<table class="table">
+<tbody><tr><th>Symbol</th><th>Name</th><th>Description</th></tr>
+<tr><td>&amp;</td><td>Bitwise AND</td><td>1 ถ้าบิตทั้งคู่เป็น 1, ไม่เช่นนั้นเป็น 0</td></tr>
+<tr><td>|</td><td>Bitwise inclusive OR</td><td>1 ถ้าอย่างน้อยหนึงบิตเป็น 1, ไม่เช่นนั้นเป็น 0</td></tr>
+<tr><td>^</td><td>Bitwise exclusive OR</td><td>1 ถ้าทั้งสองบิตแตกต่างกัน, ไม่เช่นนั้นเป็น 0</td></tr>
+<tr><td>~</td><td>bit inversion</td><td>กลับบิตจาก 1 เป็น 0 และในทางตรงข้าม</td></tr>
+<tr><td>&lt;&lt;</td><td>Shift bits left</td><td>เลื่อนบิตไปทางซ้าย เติมบิต 0 ทางขวา</td></tr>
+<tr><td>&gt;&gt;</td><td>Shift bits right</td><td>เลื่อนบิตไปทางขวา เติมบิต 0 ทางซ้าย</td></tr>
+</tbody></table>
+
+<p>จากตารางข้างบน เป็นตัวดำเนินการประเภทต่างๆ ในภาษา C ที่ใช้ดำเนินการกับข้อมูลในระดับบิต ยกตัวอย่าง เช่น เมื่อเรากำหนดค่าให้กับตัวแปรนั้น คอมพิวเตอร์จะเก็บข้อมูลในรูปแบบของเลขฐานสอง (Binary) ตัวดำเนินการเหล่านี้ใช้สำหรับจัดการกับข้อมูลดังกล่าว มาดูตัวอย่างการใช้งานในภาษา C</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> <span class="token comment">// 00000010</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span> <span class="token comment">// 00000101</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a &amp; b = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">&amp;</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 00000000 = 0</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a &amp; b = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">|</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 00000111 = 7</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"~a = %d\n"</span><span class="token punctuation">,</span> <span class="token operator">~</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 11111101 = -1</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a &gt;&gt; 1 = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">&gt;&gt;</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 00000001 = 1</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a &lt;&lt; 1 = %d\n"</span><span class="token punctuation">,</span> a <span class="token operator">&lt;&lt;</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 00000100 = 8</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ในตัวอย่าง เป็นโปรแกรมในการใช้งานตัวดำเนินการระดับบิตกับการจัดการข้อมูลประเภท Integer เราได้ประกาศตัวแปร <code>a</code> และ <code>b</code> และได้คอมเมนต์ค่าของ Binary ที่ถูกเก็บไว้ในหน่วยความจำ การทำงานของตัวดำเนินการ <code>&amp;</code> และ <code>|</code> นั้นทำงานกับคู่ของแต่ละบิตของตัวแปรทั้งสอง ส่วนอีกสามตัวดำเนินการที่เหลือนั้นกระทำกับตัวแปรเดียว ในตัวดำเนินการ <code>~</code> นั้นเป็นการกลับบิต และสำหรับตัวดำเนินการ Bit shift นั้นเมื่อเลื่อนบิตไปทางซ้ายจะทำให้ค่าเพิ่มขึ้นสองเท่า และเมื่อเลื่อนบิตไปทางขวาก็จะทำให้ค่าลดลงสองเท่า</p>
+
+<pre class="code-result language-result"><code class=" language-result">a &amp; b = 0
+a &amp; b = 7
+~a = -3
+a &gt;&gt; 1 = 1
+a &lt;&lt; 1 = 4
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรมของการใช้งานตัวดำเนินการระดับบิตในภาษา C</p>
+
+<h2>Operator precedence</h2>
+
+<p>ลำดับความสำคัญของตัวดำเนินการ (Operator precedence) ใช้เพื่อกำหนดว่าตัวดำเนินการใช้ที่จะถูกทำงานก่อน ยกตัวอย่างเช่น ในการทำงานของ Expression <code>6 + 3 * 4</code> นั้นจะได้ผลลัพธ์เป็น <code>18</code> เพราะว่าตัวดำเนินการ <code>*</code> นั้นมีความสำคัญมากกว่าตัวดำเนินการ <code>+</code> คุณสามารถบังคับให้การบวกทำงานก่อนได้โดยใช้วงเล็บ <code>(6 + 3) *  4</code>  เพื่อให้การบวกสามารถทำงานก่อนได้ ซึ่งจะได้ผลลัพธ์เป็น <code>36</code> เป็นต้น</p>
+
+<p>ข้างล่างนี้ เป็นตารางแสดงลำดับความสำคัญของตัวดำเนินการในภาษา C</p>
+
+<table class="table">
+<tbody><tr>
+<th>Operator
+Name </th>
+<th>Associativity </th>
+<th>Operators
+</th>
+</tr>
+<tr>
+<td>Primary</td>
+<td> left to right </td>
+<td>()[].</td>
+</tr>
+<tr>
+<td>Unary </td>
+<td>ขวาไปซ้าย</td>
+<td>++--+-!~&amp;*(<i>type_name</i>)sizeof
+new delete</td>
+</tr>
+<tr>
+<td>Multiplicative </td>
+<td>ซ้ายไปขวา</td>
+<td>*/%
+</td>
+</tr>
+<tr>
+<td>Additive </td>
+<td>ซ้ายไปขวา</td>
+<td>+-
+</td>
+</tr>
+<tr>
+<td>Bitwise Shift </td>
+<td>ซ้ายไปขวา</td>
+<td>&lt;&lt;&gt;&gt;
+</td>
+</tr>
+<tr>
+<td>Relational </td>
+<td>ซ้ายไปขวา</td>
+<td>&lt;&gt;&lt;=&gt;=
+</td>
+</tr>
+<tr>
+<td>Equality </td>
+<td>ซ้ายไปขวา</td>
+<td>==!=
+</td>
+</tr>
+<tr>
+<td>Bitwise AND </td>
+<td>ซ้ายไปขวา</td>
+<td>&amp;
+</td>
+</tr>
+<tr>
+<td>Bitwise Exclusive
+OR </td>
+<td>ซ้ายไปขวา</td>
+<td>^
+</td>
+</tr>
+<tr>
+<td>Bitwise Inclusive
+OR </td>
+<td>ซ้ายไปขวา</td>
+<td>|
+</td>
+</tr>
+<tr>
+<td>Logical AND </td>
+<td>ซ้ายไปขวา</td>
+<td>&amp;&amp;
+</td>
+</tr>
+<tr>
+<td>Logical OR </td>
+<td>ซ้ายไปขวา</td>
+<td>||
+</td>
+</tr>
+<tr>
+<td>Conditional </td>
+<td>ขวาไปซ้าย</td>
+<td>?:
+</td>
+</tr>
+<tr>
+<td>Assignment </td>
+<td>ขวาไปซ้าย</td>
+<td>=+=-=*=
+/=&lt;&lt;=&gt;&gt;=
+%= &amp;=^=|=</td>
+</tr>
+<tr>
+<td>Comma </td>
+<td>ซ้ายไปขวา</td>
+<td>,
+</td>
+</tr>
+</tbody></table>
+
+<p>ในบทนี้ เราได้ครอบคลุมการดำเนินการพื้นฐานในภาษา C คุณได้เรียนรู้และทำความเข้าใจในตัวดำเนินการประเภทต่างๆ และได้เห็นถึงตัวอย่างการใช้งานของตัวดำเนินการแต่ละรูปแบบ ซึ่งจะนำไปใช้ในการเขียนโปรแกรมในบทต่อๆ ไป</p>
+
+</article>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Container fluid  -->
+<!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Page wrapper  -->
+  <!-- ============================================================== -->
+</div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  function handleSidebar() {
+document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+  element.addEventListener("click", function () {
+document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+  el.checked = true;
+});
+document
+  .getElementById("main-wrapper")
+  .classList.toggle("show-sidebar");
+document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+  el.classList.toggle("close");
+});
+var dataTheme = document.body.getAttribute("data-sidebartype");
+if (dataTheme === "full") {
+  document.body.setAttribute("data-sidebartype", "mini-sidebar");
+} else {
+  document.body.setAttribute("data-sidebartype", "full");
+}
+  });
+});
+  }
+
+  handleSidebar();
+
+  function findMatchingElement() {
+var currentUrl = window.location.href;
+var anchors = document.querySelectorAll("#sidebarnav a");
+for (var i = 0; i < anchors.length; i++) {
+  if (anchors[i].href === currentUrl) {
+return anchors[i];
+  }
+}
+
+return null; // Return null if no matching element is found
+  }
+  var elements = findMatchingElement();
+
+  // Do something with the matching element
+  if (elements) {
+elements.classList.add("active");
+  }
+
+  document
+.querySelectorAll("ul#sidebarnav ul li a.active")
+.forEach(function (link) {
+  link.closest("ul").classList.add("in");
+  link.closest("ul").parentElement.classList.add("selected");
+});
+
+  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+const isActive = li.classList.contains("selected");
+if (isActive) {
+  const anchor = li.querySelector("a");
+  if (anchor) {
+anchor.classList.add("active");
+  }
+}
+  });
+
+  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+link.addEventListener("click", function (e) {
+  const isActive = this.classList.contains("active");
+  const parentUl = this.closest("ul");
+  if (!isActive) {
+// hide any open menus and remove all other classes
+parentUl.querySelectorAll("ul").forEach(function (submenu) {
+  submenu.classList.remove("in");
+});
+parentUl.querySelectorAll("a").forEach(function (navLink) {
+  navLink.classList.remove("active");
+});
+
+// open our new menu and add the open class
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.add("in");
+}
+
+this.classList.add("active");
+  } else {
+this.classList.remove("active");
+parentUl.classList.remove("active");
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.remove("in");
+}
+  }
+});
+  });
+</script>
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

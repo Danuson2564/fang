@@ -1,0 +1,682 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+<!-- ============================================================== -->
+<!-- End Topbar header -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<!--Desktop view sidebar menu-->
+<aside class="left-sidebar with-vertical">
+  <!-- Sidebar scroll-->
+  <!-- ============================================================== -->
+  <!-- Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+  >
+    <a href="../index.html" class="text-nowrap logo-img">
+      <img
+        src="../assets/images/logos/dark-logo.svg"
+        class="dark-logo"
+        alt="Logo-Dark"
+      />
+    </a>
+    <a
+      href="javascript:void(0)"
+      class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+    >
+      <i class="ti ti-x"></i>
+    </a>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="scroll-sidebar"
+    style="height: calc(100vh - 100px)"
+    data-simplebar
+  >
+    <!-- Sidebar navigation-->
+    <nav class="sidebar-nav">
+      <ul id="sidebarnav" class="">
+        <nav class="nav nav-pills flex-column sidebar-nav">
+          <ul class="list-unstyled">
+            <!--Getting Started-->
+            <li class="nav-small-cap">
+              <span class="hide-menu">Getting Started</span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="introduction.html"
+              >
+                <i class="ti ti-home-2"></i> Introduction
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+              <i class="ti ti-packages"></i> Package Structure
+            </a>
+          </li> -->
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-start.html"
+              >
+                <i class="ti ti-brand-abstract"></i> Quick Start
+              </a>
+            </li>
+            <!--CUSTOMIZATION-->
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Lesson content </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-program-struct.html"
+              >
+                โครงสร้างของโปรแกรม
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-variables-and-types.html"
+              >
+                ตัวแปรและประเภทข้อมูล
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-constants.html"
+              >
+                ค่าคงที่
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-typography.html"
+              >
+                ตัวดำเนินการ
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-input-output.html"
+              >
+                อินพุต เอาต์พุต พื้นฐาน
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-if-else-statements.html"
+              >
+                คำสั่ง if else
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-switch-case-statement.html"
+              >
+                คำสั่ง switch case
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-while-loop.html"
+              >
+                คำสั่งวนซ้ำ while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-for-loop.html"
+              >
+                คำสั่งวนซ้ำ for loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-do-while-loop.html"
+              >
+                คำสั่งวนซ้ำ do-while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-break-and-continue.html"
+              >
+                คำสั่ง break และ continue
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Team </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="team.html"
+              >
+                ผู้จัดทำ
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+              <i class="ti ti-refresh-dot"></i>Changelog
+            </a>
+          </li> -->
+          </ul>
+        </nav>
+      </ul>
+    </nav>
+    <!-- End Sidebar navigation -->
+  </div>
+  <!-- End Sidebar scroll-->
+</aside>
+
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<div class="page-wrapper">
+  <!-- ============================================================== -->
+  <!-- Topbar header - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <header class="topbar position-relative">
+<div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
+  <!-- ============================================================== -->
+  <!-- Toggle which is visible on mobile only -->
+  <!-- ============================================================== -->
+  <!-- Logo icon -->
+  <a href="../index.html">
+<b class="logo-icon d-xl-none d-block">
+  <!-- Dark Logo icon -->
+  <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
+</b>
+<!--End Logo icon -->
+  </a>
+  <div class="d-flex align-items-center">
+<!---Mobile view canvas button--->
+<a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+  <i class="ti ti-menu-2"></i>
+</a>
+  </div>
+</div>
+  </header>
+  <!-- ============================================================== -->
+  <!-- Page wrapper  -->
+  <!-- ============================================================== -->
+  <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
+<!-- ============================================================== -->
+<!-- Container fluid  -->
+<!-- ============================================================== -->
+<div class="container-fluid mt-4">
+  <div class="mt-1">
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="d-sm-flex align-items-center justify-content-between">
+  <!-- <h4 class="mb-4 pb-2 fs-5">Change Global Skin Color</h3> -->
+</div>
+<article class="article-container mb-4" style="height: auto !important;">
+  <h1>คำสั่งวนซ้ำ do-while loop ในภาษา C</h1>
+
+  <section>
+      <div class="text-body-secondary cleafix mb-3">
+                          </div>
+  </section>
+
+  <p>ในบทนี้ คุณจะได้เรียนรู้เกี่ยวกับคำสั่ง do-while loop ในภาษา C ซึ่งเป็นคำสั่งวนซ้ำสำหรับควบคุมเพื่อให้โปรแกรมทำงานซ้ำภายใต้เงื่อนไขที่กำหนด นี่เป็นเนื้อหาในบทนี้</p>
+
+<ul>
+<li>การใช้งานคำสั่ง do-while loop</li>
+<li>ตัวอย่างการรับค่าด้วยคำสั่ง do-while loop</li>
+<li>ตัวอย่างโปรแกรมทายตัวเลข</li>
+</ul>
+
+<h2>การใช้งานคำสั่ง do-while loop</h2>
+
+<p>คำสั่ง do-while loop เป็นคำสั่งวนซ้ำที่ใช้สำหรับควบคุมเพื่อให้โปรแกรมทำงานซ้ำภายใต้เงื่อนไขที่กำหนด และสิ่งหนึ่งที่มันแตกต่างไปจากคำสั่ง while loop ก็คือ โปรแกรมจะทำงานในลูปอย่างน้อยก่อนหนึ่งรอบเสมอ นี่เป็นรูปแบบการใช้งานคำสั่ง do-while loop ในภาษา C</p>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">do {
+// statements
+} while (condition);
+</code></pre>
+
+<p>ในการใช้งานเริ่มต้นด้วยคำสั่ง <code>do</code> ตามด้วยบล็อคของวงเล็บ <code>{}</code> ซึ่งจะประกอบไปด้วยคำสั่งที่ต้องการให้โปรแกรมทำงานในขณะที่เงื่อนไขเป็นจริง และ <code>condition</code> เป็นการกำหนดเงื่อนไขสำหรับคำสั่ง do-while เพื่อทำงาน</p>
+
+<p>จะเห็นว่าเงื่อนไขกำหนดและถูกตรวจสอบในตอนท้ายของลูป นั่นหมายความว่าในการใช้งานคำสั่ง do-while loop โปรแกรมจะทำงานในลูปก่อนอย่างน้อยหนึ่งรอบเสมอ</p>
+
+<p>โดยปกติแล้วคำสั่ง do-while loop  สามารถใช้ทดแทนคำสั่ง while loop ได้ ในตัวอย่างนี้ เป็นการเขียนโปรแกรมสำหรับนับตัวเลขจาก 1-10 ด้วยคำสั่ง do-while loop ในภาษา C ซึ่งมันเป็นโปรแกรมอย่างง่ายสำหรับแสดงการทำงานของลูป</p>
+
+<div class="codehead">counting_numbers.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">do</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+n<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</code></pre>
+
+<p>เริ่มต้นเราได้ประกาศตัวแปร <code>n</code> ที่มีค่าเป็น <code>1</code> จากนั้นโปรแกรมทำงานในลูปแต่ละรอบโดยแสดงค่าในตัวแปรออกทางหน้าจอ หลังจากจบลูปในแต่ละรอบเงื่อนไข <code>n &lt;= 10</code> จะถูกตรวจสอบ ถ้าหากเป็นจริงมันจะทำงานในรอบถัดไป หรือจบการทำงานของลูปหากเงื่อนไขไม่เป็นจริง</p>
+
+<p>และในโปรแกรมเดียวกันนี้ เราสามารถนำมาเขียนใหม่ด้วยคำสั่ง while loop ได้ดังนี้ ซึ่งทั้งสองให้ผลลัพธ์การทำงานที่เหมือนกัน และเราทำเช่นนี้ก็เพื่อต้องการเปรียบเทียบให้คุณเห็นถึงการใช้งานคำสั่งทั้งสองว่ามันสามารถใช้ทดแทนกันได้ นี่เป็นตัวอย่างของโปรแกรม</p>
+
+<div class="codehead">counting_numbers2.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+n<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม ซึ่งให้ผลลัพธ์เหมือนกับตัวอย่างก่อนหน้า</p>
+
+<pre class="code-result language-result"><code class=" language-result">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</code></pre>
+
+<p>ในตัวอย่างนี้ แม้ว่าโปรแกรมที่เขียนด้วยคำสั่ง while loop จะสามารถทำงานได้เหมือนกับการใช้งานคำสั่ง do-while loop ทุกอย่าง แต่นี่จะเปลี่ยนไปเมื่อการตรวจสอบเงื่อนไขในครั้งแรกไม่เป็นจริง ซึ่งเมื่อมันเกิดขึ้น คำสั่ง do-while จะยังคงทำในลูปก่อนหนึ่งรอบเสมอ ในขณะที่คำสั่ง while loop จะไม่ทำงานในลูปเลย</p>
+
+<p>ในตัวอย่างนี้ เป็นการใช้งานลูปทั้งสองโดยการกำหนดเงื่อนไขให้เป็นเท็จตั้งแต่การตรวจสอบเงื้่อนไขในครั้งแรก</p>
+
+<div class="codehead">comparison.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"do-while loop\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">do</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+n<span class="token operator">--</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"\nwhile loop\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> m <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>m <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> m<span class="token punctuation">)</span><span class="token punctuation">;</span>
+m<span class="token operator">--</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">do-while loop
+0
+while loop
+</code></pre>
+
+<p>จะเห็นว่าในการตรวจสอบเงื่อนไขครั้งแรกของลูปทั้งสองนั้นไม่เป็นจริง แต่ในลูปของคำสั่ง do-while จะยังคงทำงานในรอบแรกก่อนเสมอ นั่นเป็นเพราะว่าเงื่อนไขของคำสั่ง do-while ลูปถูกตรวจสอบในตอนท้าย ในขณะที่คำสั่ง while loop จะไม่ทำในลูปเพราะเงื่อนไขตรวจสอบก่อนทำงานในรอบแรกนั่นเอง</p>
+
+<p>และนี่เป็นสิ่งที่แตกต่างกันระหว่างการใช้งานลูปทั้งสอง และในบางครั้งคุณอาจต้องเลือกลูปที่เหมาะสมกับงานที่ทำ แต่อย่างไรก็ตาม ทั้งสองลูปนั้นสามารถใช้ทดแทนกันได้ทุกกรณี แต่ในการแก้ไขปัญหาบางอย่างการใช้งานคำสั่ง do-while loop อาจทำให้การเขียนโปรแกรมง่ายและสะดวกกว่า มาดูกันในตัวอย่างต่อไป</p>
+
+<h2>ตัวอย่างการรับค่าด้วยคำสั่ง do-while loop</h2>
+
+<p>มาดูตัวอย่างการเปรียบเทียบความแตกต่างของการใช้งานคำสั่ง do-while loop และคำสั่ง while loop เพิ่มเติม ในตัวอย่างนี้ เรามาเขียนโปรแกรมสำหรับหาผลรวมของตัวเลขทั้งหมดที่รับมาจากทางคีย์บอร์ดโดยการใช้งานลูปทั้งสอง นี่เป็นตัวอย่างของโปรแกรมแรกที่เขียนด้วยคำสั่ง do-while loop</p>
+
+<div class="codehead">endless_sum1.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token keyword">do</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter number or 0 to exit: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+sum <span class="token operator">+=</span> n<span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Sum of all entered numbers is: %d\n"</span><span class="token punctuation">,</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter number or 0 to exit: 2
+Enter number or 0 to exit: 4
+Enter number or 0 to exit: 7
+Enter number or 0 to exit: -1
+Enter number or 0 to exit: 8
+Enter number or 0 to exit: 0
+Sum of all entered numbers is: 20
+</code></pre>
+
+<p>นี่เป็นโปรแกรมสำหรับหาผลรวมจากตัวเลขทั้งหมดที่กรอกเข้ามาจากทางคีย์บอร์ด โดยใช้คำสั่ง do-while loop ในการวนรับค่า และในขณะที่ตัวเลขที่กรอกเข้ามาไม่เท่ากับ <code>0</code> โปรแกรมจะทำงานในลูปเพื่อรับค่าและหาผลรวมของตัวเลขที่กรอกเข้ามาเรื่อยๆ อย่างไม่มีที่สิ้นสุด</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เพื่อจบการทำงานของลูป เราเพียงแค่ต้องกรอก <code>0</code> เพื่อให้เงื่อนไขของคำสั่ง do-while loop เป็นเท็จ และโปรแกรมจะแสดงผลรวมของตัวเลขทั้งหมดที่กรอกเข้ามาออกทางหน้าจอ</p>
+
+<p>ในตัวอย่างนี้แสดงให้เห็นว่าค่าที่รับเข้ามานั้นใช้เป็นเงื่อนไขในการทำงานของลูปซึ่งไม่สามารถทราบล่วงหน้าได้ว่ามันจะเป็นเท็จตอนไหน ดังนั้นเราสามารถใช้คำสั่ง do-while loop เพื่อให้รับค่าก่อนหนึ่งครั้งก่อนที่จะมีการตรวจสอบเงื่อนไขได้</p>
+
+<p>เพื่อให้คุณเห็นวัตถุประสงค์การใช้งานของคำสั่ง do-while loop อย่างชัดเจน เราจะเปรียบเทียบการทำงานนี้ด้วยโค้ดที่เขียนด้วยการใช้คำสั่ง while loop และนี่เป็นโปรแกรมเดียวกันที่เขียนโดยใช้คำสั่ง while loop แทน</p>
+
+<div class="codehead">endless_sum2.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter number or 0 to exit: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+sum <span class="token operator">+=</span> n<span class="token punctuation">;</span>
+
+<span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter number or 0 to exit: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+sum <span class="token operator">+=</span> n<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Sum of all entered numbers is: %d\n"</span><span class="token punctuation">,</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม เราได้กรอกชุดของตัวเลขที่แตกต่างกันออกไป</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter number or 0 to exit: 10
+Enter number or 0 to exit: 2
+Enter number or 0 to exit: 3
+Enter number or 0 to exit: 0
+Sum of all entered numbers is: 15
+</code></pre>
+
+<p>เช่นเดียวกับตัวอย่างก่อนหน้า โปรแกรมจะถามให้กรอกตัวเลขเพื่อนำมาหาผลรวม จนกว่าจะกรอก <code>0</code> เพื่อจบการทำงานของลูป จะเห็นว่าในการใช้งานคำสั่ง while loop เงื่อนไขจะต้องได้รับการตรวจสอบก่อนที่โปรแกรมจะสามารถทำงานในลูปในรอบแรกก่อน</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter number or 0 to exit: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+sum <span class="token operator">+=</span> n<span class="token punctuation">;</span>
+</code></pre>
+
+<p>นั่นจึงทำให้เราต้องรับค่าให้กับตัวแปร <code>n</code> ก่อนที่จะนำมาตรวจสอบเงื่อนไขในครั้งแรก เราจำเป็นต้องทำเช่นนี้เนื่องจากไม่เราสามารถไว้วางใจค่าในตัวแปร <code>n</code> ได้ เพราะในภาษา C นั้นถ้าเราประกาศตัวแปรและไม่ได้กำหนดค่า มันสามารถมีค่าเป็นอะไรก็ได้รวมทั้ง <code>0</code> และเมื่อนี่เกิดขึ้น โปรแกรมจะไม่ได้ทำงานในลูป</p>
+
+<p>แต่การใช้วิธีนี้ จะเห็นว่าโค้ดนอกลูปและในลูปนั้นซ้ำกันและนี่ถือว่าเป็นการเขียนโปรแกรมที่ซ้ำซ้อนและอาจมากเกินความจำเป็น เพื่อตัดส่วนที่ซ้ำกันนี้ออกไปเราสามารถใช้คำสั่ง do-while loop แทนคำสั่ง while loop ได้เหมือนกับที่เราทำในตัวอย่างแรก</p>
+
+<h2>ตัวอย่างโปรแกรมทายตัวเลข</h2>
+
+<p>สำหรับตัวอย่างสุดท้ายของการใช้งานคำสั่ง do-while loop ในภาษา C เราจะมาเขียนเกมทายตัวเลข โดยโปรแกรมจะสุ่มตัวเลขที่มีค่าระหว่าง 1-10 และถามให้คุณทายตัวเลขที่สุ่มมาได้จนกว่าจะถุูกต้อง นี่เป็นโค้ดของโปรแกรม</p>
+
+<div class="codehead">guess_the_number.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdlib.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;time.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token function">srand</span><span class="token punctuation">(</span><span class="token function">time</span><span class="token punctuation">(</span><span class="token constant">NULL</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> secret <span class="token operator">=</span> <span class="token function">rand</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">10</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">do</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter number to guess: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+count<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">!=</span> secret<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Congrats! you have guessed it!\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"The secret number is %d\n"</span><span class="token punctuation">,</span> secret<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Number of guesses: %d\n"</span><span class="token punctuation">,</span> count<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter number to guess: 3
+Enter number to guess: 8
+Enter number to guess: 5
+Enter number to guess: 1
+Congrats! you have guessed it!
+The secret number is 1
+Number of guesses: 4
+</code></pre>
+
+<p>เนื่องจากมันเป็นเกมที่สนุกมาก เรารันและเล่นมันอีกรอบ</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter number to guess: 10
+Enter number to guess: 1
+Enter number to guess: 5
+Enter number to guess: 3
+Enter number to guess: 4
+Enter number to guess: 6
+Enter number to guess: 8
+Congrats! you have guessed it!
+The secret number is 8
+Number of guesses: 7
+</code></pre>
+
+<p>ในการเล่นรอบที่สองนั้นค่อนข้างโชคไม่ดี เนื่องจากเราต้องใช้จำนวนของการสุ่มทั้งหมด 7 ครั้ง เพราะเซ็ตของตัวเลขที่เป็นไปได้ที่จะทายถูกต้องอยู่ระหว่าง 1-10 ดังนั้นถ้าหากคุณโชคร้ายที่สุดก็จะใช้การสุ่มเพียง 10 ครั้งเท่านั้น ต่อไปเป็นการอธิบายว่าแต่ละส่วนของโปรแกรมทำงานอย่างไร</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token function">srand</span><span class="token punctuation">(</span><span class="token function">time</span><span class="token punctuation">(</span><span class="token constant">NULL</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เพื่อทำให้การสุ่มตัวเลขแตกต่างกันออกไปในการรันโปรแกรมแต่ละครั้ง เรากำหนด Random seed ด้วยฟังก์ชัน <code>srand()</code> โดยใช้เวลาที่รับมาจากฟังก์ชัน <code>time()</code> เป็น Random seed สำหรับการสุ่มตัวเลขในแต่ละครั้ง</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> secret <span class="token operator">=</span> <span class="token function">rand</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">10</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>ในภาษา C เราสามารถใช้ฟังก์ชัน <code>rand()</code> เพื่อสุ่มตัวเลขได้ ฟังก์ชันนี้ส่งค่ากลับเป็นตัวเลขที่สุ่มได้เป็นจำนวนเต็ม และเรานำมันมาหารเอาเศษด้วย 10 และบวก 1 เข้าไปเพื่อสุ่มตัวเลขที่มีค่าระหว่าง 1-10 เพื่อนำมาใช้ในเกมของเรา</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>จากนั้นเป็นการเริ่มต้นการทำงานของลูป โดยประกาศตัวแปร <code>n</code> เพื่อใช้สำหรับเก็บตัวเลขสำหรับการทาย และตัวแปร <code>count</code> ใช้สำหรับนับว่าผู้เล่นได้ทำการทายไปกี่ครั้งแล้ว หรือมันคือจำนวนรอบที่ลูปทำงานนั่นเอง</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">do</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter number to guess: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+count<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">!=</span> secret<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>โปรแกรมจะทำงานในลูปและถามให้คุณกรอกตัวเลขเพื่อทายจนกว่าจะถูกต้อง เมื่อค่าที่กรอกเข้ามานั้นถูกต้องจะทำให้เงื่อนไข <code>n != secret</code> ไม่เป็นจริงและลูปจบการทำงาน ซึ่งหมายความว่าคุณทายถูกต้องแล้ว และสรุปผลการเล่นเกมของผู้เล่นในตอนท้าย</p>
+
+<p>ในบทนี้ คุณได้เรียนรู้การใช้งานคำสั่ง do-while loop ในภาษา C เราได้พูดถึงข้อแตกต่างสำหรับการใช้งานระหว่างคำสั่ง do-while loop และ while loop และเพื่อให้คุณสามารถเลือกใช้งานลูปที่เหมาะสมในโปรแกรมของคุณได้</p>
+
+          </article>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Container fluid  -->
+<!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Page wrapper  -->
+  <!-- ============================================================== -->
+</div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  function handleSidebar() {
+document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+  element.addEventListener("click", function () {
+document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+  el.checked = true;
+});
+document
+  .getElementById("main-wrapper")
+  .classList.toggle("show-sidebar");
+document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+  el.classList.toggle("close");
+});
+var dataTheme = document.body.getAttribute("data-sidebartype");
+if (dataTheme === "full") {
+  document.body.setAttribute("data-sidebartype", "mini-sidebar");
+} else {
+  document.body.setAttribute("data-sidebartype", "full");
+}
+  });
+});
+  }
+
+  handleSidebar();
+
+  function findMatchingElement() {
+var currentUrl = window.location.href;
+var anchors = document.querySelectorAll("#sidebarnav a");
+for (var i = 0; i < anchors.length; i++) {
+  if (anchors[i].href === currentUrl) {
+return anchors[i];
+  }
+}
+
+return null; // Return null if no matching element is found
+  }
+  var elements = findMatchingElement();
+
+  // Do something with the matching element
+  if (elements) {
+elements.classList.add("active");
+  }
+
+  document
+.querySelectorAll("ul#sidebarnav ul li a.active")
+.forEach(function (link) {
+  link.closest("ul").classList.add("in");
+  link.closest("ul").parentElement.classList.add("selected");
+});
+
+  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+const isActive = li.classList.contains("selected");
+if (isActive) {
+  const anchor = li.querySelector("a");
+  if (anchor) {
+anchor.classList.add("active");
+  }
+}
+  });
+
+  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+link.addEventListener("click", function (e) {
+  const isActive = this.classList.contains("active");
+  const parentUl = this.closest("ul");
+  if (!isActive) {
+// hide any open menus and remove all other classes
+parentUl.querySelectorAll("ul").forEach(function (submenu) {
+  submenu.classList.remove("in");
+});
+parentUl.querySelectorAll("a").forEach(function (navLink) {
+  navLink.classList.remove("active");
+});
+
+// open our new menu and add the open class
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.add("in");
+}
+
+this.classList.add("active");
+  } else {
+this.classList.remove("active");
+parentUl.classList.remove("active");
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.remove("in");
+}
+  }
+});
+  });
+</script>
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

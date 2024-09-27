@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!--Desktop view sidebar menu-->
+    <aside class="left-sidebar with-vertical">
+      <!-- Sidebar scroll-->
+      <!-- ============================================================== -->
+      <!-- Logo -->
+      <!-- ============================================================== -->
+      <div
+        class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+      >
+        <a href="../index.html" class="text-nowrap logo-img">
+          <img
+            src="../assets/images/logos/dark-logo.svg"
+            class="dark-logo"
+            alt="Logo-Dark"
+          />
+        </a>
+        <a
+          href="javascript:void(0)"
+          class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+        >
+          <i class="ti ti-x"></i>
+        </a>
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Logo -->
+      <!-- ============================================================== -->
+      <div
+        class="scroll-sidebar"
+        style="height: calc(100vh - 100px)"
+        data-simplebar
+      >
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+          <ul id="sidebarnav" class="">
+            <nav class="nav nav-pills flex-column sidebar-nav">
+              <ul class="list-unstyled">
+                <!--Getting Started-->
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Getting Started</span>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="introduction.html"
+                  >
+                    <i class="ti ti-home-2"></i> Introduction
+                  </a>
+                </li>
+                <!-- <li class="sidebar-item">
+                <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+                  <i class="ti ti-packages"></i> Package Structure
+                </a>
+              </li> -->
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-start.html"
+                  >
+                    <i class="ti ti-brand-abstract"></i> Quick Start
+                  </a>
+                </li>
+                <!--CUSTOMIZATION-->
+                <li>
+                  <span class="sidebar-divider lg"></span>
+                </li>
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Lesson content </span>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-program-struct.html"
+                  >
+                    โครงสร้างของโปรแกรม
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-variables-and-types.html"
+                  >
+                    ตัวแปรและประเภทข้อมูล
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-constants.html"
+                  >
+                    ค่าคงที่
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-typography.html"
+                  >
+                    ตัวดำเนินการ
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-input-output.html"
+                  >
+                    อินพุต เอาต์พุต พื้นฐาน
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-if-else-statements.html"
+                  >
+                    คำสั่ง if else
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-switch-case-statement.html"
+                  >
+                    คำสั่ง switch case
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-while-loop.html"
+                  >
+                    คำสั่งวนซ้ำ while loop
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-for-loop.html"
+                  >
+                    คำสั่งวนซ้ำ for loop
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-do-while-loop.html"
+                  >
+                    คำสั่งวนซ้ำ do-while loop
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-break-and-continue.html"
+                  >
+                    คำสั่ง break และ continue
+                  </a>
+                </li>
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Team </span>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="team.html"
+                  >
+                    ผู้จัดทำ
+                  </a>
+                </li>
+                <!-- <li class="sidebar-item">
+                <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+                  <i class="ti ti-refresh-dot"></i>Changelog
+                </a>
+              </li> -->
+              </ul>
+            </nav>
+          </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+      </div>
+      <!-- End Sidebar scroll-->
+    </aside>
+
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+      <!-- ============================================================== -->
+      <!-- Topbar header - style you can find in pages.scss -->
+      <!-- ============================================================== -->
+      <header class="topbar position-relative">
+        <div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
+          <!-- ============================================================== -->
+          <!-- Toggle which is visible on mobile only -->
+          <!-- ============================================================== -->
+          <!-- Logo icon -->
+          <a href="../index.html">
+            <b class="logo-icon d-xl-none d-block">
+              <!-- Dark Logo icon -->
+              <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
+            </b>
+            <!--End Logo icon -->
+          </a>
+          <div class="d-flex align-items-center">
+            <!---Mobile view canvas button--->
+            <a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+              <i class="ti ti-menu-2"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- ============================================================== -->
+      <!-- Page wrapper  -->
+      <!-- ============================================================== -->
+      <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid mt-2">
+          <div class="mt-1">
+              <img class="d-block mx-auto" src="../assets/images/bannerc.png" width="80%" height="80%" />
+              <h3 class="mt-4 lh-base">ภาษา C คืออะไร</h3>
+              <p>ภาษา C เป็นภาษาคอมพิวเตอร์เพื่อวัตถุประสงค์ทั่วไป เป็นภาษาที่มีความจำเป็นมาก มันสนับสนุนการเขียนโปรแกรมที่มีโครงสร้าง การกำหนดขอบเขตของตัวแปร และการเรียกใช้ตัวเอง (Recusion) และมันเป็นภาษาที่อยู่ในระดับต่ำ (Low level) นั่นคือ มันเป็นภาษาที่สามารถทำงานได้ดีในระดับของฮาร์ดแวร์ ภาษา C เป็นสามารถที่ออกแบบมาให้สามารถที่จะทำงานกับคำสั่งพื้นฐานของคอมพิวเตอร์ได้อย่างมีประสิทธิภาพ เพราะฉะนั้นมันจึงถูกพบบ่อยในการใช้สร้างแอพพลิเคชันในสมัยก่อนที่เขียนโดยภาษาแอสเซมบลี รวมถึงระบบประฏิบัติการ เช่นเดียวกันกับซอฟต์แวร์ประยุกต์สำหรับคอมพิวเตอร์ ซุปเปอร์คอมพิวเตอร์ และระบบฝังตัว</p>
+              <h3 class="mt-4 lh-base">ประวัติของภาษา C</h3>
+              <p className="">ภาษา C นั้นถูกพัฒนาครั้งแรกโดย Dennis Ritchie ในระหว่างปี 1969 และ 1973 ที่ Bell Labs และใช้สำหรับพัฒนาและปรับปรุงระบบปฏิการ Unix ใหม่ ตั้งแต่นั้นมันได้มาเป็นภาษาที่มีการใช้งานอย่างกว้างขวางมากที่สุดตลอดเวลา ที่มากับ C คอมไพเลอร์จากบริษัทพัฒนาต่างๆ สำหรับพัฒนาในสถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการที่ได้รับความนิยมเป็นจำนวนมาก ภาษา C ได้ถูกกำหนดมาตฐานโดย American National Standards Institute (ANSI) ตั้งแต่ปี 1989 และ International Organization for Standardization (ISO) ในเวลาต่อมา</p>
+              <img class="d-block " src="../assets/images/c.png" width="35%" height="35%" />
+              <p className="">โดยปกติแล้วโปรแกรมของผู้เริ่มต้นเป็นโปรแกรมที่เรียกว่า "Hello world" ซึ่งจะแสดงคำว่า "Hello World!" ออกทางจอคอมพิวเตอร์ของคุณ มันเป็นโปรแกรมที่ง่ายที่สุดที่จะแสดงให้นักพัฒนามือใหม่ได้เห็น มาดูว่ามันเป็นอย่างไร</p>
+              <p className="">ถึงแม้ว่าภาษา C มีความสามารถใน Low-level แต่มันยังถูกออกแบบเพื่อช่วยให้สามารถเขียนโปรแกรมแบบ Cross-platform โค้ดของโปรแกรมที่เขียนขึ้นจากมาตรฐานของภาษา C นั้นสามารถนำไปคอมไพล์ได้ในคอมพิวเตอร์ในแพลตฟอร์มและระบบปฏิบัติการที่หลากหลายโดยเพียงแค่เปลี่ยนแปลงโค้ดเพียงเล็กน้อย ภาษา C นั้นสามารถใช้ได้อย่างกว้างขวางในแพลตฟอร์มขนาดต่างๆ ตั้งแต่ Embedded microcontrollers ไปจนถึง Supercomputer</p>
+              <h3 class="mt-4 lh-base">คอมไพเลอร์</h3>
+              <p className="">คอมไพเลอร์เป็นโปรแกรมคอมพิวเตอร์ ที่แปลงโค้ดที่เขียนในภาษาคอมพิวเตอร์ อย่างเช่น ภาษา C ไปเป็นภาษาเครื่อง ซึ่งมันเป็นภาษาที่ทำให้คอมพิวเตอร์สามารถอ่านและทำงานได้ ซึ่งภาษาเครื่องนั้นจะมีรูปแบบในตัวเลขฐานสอง ที่ประกอบไปด้วย 1 และ 0 เท่านั้น ซึ่งเรียกว่าออบเจ็คโค้ด เหตุผลที่ต้องทำการแปลงก็เพื่อทำโปรแกรมให้สามารทำงานได้ (Executable program)</p>
+              <p className="">คอมไพเลอร์นั้นมีประโยชน์มากสำหรับนักเขียนโปรแกรม เพราะว่ามันช่วยให้พวกเขาสามารถพัฒนาโปรแกรมได้อย่าง่ายดายโดยที่ไม่ต้องสร้างคอมไพเลอร์ด้วยตัวเอง คอมไพล์เลอร์มักจะมาพร้อมกับเครื่องมือพัฒนาโปรแกรม Integrated development environment (IDE) ซึ่งประกอบไปด้วย Text editor คอมไพเลอร์ และเครื่องมืออำนวยความสะดวกอื่นๆ มากมาย</p>
+              <h3 class="mt-4 lh-base">เครื่องมือพัฒนาสำหรับภาษา C</h3>
+              <p className="">ในการที่จะเขียนโปรแกรมในภาษา C คุณต้องการ IDE เพื่อช่วยในการพัฒนาโปรแกรมของคุณ IDE เป็นโปรแกรมที่รวบรวมเครื่องมือที่จำเป็นในการพัฒนา มันเป็นซอฟแวร์ประยุกต์ที่อำนวยความสะดวกเป็นอย่างมากสำหรับนักเขียนโปรแกรมคอมพิวเตอร์และนักพัฒนาซอฟแวร์สำหรับการพัฒนาโปรแกรม โดยปกติแล้ว IDE จะประกอบไปด้วยโปรแกรมแก้ไขข้อความ ตัวดีบักโปรแกรม และอื่นๆ</p>
+              <p className="">IDE สามารถเป็นโปรแกรมแก้ไขข้อความใดๆ เช่น Notepad แต่ในบทเรียนภาษา C นี้ เราจะแนะนำให้คุณใช้ Code Block ในการเขียน เพราะมันมีคุณสมบัติหลายอย่างที่สนับสนุนภาษา C มันฟรีและสามารถใช้ได้บนแพลตฟอร์มต่างๆ เช่น Windows Linux และ MacOS ซึ่งมากับคอมไพเลอร์ GCC</p>
+
+          </div>
+      </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Page wrapper  -->
+      <!-- ============================================================== -->
+    </div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  function handleSidebar() {
+    document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+      element.addEventListener("click", function () {
+        document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+          el.checked = true;
+        });
+        document
+          .getElementById("main-wrapper")
+          .classList.toggle("show-sidebar");
+        document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+          el.classList.toggle("close");
+        });
+        var dataTheme = document.body.getAttribute("data-sidebartype");
+        if (dataTheme === "full") {
+          document.body.setAttribute("data-sidebartype", "mini-sidebar");
+        } else {
+          document.body.setAttribute("data-sidebartype", "full");
+        }
+      });
+    });
+  }
+
+  handleSidebar();
+
+  function findMatchingElement() {
+    var currentUrl = window.location.href;
+    var anchors = document.querySelectorAll("#sidebarnav a");
+    for (var i = 0; i < anchors.length; i++) {
+      if (anchors[i].href === currentUrl) {
+        return anchors[i];
+      }
+    }
+
+    return null; // Return null if no matching element is found
+  }
+  var elements = findMatchingElement();
+
+  // Do something with the matching element
+  if (elements) {
+    elements.classList.add("active");
+  }
+
+  document
+    .querySelectorAll("ul#sidebarnav ul li a.active")
+    .forEach(function (link) {
+      link.closest("ul").classList.add("in");
+      link.closest("ul").parentElement.classList.add("selected");
+    });
+
+  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+    const isActive = li.classList.contains("selected");
+    if (isActive) {
+      const anchor = li.querySelector("a");
+      if (anchor) {
+        anchor.classList.add("active");
+      }
+    }
+  });
+
+  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      const isActive = this.classList.contains("active");
+      const parentUl = this.closest("ul");
+      if (!isActive) {
+        // hide any open menus and remove all other classes
+        parentUl.querySelectorAll("ul").forEach(function (submenu) {
+          submenu.classList.remove("in");
+        });
+        parentUl.querySelectorAll("a").forEach(function (navLink) {
+          navLink.classList.remove("active");
+        });
+
+        // open our new menu and add the open class
+        const submenu = this.nextElementSibling;
+        if (submenu) {
+          submenu.classList.add("in");
+        }
+
+        this.classList.add("active");
+      } else {
+        this.classList.remove("active");
+        parentUl.classList.remove("active");
+        const submenu = this.nextElementSibling;
+        if (submenu) {
+          submenu.classList.remove("in");
+        }
+      }
+    });
+  });
+</script>
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

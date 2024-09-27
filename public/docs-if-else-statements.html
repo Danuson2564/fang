@@ -1,0 +1,785 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+<!-- ============================================================== -->
+<!-- End Topbar header -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<!--Desktop view sidebar menu-->
+<aside class="left-sidebar with-vertical">
+  <!-- Sidebar scroll-->
+  <!-- ============================================================== -->
+  <!-- Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+  >
+    <a href="../index.html" class="text-nowrap logo-img">
+      <img
+        src="../assets/images/logos/dark-logo.svg"
+        class="dark-logo"
+        alt="Logo-Dark"
+      />
+    </a>
+    <a
+      href="javascript:void(0)"
+      class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+    >
+      <i class="ti ti-x"></i>
+    </a>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="scroll-sidebar"
+    style="height: calc(100vh - 100px)"
+    data-simplebar
+  >
+    <!-- Sidebar navigation-->
+    <nav class="sidebar-nav">
+      <ul id="sidebarnav" class="">
+        <nav class="nav nav-pills flex-column sidebar-nav">
+          <ul class="list-unstyled">
+            <!--Getting Started-->
+            <li class="nav-small-cap">
+              <span class="hide-menu">Getting Started</span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="introduction.html"
+              >
+                <i class="ti ti-home-2"></i> Introduction
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+              <i class="ti ti-packages"></i> Package Structure
+            </a>
+          </li> -->
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-start.html"
+              >
+                <i class="ti ti-brand-abstract"></i> Quick Start
+              </a>
+            </li>
+            <!--CUSTOMIZATION-->
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Lesson content </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-program-struct.html"
+              >
+                โครงสร้างของโปรแกรม
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-variables-and-types.html"
+              >
+                ตัวแปรและประเภทข้อมูล
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-constants.html"
+              >
+                ค่าคงที่
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-typography.html"
+              >
+                ตัวดำเนินการ
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-input-output.html"
+              >
+                อินพุต เอาต์พุต พื้นฐาน
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-if-else-statements.html"
+              >
+                คำสั่ง if else
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-switch-case-statement.html"
+              >
+                คำสั่ง switch case
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-while-loop.html"
+              >
+                คำสั่งวนซ้ำ while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-for-loop.html"
+              >
+                คำสั่งวนซ้ำ for loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-do-while-loop.html"
+              >
+                คำสั่งวนซ้ำ do-while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-break-and-continue.html"
+              >
+                คำสั่ง break และ continue
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Team </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="team.html"
+              >
+                ผู้จัดทำ
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+              <i class="ti ti-refresh-dot"></i>Changelog
+            </a>
+          </li> -->
+          </ul>
+        </nav>
+      </ul>
+    </nav>
+    <!-- End Sidebar navigation -->
+  </div>
+  <!-- End Sidebar scroll-->
+</aside>
+
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<div class="page-wrapper">
+  <!-- ============================================================== -->
+  <!-- Topbar header - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <header class="topbar position-relative">
+<div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
+  <!-- ============================================================== -->
+  <!-- Toggle which is visible on mobile only -->
+  <!-- ============================================================== -->
+  <!-- Logo icon -->
+  <a href="../index.html">
+<b class="logo-icon d-xl-none d-block">
+  <!-- Dark Logo icon -->
+  <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
+</b>
+<!--End Logo icon -->
+  </a>
+  <div class="d-flex align-items-center">
+<!---Mobile view canvas button--->
+<a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+  <i class="ti ti-menu-2"></i>
+</a>
+  </div>
+</div>
+  </header>
+  <!-- ============================================================== -->
+  <!-- Page wrapper  -->
+  <!-- ============================================================== -->
+  <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
+<!-- ============================================================== -->
+<!-- Container fluid  -->
+<!-- ============================================================== -->
+<div class="container-fluid mt-4">
+  <div class="mt-1">
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="d-sm-flex align-items-center justify-content-between">
+  <!-- <h4 class="mb-4 pb-2 fs-5">Change Global Skin Color</h3> -->
+</div>
+<article class="article-container mb-4" style="height: auto !important;">
+  <h1>คำสั่ง if else ในภาษา C</h1>
+
+  <section>
+      <div class="text-body-secondary cleafix mb-3">
+                          </div>
+  </section>
+
+  <p>ในบทนี้ คุณจะได้เรียนรู้การใช้งานคำสั่ง if else ในภาษา C ซึ่งเป็นคำสั่งสำหรับควบคุมการทำงานของโปรแกรมให้ทำงานตามเงื่อนไขที่กำหนด นี่จะทำให้โปรแกรมสามารถตัดสินใจและทำงานแบบมีทางเลือกได้ นี่เป็นเนื้อหาในบทนี้</p>
+
+<ul>
+<li>คำสั่ง if</li>
+<li>คำสั่ง if else</li>
+<li>คำสั่ง if else-if</li>
+<li>คำสั่ง if แบบซ้อนกัน</li>
+</ul>
+
+<h2>คำสั่ง if</h2>
+
+<p>คำสั่ง if เป็นคำสั่งพื้นฐานสำหรับควบคุมการทำงานของโปรแกรมเพื่อให้ทำงานตามเงื่อนไขที่กำหนด หรือเป็นการสร้างทางเลือกการทำงานเพิ่มเติมให้กับโปรแกรม นี่เป็นรูปแบบการใช้งานคำสั่ง if ในภาษา C</p>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">if (condition) {
+// statements
+}
+</code></pre>
+
+<p>ในรูปแบบการใช้งานคำสั่ง if เราสร้างบล็อคของคำสั่งภายในวงเล็บ <code>{}</code> และระบุ <code>condition</code> ซึ่งเป็นเงื่อนไขสำหรับคำสั่ง if ที่จะทำงานเมื่อเงื่อนไขเป็นจริง ภายในบล็อคสามารถประกอบไปด้วยหนึ่งหรือหลายคำสั่งได้ และในกรณีที่มีเพียงคำสั่งเดียว คุณสามารถละเว้นวงเล็บปีกกาออกไปได้ ยกตัวอย่างเช่น</p>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">if (condition)
+// statement
+</code></pre>
+
+<p>ในกรณีนี้ วงเล็บไม่จำเป็นเนื่องจากมีเพียงคำสั่งเดียวที่ต้องการให้ทำงานเมื่อเงื่อนไขเป็นจริง แต่ในทางปฏิบัติแล้วคุณควรจะใช้วงเล็บเสมอ เพื่อทำให้โค้ดมีรูปแบบการเขียนที่สม่ำเสมอและมันสามารถช่วยลดข้อผิดพลาดที่อาจเกิดขึ้นได้</p>
+
+<p>ต่อไปมาดูตัวอย่างของการใช้งานคำสั่ง if สำหรับกำหนดเพื่อให้โปรแกรมทำงานตามเงื่อนไขที่กำหนดในภาษา C นี่เป็นการใช้งานคำสั่ง if สำหรับตรวจสอบค่าในตัวแปร</p>
+
+<div class="codehead">if_example.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is exactly 10\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is an even number\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is less than 5\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">n is exactly 10
+n is an even number
+</code></pre>
+
+<p>ในตัวอย่างนี้ เราได้ใช้งานคำสั่ง if สำหรับตรวจสอบค่าในตัวแปร <code>n</code> ด้วยเงื่อนไขต่างๆ จะเห็นว่ามีเพียงโค้ดในสองบล็อคแรกเท่านั้นที่ทำงานเนื่องจากค่าในตัวแปร <code>n</code> ทำให้เงื่อนไขเหล่านั้นเป็นจริง</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is exactly 10\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is an even number\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นการตรวจสอบว่าค่าในตัวแปร <code>n</code> เท่ากับ <code>10</code> และตรวจสอบว่ามันเป็นเลขคู่หรือไม่ เนื่องจากทั้งสองนี้ส่งผลให้เงื่อนไขเป็นจริง ดังนั้นโค้ดแสดงผลในบล็อคของคำสั่งทั้งสองทำงาน</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is less than 5\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ส่วนในบล็อคสุดท้ายเป็นการตรวจสอบว่าค่าในตัวแปร <code>n</code> มีค่าน้อยกว่า <code>5</code> หรือไม่ เนื่องจากนี่ทำให้เงื่อนไขไม่เป็นจริง ดังนั้นโปรแกรมข้ามการทำงานของบล็อคนี้ไป และนี่เป็นวิธีที่คำสั่ง if ทำงานในภาษา C</p>
+
+<p>เงื่อนไขทืี่กำหนดในคำสั่ง if สามารถเป็นได้ตั้งแต่เงื่อนไขที่เรียบง่ายไปจนถึงเงื่อนไขที่ซับซ้อน ในตัวอย่างนี้ เป็นโปรแกรมที่ถามว่าคุณมีเงินเท่าไหร่ และจะบอกว่าคุณสามารถซื้อ iPad เครื่องใหม่ได้หรือไม่ โดยการตรวจสอบค่าจากหลายตัวแปรเพื่อสร้างเงื่อนไข</p>
+
+<div class="codehead">if_example2.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token comment">// Number of iPads left in stock</span>
+<span class="token keyword">int</span> inStock <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> money<span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Hello, how much money do you have? "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>money<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>inStock <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> money <span class="token operator">&gt;=</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+money <span class="token operator">-=</span> <span class="token number">100</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"You can buy this iPad with 100 USD.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"You have left %d USD\n"</span><span class="token punctuation">,</span> money<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Bye.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม เมื่อเราได้กรอกจำนวนเงินเป็น 150</p>
+
+<pre class="code-result language-result"><code class=" language-result">Hello, how much money do you have? 150
+You can buy this iPad with 100 USD.
+You have left 50 USD
+Bye.
+</code></pre>
+
+<p>เมื่อรันโปรแกรมมันจะถามให้คุณกรอกจำนวนเงินที่มี จากนั้นโปรแกรมจะทำการตรวจสอบว่ามีสินค้าเพียงพออยู่ในคลังสินค้าเพื่อขายหรือไม่ และตรวจสอบว่าคุณจะต้องมีเงินเพียงพอที่จะซื้อมันในราคา 100 USD หรือไม่</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>inStock <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> money <span class="token operator">&gt;=</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+money <span class="token operator">-=</span> <span class="token number">100</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"You can buy this iPad with 100 USD.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"You have left %d USD\n"</span><span class="token punctuation">,</span> money<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นการกำหนดเงื่อนไขจากที่กล่าวมา เราได้ตรวจสอบว่ามีสินค้าคงเหลือในตัวแปร <code>inStock</code> หรือไม่ และมีเงินมีมากกว่าหรือเท่ากับ 100 USD หรือไม่ โดยการเชื่อมเงื่อนไขย่อยทั้งสองด้วยตัวดำเนินการ AND ถ้าหากเงื่อนไขเป็นจริงโปรแกรมจะทำงานในบล็อคของคำสั่ง if ทำการหักเงินออกไป และแสดงข้อความแจ้งให้ทราบออกทางหน้าจอ</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> inStock <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> money<span class="token punctuation">;</span>
+</code></pre>
+
+<p>คุณสามารถลองทำให้เงื่อนไขไม่เป็นจริงได้โดยการเปลี่ยนค่าในตัวแปร <code>inStock</code> เป็นศูนย์ เพื่อบ่งบอกว่าตอนนี้ไม่ม่ีสินค้าเหลือแล้ว หรือกรอกจำนวนเงินที่น้อยกว่า 100 USD ซึ่งน้อยกว่าราคาของ iPad และเมื่อมีอย่างน้อยหนึ่งเงื่อนไขที่ไม่เป็นจริง โปรแกรมจะข้ามการทำงานของบล็อคคำสั่ง if ไป</p>
+
+<h2>คำสั่ง if else</h2>
+
+<p>ในขณะที่คำสั่ง if ใช้สำหรับกำหนดเพื่อให้โปรแกรมทำงานเมื่อเงื่อนไขเป็นจริง นอกจากนี้ ในภาษา C ยังมีคำสั่ง else ที่ใช้เพื่อกำหนดให้โปรแกรมทำงานในกรณีที่เงื่อนไขไม่เป็นจริงได้ โดยที่คำสั่ง else จะต้องใช้ร่วมกับคำสั่ง if เสมอ นี่เป็นรูปแบบการใช้งาน</p>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">if (condition) {
+// statements when condition is true
+} else {
+// statements when condition is not true
+}
+</code></pre>
+
+<p>ในรูปแบบการใช้งาน เรากำหนด <code>condition</code> ซึ่งเป็นเงื่อนไขให้กับคำสั่ง if และถ้าเงื่อนไขเป็นจริงโปรแกรมจะทำงานในบล็อคของคำสั่ง if และในทางตรงกันข้าม ในกรณีที่เงื่อนไขไม่เป็นจริง โปรแกรมจะทำงานในบล็อคของคำสั่ง else แทน</p>
+
+<p>กล่าวคือในการใช้งานคำสั่ง if else ทำให้เราสามารถกำหนดทิศทางการทำงานของโปรแกรมออกเป็นสองทางเลือกได้นั่นเอง มาดูตัวอย่างการใช้งานคำสั่ง if else สำหรับตรวจสอบว่าตัวเลขเป็นจำนวนคู่หรือคี่ในภาษา C</p>
+
+<div class="codehead">if_else_example1.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter a number: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d is even number\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d is odd number\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม เราได้รันโปรแกรมสองครั้งและกรอกตัวเลขเป็น 2 และ 5 ตามลำดับ</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter a number: 2
+2 is even number
+</code></pre>
+
+<pre class="code-result language-result"><code class=" language-result">Enter a number: 5
+5 is even number
+</code></pre>
+
+<p>เราใช้คำสั่ง if else ในกรณีที่โปรแกรมต้องแบ่งการทำงานออกเป็นสองทางเลือกหรือมีสองทางเลือกที่เป็นไปได้ ในกรณีคือนี้การตรวจสอบว่าตัวเลขที่กรอกเข้ามาเป็นจำนวนคู่หรือจำนวนคี่นั่นเอง</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</code></pre>
+
+<p>ในการตรวจสอบว่าตัวเลขเป็นจำนวนคู่ในภาษา C นั้นสามารถทำได้โดยนำตัวเลขมาหารเอาเศษด้วยตัวดำเนินการ <code>%</code> โดยการหารมันด้วย 2 หากหารแล้วไม่เหลือเศษแสดงว่าตัวเลขเป็นจำนวนคู่ และเป็นจำนวนคี่ในทางตรงกันข้าม</p>
+
+<p>มาดูอีกตัวอย่างสำหรับการใช้งานคำสั่ง if else ในตัวอย่างนี้ เป็นการจำลองการเข้าสู่ระบบโดยโปรแกรมจะถามให้กรอก Username และรหัสผ่าน นี่จะเหมือนกับที่คุณพบเห็นทั่วไปโดยเฉพาะอย่างยิ่งบนเว็บไซต์ที่ต้องเข้าสู่ระบบก่อนการใช้งาน</p>
+
+<div class="codehead">login_example.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">char</span> username<span class="token punctuation">[</span><span class="token number">20</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">char</span> password<span class="token punctuation">[</span><span class="token number">20</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Login\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Username: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%s"</span><span class="token punctuation">,</span> username<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Password: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%s"</span><span class="token punctuation">,</span> password<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">strcmp</span><span class="token punctuation">(</span>username<span class="token punctuation">,</span> <span class="token string">"Metin"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> <span class="token function">strcmp</span><span class="token punctuation">(</span>password<span class="token punctuation">,</span> <span class="token string">"1234"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Hi %s,\nLogin success.\n"</span><span class="token punctuation">,</span> username<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid username or password.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม เราได้รันโปรแกรมสองครั้ง ครั้งแรกกรอก Username และรหัสผ่านเป็นค่าที่ถูกต้อง และจากนั้นกรอกผิด</p>
+
+<pre class="code-result language-result"><code class=" language-result">Login
+Username: Metin
+Password: 1234
+Hi Metin,
+Login success.
+</code></pre>
+
+<pre class="code-result language-result"><code class=" language-result">Login
+Username: Metin
+Password: abcd
+Invalid username or password.
+</code></pre>
+
+<p>เมื่อโปรแกรมเริ่มต้นการทำงาน มันจะถามให้ผู้ใช้งานกรอก Username และรหัสผ่าน และเก็บไว้ในตัวแปร String สองตัวได้แก่ <code>username</code> และ <code>password</code> ตามลำดับ สำหรับนำไปตรวจสอบว่าค่าที่กรอกเข้ามานั้นถูกต้องหรือไม่ด้วยคำสั่ง if else</p>
+
+<p>เพื่อความเรียบง่ายของตัวอย่าง เราได้กำหนดให้ Username และรหัสผ่านที่ถูกต้องเป็น <code>Metin</code> และ <code>1234</code> ตามลำดับ ในความเป็นจริงแล้วค่าเหล่านี้ควรถูกอ่านมาจากฐานข้อมูลหรือไฟล์ระบบเพื่อนำมาตรวจสอบ</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">strcmp</span><span class="token punctuation">(</span>username<span class="token punctuation">,</span> <span class="token string">"Metin"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> <span class="token function">strcmp</span><span class="token punctuation">(</span>password<span class="token punctuation">,</span> <span class="token string">"1234"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Hi %s,\nLogin success.\n"</span><span class="token punctuation">,</span> username<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid username or password.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>เราใช้ฟังก์ชัน <code>strcmp</code> เพื่อตรวจสอบว่าค่าของ String ทั้งสองเท่ากันหรือไม่ และฟังก์ชันจะส่งค่ากลับเป็น <code>0</code> ในกรณีที่เท่ากัน เราทำเช่นนี้กับทั้ง Username และรหัสผ่านจากนั้นเชื่อมเงื่อนไขเข้าด้วยกันด้วยตัวดำเนินการ AND</p>
+
+<div class="my-3">
+<!-- marcuscode - middle banner -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-9075045589988569" data-ad-slot="9605104032" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done"><div id="aswift_2_host" style="border: none; height: 280px; width: 722px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<h2>คำสั่ง if else-if</h2>
+
+<p>คุณได้เรียนรู้การใช้งานคำสั่ง if-else ที่ทำให้โปรแกรมทำงานแบบมีทางเลือกได้ แต่นั่นเหมาะสำหรับการทำงานที่ถูกแบ่งออกเป็นสองทางเลือกเท่านั้น ในกรณีที่การทำงานของโปรแกรมมีทางเลือกที่เป็นไปได้มากกว่าสอง ภาษา C นั้นมีคำสั่ง else-if ให้เราใช้งานได้ นี่เป็นรูปแบบการใช้งาน</p>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">if (condition1) {
+// statements for condition1
+} else if (condition2) {
+// statements for condition2
+} else if (condition3) {
+// statements for condition3
+} else {
+// when no previous conditions are fulfilled
+}
+</code></pre>
+
+<p>ในการใช้งานคำสั่ง else if นั้นจะต้องใช้ร่วมกับคำสั่ง if เสมอ โดยโปรแกรมจะเริ่มตรวจสอบจากเงื่อนไขแรกใน <code>condition1</code> ไปจนถึง <code>condition3</code> และจะทำงานในบล็อคแรกที่ทำให้เงื่อนไขเป็นจริงเท่านั้น เราสามารถเพิ่มเงื่อนไขเพิ่มเติมเข้ามาเท่าไหร่ก็ได้ด้วยคำสั่ง else if</p>
+
+<p>นอกจากนี้ึ คุณยังสามารถใช้คำสั่ง else สำหรับกำหนดเพื่อให้โปรแกรมทำงานในกรณีไม่มีเงื่อนไขใดเป็นจริงเลยโดยใส่มันไว้ในตอนท้ายได้เช่นเดิม</p>
+
+<p>ต่อไปมาดูตัวอย่างการใช้งานคำสั่ง if else-if เพื่อตรวจสอบว่าตัวเลขเป็นจำนวนเต็มบวก เต็มลบ หรือศูนย์ สังเกตว่านี่เป็นการทำงานที่เป็นไปได้แบบสามทางเลือก</p>
+
+<div class="codehead">number_signs.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">5</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is positive.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is negative.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"n is zero.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">n is positive.
+</code></pre>
+
+<p>เนื่องจากค่าในตัวแปร <code>n</code> ที่เป็น <code>-5</code> นั้นทำให้เงื่อนไขในคำสั่ง else if เป็นจริง ดังนั้นโปรแกรมจึงทำงานในบล็อคของคำสั่งที่สอง และแสดงข้อความบอกว่าตัวเลขเป็นจำนวนเต็มลบ คุณสามารถลองเปลี่ยนตัวเลขในตัวแปรเป็นจำนวนเต็มบวกหรือศูนย์และรันโปรแกรมเพื่อดูผลลัพธ์อีกครั้ง</p>
+
+<p>มาดูอีกตัวอย่างคลาสคลิกสำหรับการใช้งานคำสั่ง if else-if ในภาษา C เราจะมาเขียนโปรแกรมคำนวณเกรดจากคะแนนที่กรอกเข้ามา ซึ่งจะเป็นการแสดงการทำงานของโปรแกรมที่มีทางเลือกเป็นจำนวนมาก นี่เป็นตัวอย่างของโปรแกรมคำนวณเกรดที่เขียนด้วยคำสั่ง if else-if ในภาษา C</p>
+
+<div class="codehead">grading.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> score<span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter your score: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>score<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">80</span> <span class="token operator">&amp;&amp;</span> score <span class="token operator">&lt;=</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is A.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">70</span> <span class="token operator">&amp;&amp;</span> score <span class="token operator">&lt;=</span> <span class="token number">79</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is B.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">60</span> <span class="token operator">&amp;&amp;</span> score <span class="token operator">&lt;=</span> <span class="token number">69</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is C.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">50</span> <span class="token operator">&amp;&amp;</span> score <span class="token operator">&lt;=</span> <span class="token number">59</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is D.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> score <span class="token operator">&lt;=</span> <span class="token number">49</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is F.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid score, "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"it must be between 0 - 100.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม เมื่อเราได้รันโปรแกรมสามครั้งและกรอกคะแนนเป็น 92, 58 และ 120 ตามลำดับ</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter your score: 92
+Your grade is A.
+</code></pre>
+
+<pre class="code-result language-result"><code class=" language-result">Enter your score: 58
+Your grade is D.
+</code></pre>
+
+<pre class="code-result language-result"><code class=" language-result">Enter your score: 120
+Invalid score, it must be between 0 - 100.
+</code></pre>
+
+<p>จะเห็นว่าเราสามารถใช้คำสั่ง if else-if สร้างทางเลือกให้กับโปรแกรมได้อย่างง่ายดาย โดยการกำหนดเงื่อนไขในช่วงต่างๆ ของคะแนนเพื่อให้เกรดสำหรับแต่ละช่วงของคะแนน นอกจากนี้ เรายังกำหนดบล็อคคำสั่ง else ที่จะทำงานในกรณีที่เงื่อนไขก่อนหน้าไม่เป็นจริงเลย</p>
+
+<p>เราสามารถละเว้นบล็อคของคำสั่ง else ได้ แต่ถ้าหากเราทำ ในกรณีที่คะแนนไม่อยู่ในระหว่าง 0 - 100 จะไม่มีการทำงานอะไรเกิดขึ้น</p>
+
+<h2>คำสั่ง if แบบซ้อนกัน</h2>
+
+<p>ในการใช้งานคำสั่ง if, if-else และ else-if ที่คุณได้เรียนรู้มาแล้วในตัวอย่างก่อนหน้านั้น มันสามารถนำมาใช้ร่วมกันและซ้อนกันได้ ยกตัวอย่างเช่น คุณสามารถใช้คำสั่ง if เพื่อตรวจสอบเงื่อนไขด้านนอก และถ้าหากเงื่อนไขเป็นจริงก็ให้ทำงานคำสั่ง if ที่อยู่ด้านในอีกครั้ง</p>
+
+<p>จากโปรแกรมคำนวณเกรดในตัวอย่างก่อนหน้า เราสามารถนำมาเขียนใหม่ได้โดยใช้การซ้อนกันของคำสั่ง if else ในบางครั้ง นี่จะช่วยให้โปรแกรมสั้นและกระชับลงและอาจช่วยเพิ่มประสิทธิภาพการทำงานของโปรแกรมได้ นี่เป็นตัวอย่าง</p>
+
+<div class="codehead">grading2.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> score<span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter your score: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>score<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> score <span class="token operator">&lt;=</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">80</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is A.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">70</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is B.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is C.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">50</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is D.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is F.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid score, "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"it must be between 0 - 100.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ในตัวอย่างนี้ ให้ผลลัพธ์การทำงานเช่นเดียวกันกับตัวอย่างก่อนหน้า แต่เราเปลี่ยนวิธีเขียนมาเป็นการใช้งานการซ้อนกันของคำสั่ง if else แทน</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> score <span class="token operator">&lt;=</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token comment">// check for grades</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid score, "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"it must be between 0 - 100.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>แทนที่จะตรวจสอบคะแนนสำหรับหาเกรดในทันที เราได้ทำการตรวจสอบก่อนว่าคะแนนที่กรอกเข้ามานั้นถูกต้องหรือไม่ ถ้าหากคะแนนอยู่ในช่วงระหว่าง 0 - 100 โปรแกรมจะงานในคำสั่ง if ด้านในเพื่อคำนวณหาเกรดต่อไป</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">80</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is A.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">70</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is B.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">60</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is C.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>score <span class="token operator">&gt;=</span> <span class="token number">50</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is D.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Your grade is F.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>จากนั้นในการตรวจสอบเกรด เป็นการตรวจสอบเงื่อนไขโดยการใช้เพียงขอบล่างของคะแนนโดยเรียงจากมากไปน้อย นี่เป็นอีกวิธีหนึ่งในการตรวจสอบเงื่อนไขที่สามารถทำได้โดยการใช้งานคำสั่ง if else-if ในภาษา C</p>
+
+<p>อย่างไรก็ตาม ทั้งหมดนี้ไม่มีกฏตายตัวว่าคุณควรเขียนอย่างไร คุณสามารถเลือกใช้วิธีไหนก็ได้ตามที่ต้องการ สิ่งที่สำคัญก็คือเพื่อให้โปรแกรมทำงานและให้ผลลัพธ์ตามที่คาดหวังไว้ได้ก็พอแล้ว</p>
+
+<p>ในบทนี้ คุณได้เรียนรู้การใช้งานคำสั่ง if else, else-if ในภาษา C เพื่อควบคุมการทำงานของโปรแกรมให้สามารถตัดสินใจทำงานแบบหลายทางเลือกตามเงื่อนไขที่กำหนด เราได้แสดงตัวอย่างการใช้งานในรูปแบบต่างๆ เพื่อให้คุณเข้าใจการทำงานของคำสั่งมากขึ้น</p>
+
+          </article>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Container fluid  -->
+<!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Page wrapper  -->
+  <!-- ============================================================== -->
+</div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  function handleSidebar() {
+document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+  element.addEventListener("click", function () {
+document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+  el.checked = true;
+});
+document
+  .getElementById("main-wrapper")
+  .classList.toggle("show-sidebar");
+document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+  el.classList.toggle("close");
+});
+var dataTheme = document.body.getAttribute("data-sidebartype");
+if (dataTheme === "full") {
+  document.body.setAttribute("data-sidebartype", "mini-sidebar");
+} else {
+  document.body.setAttribute("data-sidebartype", "full");
+}
+  });
+});
+  }
+
+  handleSidebar();
+
+  function findMatchingElement() {
+var currentUrl = window.location.href;
+var anchors = document.querySelectorAll("#sidebarnav a");
+for (var i = 0; i < anchors.length; i++) {
+  if (anchors[i].href === currentUrl) {
+return anchors[i];
+  }
+}
+
+return null; // Return null if no matching element is found
+  }
+  var elements = findMatchingElement();
+
+  // Do something with the matching element
+  if (elements) {
+elements.classList.add("active");
+  }
+
+  document
+.querySelectorAll("ul#sidebarnav ul li a.active")
+.forEach(function (link) {
+  link.closest("ul").classList.add("in");
+  link.closest("ul").parentElement.classList.add("selected");
+});
+
+  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+const isActive = li.classList.contains("selected");
+if (isActive) {
+  const anchor = li.querySelector("a");
+  if (anchor) {
+anchor.classList.add("active");
+  }
+}
+  });
+
+  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+link.addEventListener("click", function (e) {
+  const isActive = this.classList.contains("active");
+  const parentUl = this.closest("ul");
+  if (!isActive) {
+// hide any open menus and remove all other classes
+parentUl.querySelectorAll("ul").forEach(function (submenu) {
+  submenu.classList.remove("in");
+});
+parentUl.querySelectorAll("a").forEach(function (navLink) {
+  navLink.classList.remove("active");
+});
+
+// open our new menu and add the open class
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.add("in");
+}
+
+this.classList.add("active");
+  } else {
+this.classList.remove("active");
+parentUl.classList.remove("active");
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.remove("in");
+}
+  }
+});
+  });
+</script>
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

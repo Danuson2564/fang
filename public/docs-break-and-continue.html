@@ -1,0 +1,759 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+<!-- ============================================================== -->
+<!-- End Topbar header -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<!--Desktop view sidebar menu-->
+<aside class="left-sidebar with-vertical">
+  <!-- Sidebar scroll-->
+  <!-- ============================================================== -->
+  <!-- Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+  >
+    <a href="../index.html" class="text-nowrap logo-img">
+      <img
+        src="../assets/images/logos/dark-logo.svg"
+        class="dark-logo"
+        alt="Logo-Dark"
+      />
+    </a>
+    <a
+      href="javascript:void(0)"
+      class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+    >
+      <i class="ti ti-x"></i>
+    </a>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="scroll-sidebar"
+    style="height: calc(100vh - 100px)"
+    data-simplebar
+  >
+    <!-- Sidebar navigation-->
+    <nav class="sidebar-nav">
+      <ul id="sidebarnav" class="">
+        <nav class="nav nav-pills flex-column sidebar-nav">
+          <ul class="list-unstyled">
+            <!--Getting Started-->
+            <li class="nav-small-cap">
+              <span class="hide-menu">Getting Started</span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="introduction.html"
+              >
+                <i class="ti ti-home-2"></i> Introduction
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+              <i class="ti ti-packages"></i> Package Structure
+            </a>
+          </li> -->
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-start.html"
+              >
+                <i class="ti ti-brand-abstract"></i> Quick Start
+              </a>
+            </li>
+            <!--CUSTOMIZATION-->
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Lesson content </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-program-struct.html"
+              >
+                โครงสร้างของโปรแกรม
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-variables-and-types.html"
+              >
+                ตัวแปรและประเภทข้อมูล
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-constants.html"
+              >
+                ค่าคงที่
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-typography.html"
+              >
+                ตัวดำเนินการ
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-input-output.html"
+              >
+                อินพุต เอาต์พุต พื้นฐาน
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-if-else-statements.html"
+              >
+                คำสั่ง if else
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-switch-case-statement.html"
+              >
+                คำสั่ง switch case
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-while-loop.html"
+              >
+                คำสั่งวนซ้ำ while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-for-loop.html"
+              >
+                คำสั่งวนซ้ำ for loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-do-while-loop.html"
+              >
+                คำสั่งวนซ้ำ do-while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-break-and-continue.html"
+              >
+                คำสั่ง break และ continue
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Team </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="team.html"
+              >
+                ผู้จัดทำ
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+              <i class="ti ti-refresh-dot"></i>Changelog
+            </a>
+          </li> -->
+          </ul>
+        </nav>
+      </ul>
+    </nav>
+    <!-- End Sidebar navigation -->
+  </div>
+  <!-- End Sidebar scroll-->
+</aside>
+
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<div class="page-wrapper">
+  <!-- ============================================================== -->
+  <!-- Topbar header - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <header class="topbar position-relative">
+<div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
+  <!-- ============================================================== -->
+  <!-- Toggle which is visible on mobile only -->
+  <!-- ============================================================== -->
+  <!-- Logo icon -->
+  <a href="../index.html">
+<b class="logo-icon d-xl-none d-block">
+  <!-- Dark Logo icon -->
+  <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
+</b>
+<!--End Logo icon -->
+  </a>
+  <div class="d-flex align-items-center">
+<!---Mobile view canvas button--->
+<a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+  <i class="ti ti-menu-2"></i>
+</a>
+  </div>
+</div>
+  </header>
+  <!-- ============================================================== -->
+  <!-- Page wrapper  -->
+  <!-- ============================================================== -->
+  <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
+<!-- ============================================================== -->
+<!-- Container fluid  -->
+<!-- ============================================================== -->
+<div class="container-fluid mt-4">
+  <div class="mt-1">
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="d-sm-flex align-items-center justify-content-between">
+  <!-- <h4 class="mb-4 pb-2 fs-5">Change Global Skin Color</h3> -->
+</div>
+<article class="article-container mb-4" style="height: auto !important;">
+  <h1>คำสั่ง break และ continue</h1>
+
+  <section>
+      <div class="text-body-secondary cleafix mb-3">
+                          </div>
+  </section>
+
+  <p>ในบทนี้ คุณจะได้เรียนรู้การใช้งานคำสั่ง break และ continue ในภาษา C เพื่อควบคุมการทำงานของลูปให้ทำงานนอกเหนือจากการทำงานปกติ ซึ่งมันสามารถใช้ได้กับลูปทุกประเภท เช่น for loop, while loop หรือ do-while loop เป็นต้น นี่เป็นเนื้อหาในบทนี้</p>
+
+<ul>
+<li>การใช้งานคำสั่ง break</li>
+<li>คำสั่ง break การค้นหาชื่อในอาเรย์</li>
+<li>การใช้งานคำสั่ง continue</li>
+<li>คำสั่ง continue กับ while loop</li>
+<li>เปรียบเทียบคำสั่ง break และ continue</li>
+</ul>
+
+<h2>การใช้งานคำสั่ง break</h2>
+
+<p>คำสั่ง break เป็นคำสั่งที่ใช้เพื่อควบคุมลูปให้จบการทำงานในทันที โดยที่ไม่สนใจว่าเงื่อนไขจะยังคงเป็นจริงอยู่หรือไม่ เรามักใช้มันร่วมกับคำสั่ง if เพื่อตรวจสอบเงื่อนไขก่อน เช่น ถ้าหากเงื่อนไขบางอย่างเป็นจริง เราเรียกใช้คำสั่ง break เพื่อจบการทำงานของลูป เป็นต้น</p>
+
+<p>มาเริ่มต้นกับตัวอย่างแรกสำหรับการใช้งานคำสั่ง break ในภาษา C เพื่อควบคุมการทำงานของลูป นี่เป็นโปรแกรมนับตัวเลขจาก 1-10 และแสดงตัวเลขที่นับได้ออกทางหน้าจอด้วยการใช้งานคำสั่ง for loop</p>
+
+<div class="codehead">break_example.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">==</span> <span class="token number">6</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">1 2 3 4 5
+</code></pre>
+
+<p>ในตัวอย่างนี้ เราได้เขียนโปรแกรมเพื่อนับเลขจาก 1-10 โดยการใช้คำสั่งวนซ้ำ for loop และอย่างที่คุณเห็นว่าตัวเลขที่นับและแสดงออกมานั้นมีเพียง 1-5 เท่านั้น เรามาดูกันว่าทำไมจึงเป็นเช่นนั้น</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">==</span> <span class="token number">6</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นั่นเป็นเพราะว่าเมื่อค่าในตัวแปร <code>i</code> มีค่าเท่ากับ <code>6</code> เราได้ใช้งานคำสั่ง break เพื่อจบการทำงานของลูป ซึ่งนี่จะส่งผลให้ลูปจบการทำงานในทันทีโดยที่ไม่สนใจว่าเงื่อนไข <code>i &lt;= 10</code> จะยังคงเป็นจริงอยู่หรือไม่ และนี่เป็นวิธีที่คำสั่ง break ทำงาน</p>
+
+<h2>คำสั่ง break การค้นหาชื่อในอาเรย์</h2>
+
+<p>มาดูอีกตัวอย่างสำหรับการใช้งานคำสั่ง break ในตัวอย่างนี้ เป็นโปรแกรมสำหรับค้นหาชื่อในอาเรย์ที่มีรายชื่อที่จัดเตรียมเอาไว้แล้ว โดยรับค่าชื่อที่ต้องการค้นหามาจากคีย์บอร์ด นี่เป็นตัวอย่างของโปรแกรม</p>
+
+<div class="codehead">name_searches.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">char</span> names<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+<span class="token string">"Christ"</span><span class="token punctuation">,</span> <span class="token string">"John"</span><span class="token punctuation">,</span> <span class="token string">"Harry"</span><span class="token punctuation">,</span>
+<span class="token string">"Alex"</span><span class="token punctuation">,</span> <span class="token string">"Ethan"</span><span class="token punctuation">,</span> <span class="token string">"George"</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">char</span> s<span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter name to search: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%s"</span><span class="token punctuation">,</span> s<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> found <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">6</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">strcmpi</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span> names<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  found <span class="token operator">=</span> i<span class="token punctuation">;</span>
+  <span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>found <span class="token operator">!=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Found \"%s\" at index %d\n"</span><span class="token punctuation">,</span> s<span class="token punctuation">,</span> found<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"\"%s\" not found in the array\n"</span><span class="token punctuation">,</span> s<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม เมื่อกรอกชื่อที่ต้องการค้นหาเป็น "Harry"</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter name to search: Harry
+Found "Harry" at index 2
+</code></pre>
+
+<p>จากนั้นรันโปรแกรมอีกครั้งและกรอกชื่อที่ต้องการค้นหาเป็น "Oliver" ซึ่งชื่อนี้ไม่มีอยู่ในอาเรย์</p>
+
+<pre class="code-result language-result"><code class=" language-result">Enter name to search: Oliver
+"Oliver" not found in the array
+</code></pre>
+
+<p>เมื่อชื่อที่กรอกเข้ามาเพื่อค้นหานั้นมีอยู่ในอาเรย์ โปรแกรมจะบอกว่ามันพบกับชื่อดังกล่าวพร้อมกับ Index ที่ชื่อนั้นอยู่ในอาเรย์ และบอกว่าไม่พบ ในกรณีที่ชื่ิอที่กรอกเข้ามานั้นไม่ปรากฎอยู่ในอาเรย์เหมือนกับการรันโปรแกรมครั้งที่สอง</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> found <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เริ่มต้นเราประกาศตัวแปร <code>found</code> ที่มีค่าเริ่มต้นเป็น <code>-1</code> นี่เป็นตัวแปรที่จะใช้เก็บ Index ของชื่อในอาเรย์เมื่อการค้นหาถูกพบ ในการค้นหาค่าในอาเรย์ เราจะต้องนำค่าที่ต้องการค้นหาไปตรวจสอบกับรายชื่อทั้งหมดในอาเรย์ทีละค่า</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">6</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">strcmpi</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span> names<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+found <span class="token operator">=</span> i<span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ดังนั้นเราใช้คำสัง for loop เพื่อวนเปรียบเทียบชื่อในอาเรย์จากตัวแรกไปยังตัวสุดท้าย ฟังก์ชัน <code>strcmpi</code> ใช้สำหรับเปรียบเทียบ String ในภาษา C ซึ่งจะส่งค่ากลับเป็น <code>0</code> ถ้าค่าของ String ทั้งสองเท่ากัน และเราใช้คำสั่ง if เพื่อตรวจสอบเงื่อนไขว่าเป็นจริงหรือไม่</p>
+
+<p>ในกรณีที่เงื่อนไขเป็นจริงหรือการค้นหาได้ถูกค้นพบ เราเก็บ Index ของชื่อที่พบไว้ในตัวแปร <code>found</code> และจบการทำงานของลูปด้วยคำสั่ง <code>break</code> ในทันที</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">break</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เราจบการทำงานของลูปในทันทีเมื่อการค้นหาถูกค้นพบ นั่นเป็นเพราะว่าเราได้สิ่งที่ต้องการแล้ว ดังนั้นเมื่อค้นพบ "Harry" ในตำแหน่ง Index ที่ <code>2</code> ของอาเรย์ ก็ไม่จำเป็นต้องค้นหามันในตำแหน่งที่เหลืออีกต่อไป</p>
+
+<p>ลองจินตนาการว่ามี 1,000 รายชิื่อที่ถูกเก็บไว้ในอาเรย์ และชื่อที่ต้องการค้นหาจะปรากฏอยู่ตำแหน่งที่ 10 ของอาเรย์ เมื่อพบและหยุดการค้นหาที่ตำแหน่งนี้ จะทำให้ไม่จำเป็นต้องค้นหาอีก 990 รายชื่อที่เหลือ ซึ่งสามารถลดเวลาการทำงานของโปรแกรมได้</p>
+
+<p>นอกจากนี้ คุณยังสามารถใช้งานคำสั่ง break ร่วมกับลูปประเภทอื่นๆ ในภาษา C ได้ เช่น while loop หรือ do-while loop ได้ เพียงแค่ใส่มันในเงื่อนไขหรือเรียกมันได้ทุกที่เมื่อต้องการให้ลูปจบการทำงาน</p>
+
+<div class="my-3">
+<!-- marcuscode - middle banner -->
+<ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-client="ca-pub-9075045589988569" data-ad-slot="9605104032" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_2_host" style="border: none; height: 0px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 714px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="714" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&amp;client=ca-pub-9075045589988569&amp;output=html&amp;h=280&amp;slotname=9605104032&amp;adk=1190255532&amp;adf=956123257&amp;pi=t.ma~as.9605104032&amp;w=714&amp;abgtt=3&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1727372128&amp;rafmt=1&amp;format=714x280&amp;url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Fbreak-and-continue&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&amp;dt=1727372123100&amp;bpp=25&amp;bdt=615&amp;idt=784&amp;shv=r20240924&amp;mjsv=m202409230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727372011%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&amp;gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727372011%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&amp;eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727372011%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&amp;prev_fmts=0x0%2C722x280%2C252x600%2C252x600%2C714x280%2C714x280%2C714x280%2C714x280%2C714x280%2C714x280&amp;nras=7&amp;correlator=6758352243122&amp;frm=20&amp;pv=1&amp;u_tz=420&amp;u_his=17&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=12&amp;ady=4143&amp;biw=1108&amp;bih=911&amp;scr_x=0&amp;scr_y=600&amp;eid=44759875%2C44759926%2C44759837%2C95342016&amp;oid=2&amp;pvsid=1531685886273652&amp;tmod=721002215&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1125%2C911&amp;vis=1&amp;rsz=%7C%7CEebr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.71&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=3&amp;uci=a!3&amp;btvi=7&amp;fsb=1&amp;dtd=5230" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CLTirdGS4YgDFTqW2AUd2FsV3A" data-load-complete="true"></iframe></div></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<h2>การใช้งานคำสั่ง continue</h2>
+
+<p>คำสั่ง continue ใช้สำหรับควบคุมเพื่อข้ามการทำงานของลูปในรอบปัจจุบันไปยังรอบใหม่ในทันที โดยที่โปรแกรมจะข้ามคำสั่งที่ปรากฏหลังจากคำสั่ง continue ทั้งหมด; ไม่เหมือนกับคำสั่ง break คำสั่ง continue ยังคงทำงานในลูปในขณะที่เงื่อนไขเป็นจริงตามปกติ</p>
+
+<p>เราจะมาเริ่มตัวอย่างการใช้งานคำสั่ง continue ในภาษา C สำหรับการนับตัวเลขจาก 1-10 เช่นเดิมเหมือนกับตัวอย่างที่ผ่านมา แต่คุณจะได้เห็นความแตกต่างของมันในตัวอย่างนี้ นี่เป็นตัวอย่าง</p>
+
+<div class="codehead">continue_example.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">continue</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">2 4 6 8 10
+</code></pre>
+
+<p>ในตัวอย่างนี้ เราใช้คำสั่ง for loop เพื่อวนแสดงตัวเลขจาก 1-10 แต่ผลลัพธ์จากการทำงานของโปรแกรมนั้นแสดงเพียงเลขคู่เท่านั้น และนี่ถูกต้องเนื่องจากเราสั่งให้มันทำโดยการใช้งานคำสั่ง <code>continue</code> เพื่อให้ข้ามการทำงานของลูป</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">continue</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ภายในลูปเราใช้คำสั่ง if เพื่อตรวจสอบว่าตัวเลขเป็นจำนวนคี่หรือไม่โดยการหาเอาเศษด้วย <code>2</code> เมื่อเศษเหลือเท่ากับ 1 นั่นหมายความว่าตัวเลขเป็นจำนวนคี่ ดังนั้นเราเรียกใช้คำสั่ง <code>continue</code> เพื่อข้ามการทำงานไปยังรอบถัดไป</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เมื่อพบกับคำสั่ง <code>continue</code> โปรแกรมข้ามการทำงานคำสั่งที่เหลิือในลูปหลังจากนั้นทั้งหมด นั่นส่งผลให้การแสดงผลเมื่อตัวเลขเป็นจำนวนคี่ไม่ทำงาน และโปรแกรมทำงานในรอบถัดไปในทันที นั่นเป็นเหตุผลว่าทำไมมีเพียงเลขจำนวนคู่ที่ถูกแสดงออกทางหน้าจอ</p>
+
+<p>และนี่เป็นวิธีการทำงานของคำสั่ง continue ในภาษา C</p>
+
+<h2>คำสั่ง continue กับ while loop</h2>
+
+<p>เมื่อใช้คำสั่ง continue ร่วมกับคำสั่ง for loop การอัพเดทค่าของลูป (<code>i++</code>) จะยังคงทำงานอัตโนมัติ นั่นเป็นเพราะว่าส่วนอัพเดทค่าของคำสั่ง for ถูกออกแบบมาให้ทำงานเสมอเมื่อจบลูป แม้ว่ามันจะเป็นการจบลูปแบบข้ามด้วยคำสั่ง continue ก็ตาม</p>
+
+<p>แต่นี่จะเปลี่ยนไปเมื่อใช้ร่วมกับคำสั่ง while loop หรือ do-while loop ในกรณีที่ลูปมีตัวนับ คุณจะต้องควบคุมมันด้วยตัวเองเมื่อใช้คำสั่ง continue กับลูปเหล่านี้ เนื่องจากมันไม่มีส่วนอัพเดทอัตโนมัติเหมือนกับคำสั่ง for loop</p>
+
+<p>ตัวอย่างนีึ้ เป็นโปรแกรมแสดงตัวเลขคู่จาก 1-10 เหมือนกับในตัวอย่างที่ผ่านมา แต่เราเขียนมันด้วยคำสั่ง while loop ที่มีการใช้งานคำสั่ง continue สำหรับควบคุมการทำงานของลูปแทน</p>
+
+<div class="codehead">continue_with_while.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  i<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token keyword">continue</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>และผลลัพธ์ของโปรแกรมเป็นเช่นเดิม</p>
+
+<pre class="code-result language-result"><code class=" language-result">2 4 6 8 10
+</code></pre>
+
+<p>สิ่งที่แตกต่างกันสำหรับตัวอย่างนี้กับตัวอย่างก่อนหน้าก็คือ วิธีที่เราควบคุมการเปลี่ยนแปลงตัวนับของลูปเมื่อใช้คำสั่ง continue</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เนื่องจากในการใช้งานคำสั่ง while loop เรามักจะอัพเดทตัวนับของลูป <code>i++</code> ในตอนท้ายของลูป ในกรณีนี้คือเมื่อคำสั่งแสดงผลตัวเลขออกทางหน้าจอ แต่เมื่อเราใช้คำสัง continue มันจะข้ามการทำงานคำสั่งที่เหลือทั้งหมด รวมถึงคำสั่ง <code>i++</code> ที่อยู่บรรทัดสุดท้ายของลูปด้วย</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token keyword">continue</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นั่นทำให้เราต้องทำการอัพเดทค่าตัวนับของลูปก่อนเรียกใช้คำสั่ง continue ด้วยตัวเองเสมอ ไม่เช่นนั้นค่าในตัวแปร <code>i</code> จะไม่เปลี่ยน และนี่จะทำให้ลูปทำงานตลอดไปหรือเกิด Infinity loop ขึ้น นี่เป็นสิ่งที่คุณต้องระวังเมื่อใช้งานกับคำสั่ง while loop</p>
+
+<h2>เปรียบเทียบคำสั่ง break และ continue</h2>
+
+<p>สำหรับตัวอย่างสุดท้ายในบทนี้จะเป็นการเปรียบเทียบการใช้งานคำสั่ง break และ continue แม้ว่าที่ผ่านจะทำให้คุณสามารถเข้าใจแนวคิดและการใช้งานของคำสั่งทั้งสองแล้ว แต่การได้เห็นตัวอย่างเพิ่มเติมจะสามารถช่วยให้คุณเข้าใจมันได้ดีขึ้น</p>
+
+<p>เรามาเขียนโปรแกรมเพื่อหาผลรวมของตัวเลข 10 ตัวเลขที่รับค่ามาจากทางคีย์บอร์ด และจะหยุดการหาผลรวมในทันทีเมื่อตัวเลขที่กรอกเข้ามาเป็น 0 นี่เป็นตัวอย่างของโปรแกรมที่ว่า</p>
+
+<div class="codehead">sum_break.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Sum of ten numbers\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter 0 or negative values to exit early\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"#%d: "</span><span class="token punctuation">,</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+sum <span class="token operator">+=</span> n<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Sum = %d\n"</span><span class="token punctuation">,</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Summation of ten numbers
+Enter 0 or negative values to exit early
+#1: 11
+#2: 3
+#3: 5
+#4: 12
+#5: 18
+#6: 0
+Sum = 49
+</code></pre>
+
+<p>ในตัวอย่างนี้ เป็นโปรแกรมสำหรับหาผลรวมของตัวเลข (อย่างมากที่สุด) 10 ตัวโดยใช้คำสั่ง for loop เพื่อวนรับค่าตัวเลข 10 รอบจากทางคีย์บอร์ด แต่โปรแกรมมีเงื่อนไขพิเศษอยู่ก็คือเมื่อค่าที่รับมาเท่ากับหรือน้อยกว่า <code>0</code></p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>และถ้าหากเงื่อนไขเป็นจริง เราเรียกใช้คำสั่ง <code>break</code> เพื่อจบการทำงานของลูป นั่นหมายความว่าโปรแกรมก็จะยังคงทำงานสูงสุดตามเงื่อนไขของมัน ในกรณีที่ตัวเลขที่กรอกเข้ามาไม่ทำให้เกิดการ break ขึ้นเลย</p>
+
+<p>ต่อไปมาดูอีกเวอร์ชันหนึ่งของโปรแกรมหาผลรวมนี้ แต่กับคำสั่ง continue แทน ในตัวอย่างนี้ เป็นโปรแกรมสำหรับหาผลรวมของตัวเลข 10 ตัวเช่นเดิม แต่สิ่งที่แตกต่างกันคือเมื่อค่าที่กรอกเข้ามาน้อยกว่าหรือเท่ากับ 0 ผู้ใช้จะต้องกรอกค่าใหม่จนกว่าจะถูกต้องเพื่อนำมาหาผลรวม</p>
+
+<p>นั่นหมายความว่าโปรแกรมต้องการรับค่า 10 ตัวเลขที่เป็นจำนวนเต็มบวกเพื่อนำมาหาผลรวม และเราใช้คำสั่ง continue เพื่อยืนยันว่าจะได้รับมันทั้งหมด นี่เป็นอย่างของโปรแกรมและเราเปลี่ยนการทำงานของลูปเป็น while loop แทน</p>
+
+<div class="codehead">sum_continue.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Summation of ten numbers\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter 0 or negative values will be rejected\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"#%d: "</span><span class="token punctuation">,</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid value try again\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">continue</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+sum <span class="token operator">+=</span> n<span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Sum = %d\n"</span><span class="token punctuation">,</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Summation of ten numbers
+Enter 0 or negative values will be rejected
+#1: 20
+#2: 3
+#3: 15
+#4: 0
+Invalid value try again
+#4: 13
+#5: 10
+#6: 7
+#7: -5
+Invalid value try again
+#7: -10
+Invalid value try again
+#7: 10
+#8: 12
+#9: 12
+#10: 13
+Sum = 115
+</code></pre>
+
+<p>นี่เป็นโปรแกรมสำหรับหาผลรวมของ 10 ตัวเลขที่จะถูกรับมาจากทางคีย์บอร์ด โปรแกรมเริ่มต้นจากคำสั่ง while loop ที่จะทำงานในขณะที่เงื่อนไขในตัวแปร <code>i</code> น้อยกว่า 10 ซึ่งมันใช้สำหรับนับว่าตัวเลขที่รับมาได้เป็นจำนวนกี่ตัวแล้ว</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid value try again\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">continue</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นการสร้างเงื่อนไขสำหรับตรวจสอบค่าที่รับเข้ามา ถ้าหากค่าในตัวแปร n น้อยกว่าหรือเท่ากับ 10 เราเรียกใช้คำสั่ง <code>continue</code> เพื่อข้ามการทำงานของลูปไปเพื่อให้รับค่าใหม่อีกครั้ง สังเกตว่าเราไม่ได้เพิ่มค่าในตัวแปร <code>i</code> ก่อนเรียกใช้งานคำสั่ง <code>continue</code> นี่เป็นความตั้งใจ เนื่องจากเราไม่ต้องการให้มันนับเมื่อค่าที่กรอกเข้ามาไม่ถูกต้อง</p>
+
+<p>นี่เป็นการยืนยันว่าเราจะได้รับ 10 ตัวเลขจำนวนเต็มบวกเพื่อนำมาหาผลรวมเสมอ และถ้าหากตัวเลขที่กรอกเข้ามาไม่ถูกต้อง ก็จะต้องกรอกใหม่จนกว่าจะถูกต้องนั่นเอง</p>
+
+<p>เมื่อคุณลองรันโปรแกรมและพบว่ามันใช้งานได้โอเคแล้ว จากนั้นลองเปลี่ยนการทำงานในบล็อคของคำสั่ง if ให้เหมือนกับโค้ดด้านล่างนี้และรันโปรแกรมใหม่อีกครั้ง</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Invalid value, skipped\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token keyword">continue</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Summation of ten numbers
+Enter 0 or negative values will be skipped
+#1: 10
+#2: 11
+#3: 6
+#4: 0
+Invalid value, skipped
+#5: 13
+#6: 4
+#7: 16
+#8: -5
+Invalid value, skipped
+#9: 15
+#10: 2
+Sum = 77
+</code></pre>
+
+<p>สิ่งที่เปลี่ยนแปลงไปในตัวอย่างนี้คือ ถ้าค่าที่รับมาน้อยกว่าหรือเท่ากับ <code>0</code> โปรแกรมจะข้ามการนำค่าดังกล่าวในการนำไปหาผลรวม นั่นหมายความว่าการรับค่าจะเกิดขึ้น 10 ครั้งเสมอ แต่บางค่าอาจถูกข้ามไปเมื่อมันไม่ถูกต้อง</p>
+
+<p>ในบทนี้ คุณได้เรียนรู้การใช้งานคำสั่ง break และ continue ในภาษา C เพื่อควบคุมการทำงานของลูปซึ่งสามารถใช้ได้กับลูปทุกประเภท และเราได้แสดงตัวอย่างการประยุกต์ใช้ในรูปแบบต่างๆ พร้อมเปรียบเทียบการใช้งานคำสั่งทั้งสอง</p>
+
+          </article>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Container fluid  -->
+<!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Page wrapper  -->
+  <!-- ============================================================== -->
+</div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  function handleSidebar() {
+document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+  element.addEventListener("click", function () {
+document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+  el.checked = true;
+});
+document
+  .getElementById("main-wrapper")
+  .classList.toggle("show-sidebar");
+document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+  el.classList.toggle("close");
+});
+var dataTheme = document.body.getAttribute("data-sidebartype");
+if (dataTheme === "full") {
+  document.body.setAttribute("data-sidebartype", "mini-sidebar");
+} else {
+  document.body.setAttribute("data-sidebartype", "full");
+}
+  });
+});
+  }
+
+  handleSidebar();
+
+  function findMatchingElement() {
+var currentUrl = window.location.href;
+var anchors = document.querySelectorAll("#sidebarnav a");
+for (var i = 0; i < anchors.length; i++) {
+  if (anchors[i].href === currentUrl) {
+return anchors[i];
+  }
+}
+
+return null; // Return null if no matching element is found
+  }
+  var elements = findMatchingElement();
+
+  // Do something with the matching element
+  if (elements) {
+elements.classList.add("active");
+  }
+
+  document
+.querySelectorAll("ul#sidebarnav ul li a.active")
+.forEach(function (link) {
+  link.closest("ul").classList.add("in");
+  link.closest("ul").parentElement.classList.add("selected");
+});
+
+  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+const isActive = li.classList.contains("selected");
+if (isActive) {
+  const anchor = li.querySelector("a");
+  if (anchor) {
+anchor.classList.add("active");
+  }
+}
+  });
+
+  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+link.addEventListener("click", function (e) {
+  const isActive = this.classList.contains("active");
+  const parentUl = this.closest("ul");
+  if (!isActive) {
+// hide any open menus and remove all other classes
+parentUl.querySelectorAll("ul").forEach(function (submenu) {
+  submenu.classList.remove("in");
+});
+parentUl.querySelectorAll("a").forEach(function (navLink) {
+  navLink.classList.remove("active");
+});
+
+// open our new menu and add the open class
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.add("in");
+}
+
+this.classList.add("active");
+  } else {
+this.classList.remove("active");
+parentUl.classList.remove("active");
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.remove("in");
+}
+  }
+});
+  });
+</script>
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

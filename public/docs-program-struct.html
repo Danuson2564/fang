@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!--Desktop view sidebar menu-->
+    <aside class="left-sidebar with-vertical">
+      <!-- Sidebar scroll-->
+      <!-- ============================================================== -->
+      <!-- Logo -->
+      <!-- ============================================================== -->
+      <div
+        class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+      >
+        <a href="../index.html" class="text-nowrap logo-img">
+          <img
+            src="../assets/images/logos/dark-logo.svg"
+            class="dark-logo"
+            alt="Logo-Dark"
+          />
+        </a>
+        <a
+          href="javascript:void(0)"
+          class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+        >
+          <i class="ti ti-x"></i>
+        </a>
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Logo -->
+      <!-- ============================================================== -->
+      <div
+        class="scroll-sidebar"
+        style="height: calc(100vh - 100px)"
+        data-simplebar
+      >
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+          <ul id="sidebarnav" class="">
+            <nav class="nav nav-pills flex-column sidebar-nav">
+              <ul class="list-unstyled">
+                <!--Getting Started-->
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Getting Started</span>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="introduction.html"
+                  >
+                    <i class="ti ti-home-2"></i> Introduction
+                  </a>
+                </li>
+                <!-- <li class="sidebar-item">
+                <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+                  <i class="ti ti-packages"></i> Package Structure
+                </a>
+              </li> -->
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-start.html"
+                  >
+                    <i class="ti ti-brand-abstract"></i> Quick Start
+                  </a>
+                </li>
+                <!--CUSTOMIZATION-->
+                <li>
+                  <span class="sidebar-divider lg"></span>
+                </li>
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Lesson content </span>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-program-struct.html"
+                  >
+                    โครงสร้างของโปรแกรม
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-variables-and-types.html"
+                  >
+                    ตัวแปรและประเภทข้อมูล
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-constants.html"
+                  >
+                    ค่าคงที่
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-typography.html"
+                  >
+                    ตัวดำเนินการ
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-input-output.html"
+                  >
+                    อินพุต เอาต์พุต พื้นฐาน
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-if-else-statements.html"
+                  >
+                    คำสั่ง if else
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-switch-case-statement.html"
+                  >
+                    คำสั่ง switch case
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-while-loop.html"
+                  >
+                    คำสั่งวนซ้ำ while loop
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-for-loop.html"
+                  >
+                    คำสั่งวนซ้ำ for loop
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-do-while-loop.html"
+                  >
+                    คำสั่งวนซ้ำ do-while loop
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="docs-break-and-continue.html"
+                  >
+                    คำสั่ง break และ continue
+                  </a>
+                </li>
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Team </span>
+                </li>
+                <li class="sidebar-item">
+                  <a
+                    class="nav-link sidebar-link d-flex align-items-center"
+                    href="team.html"
+                  >
+                    ผู้จัดทำ
+                  </a>
+                </li>
+                <!-- <li class="sidebar-item">
+                <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+                  <i class="ti ti-refresh-dot"></i>Changelog
+                </a>
+              </li> -->
+              </ul>
+            </nav>
+          </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+      </div>
+      <!-- End Sidebar scroll-->
+    </aside>
+
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+      <!-- ============================================================== -->
+      <!-- Topbar header - style you can find in pages.scss -->
+      <!-- ============================================================== -->
+      <header class="topbar position-relative">
+        <div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
+          <!-- ============================================================== -->
+          <!-- Toggle which is visible on mobile only -->
+          <!-- ============================================================== -->
+          <!-- Logo icon -->
+          <a href="../index.html">
+            <b class="logo-icon d-xl-none d-block">
+              <!-- Dark Logo icon -->
+              <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
+            </b>
+            <!--End Logo icon -->
+          </a>
+          <div class="d-flex align-items-center">
+            <!---Mobile view canvas button--->
+            <a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+              <i class="ti ti-menu-2"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- ============================================================== -->
+      <!-- Page wrapper  -->
+      <!-- ============================================================== -->
+      <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid mt-4">
+          <div class="mt-1">
+            <!-- ============================================================== -->
+            <!-- Start Page Content -->
+            <!-- ============================================================== -->
+            <h2 class="mb-4 pb-2 fs-5">โครงสร้างของโปรแกรม</h2>
+            <div class="mt-4 card">
+              <div class="card-body">
+                <h2 class="card-title">คำศัพท์ของภาษา C</h2>
+                <!-- <a href="https://tabler-icons.io/" class="fw-normal mb-4 d-block">https://tabler-icons.io/</a> -->
+                <p>
+                  โดยปกติแล้วโปรแกรมของผู้เริ่มต้นเป็นโปรแกรมที่เรียกว่า
+                  "Hello world" ซึ่งจะแสดงคำว่า "Hello World!"
+                  ออกทางจอคอมพิวเตอร์ของคุณ
+                  มันเป็นโปรแกรมที่ง่ายที่สุดที่จะแสดงให้นักพัฒนามือใหม่ได้เห็น
+                  มาดูว่ามันเป็นอย่างไร
+                </p>
+                <pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int main()
+{
+printf("Hello world!\\n");
+return 0;
+}
+                  </code></pre>
+                <p>
+                  โปรแกรมนี้เป็นโปรแกรมเพื่อแสดงข้อความอย่างง่าย "Hello
+                  world!" ออกทางหน้าจอ เราได้ใช้ฟังก์ชันต่างๆ จากไลบรารี่
+                  <code>stdio.h</code> ของภาษา C ที่สามารถให้เราทำสิ่งต่างๆ
+                  ได้ แสดงข้อความออกทางจอภาพหรือรับค่าจากคีย์บอร์ด
+                  และคุณจะได้เรียนในบทอื่นต่อไป สำหรับบทเรียนภาษา C นี้
+                </p>
+                <div class="card mb-0">
+                  <div class="p-2 text-dark">
+                    <span>Hello world!</span>
+                  </div>
+                </div>
+                <p class="mt-2">
+                  นี่เป็นผลลัพธ์การทำงานของโปรแกรมซึ่งจะแสดงผลข้อความ "Hello
+                  world!" ออกทางหน้าจอ
+                  คุณสามารถเปลี่ยนเป็นชื่อของคุณเองแล้วดูผลลัพธ์
+                </p>
+                <h2 class="card-title">Blocks</h2>
+                <!-- <a href="https://tabler-icons.io/" class="fw-normal mb-4 d-block">https://tabler-icons.io/</a> -->
+                <p>
+                  บล็อค คือสิ่งที่กำหนดขอบเขตและควบคุมการทำงานของโปรแกรม
+                  ซึ่งจะใช้เครื่องหมาย <code>{</code> และสิ้นสุดด้วย
+                  <code>}</code> ในภาษา C บล็อคนั้นมีหลายรูปแบบ เช่น
+                  บล็อคของฟังก์ชัน บล็อคของคำสั่งควบคุม หรือบล็อคย่อยในโปรแกรม
+                  และนอกจากนี้บล็อคยังสามารถซ้อนกันได้
+                  นี่เป็นตัวอย่างของบล็อคในภาษา C
+                </p>
+                <pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int sum(int a, int b)
+{
+  return a + b;
+}
+
+int main()
+{
+  int x = 3, y = 4;
+
+  if (x < y)
+  {
+      printf("%d\n", sum(x, y));
+  }
+
+  printf("Summation program\n", sum(x, y));
+  return 0;
+}
+                    </code></pre>
+                <!-- <div class="card mb-0">
+                      <div class="p-2 text-dark">
+                        <span>Hello world!</span>
+                      </div>
+                    </div> -->
+                <p>
+                  ในตัวอย่าง เป็นโปรแกรมหาผลรวมของตัวเลขสองจำนวนในภาษา C
+                  ในโปรแกรมนั้นประกอบไปด้วย 3 บล็อค คือบล็อคของฟังก์ชัน
+                  <code>main</code>
+                  ซึ่งเป็นฟังก์ชันหลักในการทำงานของโปรแกรมซึ่งโปรแกรมจะเริ่มการทำงานที่นี่
+                  บล็อคที่สองเป็นของฟังก์ชัน
+                  <code>sum()</code>
+                  ซึ่งเป็นฟังก์ชันสำหรับหาผลรวมของตัวเลขที่เรียกโดยฟังก์ชันหลัก
+                  และภายในฟังก์ชัน <code>main</code> มีบล็อคคำสั่งเงื่อนไข
+                  <code>if</code> เพื่อควบคุมการทำงานของโปรแกรมอยู่ภายใน
+                </p>
+                <pre><code class="language-c">#include &lt;stdio.h&gt;</code></pre>
+                <p>
+                  ในภาษา C คำสั่ง
+                  <code>#include</code>
+                  ใช้สำหรับนำเข้าโค้ดจากไฟล์อื่นเข้ามาใช้งานในโปรแกรม
+                  โดยปกติแล้วเราได้นำเข้าชุดไลบรารี่
+                  <code>stdio.h</code> ของภาษา C ซึ่งประกอบไปด้วยฟังก์ชันต่างๆ
+                  ที่จำเป็นในการเขียนโปรแกรม เช่น
+                  ฟังก์ชันสำหรับแสดงผลออกทางหน้าจอ หรือรับค่าจากคีย์บอร์ด
+                  เป็นต้น คุณสามารถสร้างไฟล์
+                  <code>.h</code> ของคุณเองได้เพื่อนำมาใช้ในโปรแกรม
+                </p>
+
+                <h2 class="card-title">Comment</h2>
+                <!-- <a href="https://tabler-icons.io/" class="fw-normal mb-4 d-block">https://tabler-icons.io/</a> -->
+                <p>
+                  Comment เป็นส่วนของโค้ดที่ไม่มีผลต่อการทำงานของโปรแกรม
+                  มันถูกใช้เพื่ออธิบายโปรแกรมสำหรับมนุษย์เข้าใจ ในภาษา C
+                  เราสามารถคอมเม้นท์ได้สองวิธี คือ
+                  การคอมเมนต์แบบหนึ่งบรรทัดและแบบหลายบรรทัด
+                </p>
+                <pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int main()
+{
+  // This is my comment
+  printf("Hello C language\n");
+  return 0;
+}
+                    </code></pre>
+                <!-- <div class="card mb-0">
+                      <div class="p-2 text-dark">
+                        <span>Hello world!</span>
+                      </div>
+                    </div> -->
+                <p>
+                  ในตัวอย่างเป็นการคอมเมนต์แบบหนึ่งบรรทัด เราจะใช้เครื่องหมาย
+                  Double slash (<code>//</code>)
+                  และตามด้วยสิ่งที่เราต้องการคอมเมนต์
+                  ในตัวอย่างเราได้สร้างคอมเม้นต์สองอันในโปรแกรม
+                </p>
+                <pre><code class="language-c">#include &lt;stdio.h&gt;
+
+int main()
+{
+  /* This is my comment
+  This another line comment */
+  printf("Hello C language\n");
+  return 0;
+}
+                </code></pre>
+                <p>
+                  คอมเม้นท์อีกแบบหนึ่งคือการคอมเมนต์หลายบรรทัด
+                  มันจะละเว้นทุกอย่างหลังจากการปรากฏครั้งแรกของเครื่องหมาย
+                  Slash star (<code>/*</code>) และสิ้นสุดที่ Star slash
+                  (<code>*/</code>)
+                </p>
+
+                <h2 class="card-title">Semicolon</h2>
+                <!-- <a href="https://tabler-icons.io/" class="fw-normal mb-4 d-block">https://tabler-icons.io/</a> -->
+                <p>
+                  เซมิโคลอน (Semicolon) (;)
+                  เป็นสัญลักษณ์ที่ใช้เพื่อแบ่งแยกคำสั่งภายในโปรแกรม
+                  ซึ่งมันหมายถึงการจบคำสั่งนั้นๆ เซมิโคลอนใช้ในภาษาต่างๆ
+                  และมันเป็นสิ่งที่บังคับ
+                  เพื่อให้ตัวคอมไพเลอร์ของภาษาสามารถแยกแยะคำสั่งในการทำงานได้
+                </p>
+                <pre><code class="language-c">
+int a;
+int b = 5; b = 2;
+printf("%d", a + b);
+                    </code></pre>
+                <p>
+                  ในตัวอย่างเรามีสี่คำสั่ง บรรทัดแรกเป็นการประกาศตัวแปร
+                  บรรทัดที่สองคุณจะเห็นสองคำสังอยู่ในบรรทัดเดียวกันและมันสิ้นสุดด้วยเซมิโคลอน
+                  บรรทัดที่สามจะแสดงค่าผลรวมของตัวแปร <code>a</code> และ
+                  <code>b</code>
+                </p>
+                <!-- <div class="card mb-0">
+                      <div class="p-2 text-dark">
+                        <span>Hello world!</span>
+                      </div>
+                    </div> -->
+                <h2 class="card-title">Whitespace</h2>
+                <p>
+                  Whitespace คือตัวอักษรหรือเครื่องหมายที่ใช้แบ่งแยกคำสั่งและ
+                  Token ในโค้ดของโปรแกรม ในภาษา C นั้น Whitespace
+                  จะประกอบไปด้วย การเว้นวรรค Tab และการขึ้นบรรทัดใหม่
+                  Whitespace
+                  ที่เรียงต่อกันเป็นจำนวนมากนั้นไม่มีผลต่อการทำงานของโปรแกรมและคอมไพเลอร์
+                  แต่มันช่วยให้โปรแกรมเมอร์สามารถทำโค้ดให้เป็นระเบียบและสามารถอ่านเข้าใจได้ง่ายขึ้นโดยคนอื่นๆ
+                  แต่ Whitespace ยังคงต้องใช้ในบางที่ เช่น
+                  ระหว่างคำสั่งของภาษา C และชื่อของตัวแปร เป็นต้น
+                </p>
+                <pre><code class="language-c">
+int a = 1;
+int b=2;
+int c  =  3;
+                                        </code></pre>
+                <p>
+                  ในตัวอย่าง เป็นการใช้ Whitespace ในรูปแบบต่างๆ
+                  ซึ่งถือว่าเป็นรูปแบบการเขียนโปรแกรมของแต่ละคน
+                  แต่โดยปกติแล้วเรานิยมใช้ Whitespace
+                  ในรูปแบบของการประกาศตัวแปร <code>a</code>
+                </p>
+                <h2 class="card-title">Keywords</h2>
+                <p>
+                  Keyword
+                  เป็นกลุ่มคำที่ถูกสงวนไว้โดยเราไม่สามารถใช้คำเหล่านี้ในการประกาศเป็นชื่อตัวแปร
+                  ฟังก์ชัน ซึ่งในโปรแกรมทุกภาษาต่างก็มี Keyword
+                </p>
+                <h2>นี่เป็น Keyword มาตราฐานในภาษา C</h2>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>auto</td>
+                      <td>break</td>
+                      <td>case</td>
+                      <td>char</td>
+                    </tr>
+                    <tr>
+                      <td>const</td>
+                      <td>continue</td>
+                      <td>default</td>
+                      <td>do</td>
+                    </tr>
+                    <tr>
+                      <td>double</td>
+                      <td>else</td>
+                      <td>enum</td>
+                      <td>extern</td>
+                    </tr>
+                    <tr>
+                      <td>float</td>
+                      <td>for</td>
+                      <td>goto</td>
+                      <td>if</td>
+                    </tr>
+                    <tr>
+                      <td>int</td>
+                      <td>long</td>
+                      <td>register</td>
+                      <td>return</td>
+                    </tr>
+                    <tr>
+                      <td>short</td>
+                      <td>signed</td>
+                      <td>sizeof</td>
+                      <td>static</td>
+                    </tr>
+                    <tr>
+                      <td>struct</td>
+                      <td>switch</td>
+                      <td>typedef</td>
+                      <td>union</td>
+                    </tr>
+                    <tr>
+                      <td>unsigned</td>
+                      <td>void</td>
+                      <td>volatile</td>
+                      <td>while</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>Keyword เหล่านี้มีหน้าที่การทำงานที่แน่นอนซึ่งขึ้นกับวัตุประสงค์ของมัน <code>int</code>, <code>short</code>, <code>float</code>, <code>double</code> ใช้เพื่อประกาศตัวแปร ในขณะที่ <code>if</code> <code>for</code> <code>while</code> เป็นคำสังในการควบคุมการทำงานของโปรแกรม</p>
+                <p>ในบทนี้ เราได้พูดถึงเกี่ยวกับคำศัพท์ในภาษา C และโครงสร้างพื้นฐานของภาษาที่เราจะได้นำไปใช้ในบทต่อๆ ไป</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Page wrapper  -->
+      <!-- ============================================================== -->
+    </div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  function handleSidebar() {
+    document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+      element.addEventListener("click", function () {
+        document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+          el.checked = true;
+        });
+        document
+          .getElementById("main-wrapper")
+          .classList.toggle("show-sidebar");
+        document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+          el.classList.toggle("close");
+        });
+        var dataTheme = document.body.getAttribute("data-sidebartype");
+        if (dataTheme === "full") {
+          document.body.setAttribute("data-sidebartype", "mini-sidebar");
+        } else {
+          document.body.setAttribute("data-sidebartype", "full");
+        }
+      });
+    });
+  }
+
+  handleSidebar();
+
+  function findMatchingElement() {
+    var currentUrl = window.location.href;
+    var anchors = document.querySelectorAll("#sidebarnav a");
+    for (var i = 0; i < anchors.length; i++) {
+      if (anchors[i].href === currentUrl) {
+        return anchors[i];
+      }
+    }
+
+    return null; // Return null if no matching element is found
+  }
+  var elements = findMatchingElement();
+
+  // Do something with the matching element
+  if (elements) {
+    elements.classList.add("active");
+  }
+
+  document
+    .querySelectorAll("ul#sidebarnav ul li a.active")
+    .forEach(function (link) {
+      link.closest("ul").classList.add("in");
+      link.closest("ul").parentElement.classList.add("selected");
+    });
+
+  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+    const isActive = li.classList.contains("selected");
+    if (isActive) {
+      const anchor = li.querySelector("a");
+      if (anchor) {
+        anchor.classList.add("active");
+      }
+    }
+  });
+
+  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      const isActive = this.classList.contains("active");
+      const parentUl = this.closest("ul");
+      if (!isActive) {
+        // hide any open menus and remove all other classes
+        parentUl.querySelectorAll("ul").forEach(function (submenu) {
+          submenu.classList.remove("in");
+        });
+        parentUl.querySelectorAll("a").forEach(function (navLink) {
+          navLink.classList.remove("active");
+        });
+
+        // open our new menu and add the open class
+        const submenu = this.nextElementSibling;
+        if (submenu) {
+          submenu.classList.add("in");
+        }
+
+        this.classList.add("active");
+      } else {
+        this.classList.remove("active");
+        parentUl.classList.remove("active");
+        const submenu = this.nextElementSibling;
+        if (submenu) {
+          submenu.classList.remove("in");
+        }
+      }
+    });
+  });
+</script>
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

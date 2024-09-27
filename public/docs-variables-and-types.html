@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  data-bs-theme="light"
+  data-color-theme="Blue_Theme"
+  data-layout="vertical"
+  data-boxed-layout="boxed"
+>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon icon-->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../assets/images/logos/favicon.png"
+    />
+
+    <!-- Core Css -->
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+
+    <title>Flexy Bootstrap Admin</title>
+
+    <link
+      rel="stylesheet"
+      href="../assets/libs/prismjs/themes/prism-okaidia.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+      <!-- ============================================================== -->
+      <!-- End Topbar header -->
+      <!-- ============================================================== -->
+      <!-- ============================================================== -->
+      <!-- Left Sidebar - style you can find in sidebar.scss  -->
+      <!-- ============================================================== -->
+      <!--Desktop view sidebar menu-->
+      <aside class="left-sidebar with-vertical">
+        <!-- Sidebar scroll-->
+        <!-- ============================================================== -->
+        <!-- Logo -->
+        <!-- ============================================================== -->
+        <div
+          class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+        >
+          <a href="../index.html" class="text-nowrap logo-img">
+            <img
+              src="../assets/images/logos/dark-logo.svg"
+              class="dark-logo"
+              alt="Logo-Dark"
+            />
+          </a>
+          <a
+            href="javascript:void(0)"
+            class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+          >
+            <i class="ti ti-x"></i>
+          </a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div
+          class="scroll-sidebar"
+          style="height: calc(100vh - 100px)"
+          data-simplebar
+        >
+          <!-- Sidebar navigation-->
+          <nav class="sidebar-nav">
+            <ul id="sidebarnav" class="">
+              <nav class="nav nav-pills flex-column sidebar-nav">
+                <ul class="list-unstyled">
+                  <!--Getting Started-->
+                  <li class="nav-small-cap">
+                    <span class="hide-menu">Getting Started</span>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="introduction.html"
+                    >
+                      <i class="ti ti-home-2"></i> Introduction
+                    </a>
+                  </li>
+                  <!-- <li class="sidebar-item">
+                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+                    <i class="ti ti-packages"></i> Package Structure
+                  </a>
+                </li> -->
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-start.html"
+                    >
+                      <i class="ti ti-brand-abstract"></i> Quick Start
+                    </a>
+                  </li>
+                  <!--CUSTOMIZATION-->
+                  <li>
+                    <span class="sidebar-divider lg"></span>
+                  </li>
+                  <li class="nav-small-cap">
+                    <span class="hide-menu">Lesson content </span>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-program-struct.html"
+                    >
+                      โครงสร้างของโปรแกรม
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-variables-and-types.html"
+                    >
+                      ตัวแปรและประเภทข้อมูล
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-constants.html"
+                    >
+                      ค่าคงที่
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-typography.html"
+                    >
+                      ตัวดำเนินการ
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-input-output.html"
+                    >
+                      อินพุต เอาต์พุต พื้นฐาน
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-if-else-statements.html"
+                    >
+                      คำสั่ง if else
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-switch-case-statement.html"
+                    >
+                      คำสั่ง switch case
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-while-loop.html"
+                    >
+                      คำสั่งวนซ้ำ while loop
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-for-loop.html"
+                    >
+                      คำสั่งวนซ้ำ for loop
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-do-while-loop.html"
+                    >
+                      คำสั่งวนซ้ำ do-while loop
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="docs-break-and-continue.html"
+                    >
+                      คำสั่ง break และ continue
+                    </a>
+                  </li>
+                  <li class="nav-small-cap">
+                    <span class="hide-menu">Team </span>
+                  </li>
+                  <li class="sidebar-item">
+                    <a
+                      class="nav-link sidebar-link d-flex align-items-center"
+                      href="team.html"
+                    >
+                      ผู้จัดทำ
+                    </a>
+                  </li>
+                  <!-- <li class="sidebar-item">
+                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+                    <i class="ti ti-refresh-dot"></i>Changelog
+                  </a>
+                </li> -->
+                </ul>
+              </nav>
+            </ul>
+          </nav>
+          <!-- End Sidebar navigation -->
+        </div>
+        <!-- End Sidebar scroll-->
+      </aside>
+
+      <!-- ============================================================== -->
+      <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+      <!-- ============================================================== -->
+      <div class="page-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar position-relative">
+          <div
+            class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top"
+          >
+            <!-- ============================================================== -->
+            <!-- Toggle which is visible on mobile only -->
+            <!-- ============================================================== -->
+            <!-- Logo icon -->
+            <a href="../index.html">
+<b class="logo-icon d-xl-none d-block">
+  <!-- Dark Logo icon -->
+  <img
+    src="../assets/images/logos/dark-logo.svg"
+    alt="homepage"
+    class="dark-logo"
+  />
+</b>
+<!--End Logo icon -->
+            </a>
+            <div class="d-flex align-items-center">
+<!---Mobile view canvas button--->
+<a
+  class="fs-8 text-muted d-xl-none d-block sidebartoggler"
+  href="javascript:void(0)"
+  role="button"
+>
+  <i class="ti ti-menu-2"></i>
+</a>
+            </div>
+          </div>
+        </header>
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div
+          class="body-wrapper"
+          data-bs-spy="scroll"
+          data-bs-target="#navbar-example3"
+          data-bs-smooth-scroll="true"
+          tabindex="0"
+        >
+          <!-- ============================================================== -->
+          <!-- Container fluid  -->
+          <!-- ============================================================== -->
+          <div class="container-fluid mt-4">
+            <div class="mt-1">
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<h2 class="mb-4 pb-2 fs-5">ตัวแปรและประเภทข้อมูล
+</h2>
+<div class="mt-4 card">
+  <div class="card-body">
+    <h4 class="card-title">คำศัพท์ของภาษา C</h4>
+<article class="article-container mb-4" style="height: auto !important;">
+  <h2>แนะนำตัวแปรในภาษา C</h2>
+  <p>ในบทเรียนนี้ เราจะพูดเกี่ยวกับตัวแปรในภาษา C ตัวแปรเป็นสถานที่สำหรับเก็บข้อมูลในหน่วยความจำ โดยมีชื่อของตัวแปรเพื่อใช้อ้างถึงข้อมูล (Identifier) ตัวแปรถูกใช้เพื่อเก็บค่า เราสามารถสร้างตัวแปรได้เป็นจำนวนมากโดยมีชื่อที่แตกต่างกัน รูปแบบของการประกาศตัวแปรในภาษา C คือ:</p>
+<pre><code class="language-syntax">type identifier;
+type identifier = value;
+</code></pre>
+  <p><code>type</code> เป็นประเภทของข้อมูลที่จะเก็บในตัวแปร <code>identifier</code> เป็นที่รู้จักกันในในชื่อของตัวแปร เราใช้ชื่อนี้เพื่ออ้างถึงค่าที่ตัวแปรนั้นเก็บอยู่ <code>values</code> เป็นทางเลือกที่คุณสามารถกำหนดค่าให้กับตัวแปรเมื่อมันถูกสร้าง หรือกำหนดในภายหลังได้ มาดูตัวอย่าง</p>
+  <pre class="language-c">
+    <code class="language-c">
+int a;
+float b;
+char c = 'A';
+    </code>
+    </pre>
+  <p>ในตัวอย่างเรามีตัวแปร 3 ตัว ตัวแรกประเภทของมันคือ <code>int</code> และมีชื่อว่า <code>a</code> มันใช้เพื่อเก็บค่าเลขจำนวนเต็ม (Integer) และเรายังไม่ได้กำหนดค่าใดๆ ให้มัน ดังนั้นค่าเริ่มต้นของตัวแปรเมื่อถูกสร้างขึ้นจะเป็น <code>NULL</code> ตัวแปรที่สองมีประเภทเป็น <code>float</code> ตัวแปรนี้จะถูกใช้เพื่อเก็บค่าของจำนวนจริง และตัวแปรที่สามมีประเภทเป็น <code>char</code> มันถูกใช้เพื่อเก็บสัญลักษณ์หนึ่งตัวใน ASCII code และเรากำหนด <code>'A'</code> เป็นค่าเริ่มต้นให้กับมัน</p>
+  <h2>ประเภทข้อมูล</h2>
+  <p>ในภาษา C มีประเภทข้อมูลชนิดต่างๆ ที่ให้เราสามารถใช้เพื่อชนิดการกับข้อมูลต่างประเภทกัน เช่น Boolean, Number, Character และ Object เป็นต้น</p>
+  <p>ตารางข้างล่างนี้แสดงประเภทข้อมูลทั้งหมดในภาษา C</p>
+  <table class="table">
+    <tbody>
+      <tr>
+        <th>Data type</th>
+        <th>Size</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>char</td>
+        <td>1 byte</td>
+        <td>-128 to 127</td>
+      </tr>
+      <tr>
+        <td>unsigned char</td>
+        <td>1 byte</td>
+        <td>0 to 255</td>
+      </tr>
+      <tr>
+        <td>signed char</td>
+        <td>1 byte</td>
+        <td>-128 to 127</td>
+      </tr>
+      <tr>
+        <td>int</td>
+        <td>4 byte</td>
+        <td>-2,147,483,648 to 2,147,483,647</td>
+      </tr>
+      <tr>
+        <td>unsigned int</td>
+        <td>4 byte</td>
+        <td>0 to 4,294,967,295</td>
+      </tr>
+      <tr>
+        <td>short</td>
+        <td>2 byte</td>
+        <td>-32,768 to 32,767</td>
+      </tr>
+      <tr>
+        <td>unsigned short</td>
+        <td>2 byte</td>
+        <td>0 to 65,535</td>
+      </tr>
+      <tr>
+        <td>long</td>
+        <td>4 byte</td>
+        <td>-2,147,483,648 to 2,147,483,647</td>
+      </tr>
+      <tr>
+        <td>unsigned long</td>
+        <td>4 byte</td>
+        <td>0 to 4,294,967,295</td>
+      </tr>
+      <tr>
+        <td>float</td>
+        <td>4 byte</td>
+        <td>1.2E-38 to 3.4E+38</td>
+      </tr>
+      <tr>
+        <td>double</td>
+        <td>8 byte</td>
+        <td>2.3E-308 to 1.7E+308</td>
+      </tr>
+      <tr>
+        <td>long double</td>
+        <td>10 byte</td>
+        <td>3.4E-4932 to 1.1E+4932</td>
+      </tr>
+      <tr>
+        <td>bool</td>
+        <td>1 bit</td>
+        <td>0 to 1</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="my-3">
+    <!-- marcuscode - middle banner -->
+    <ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-client="ca-pub-9075045589988569" data-ad-slot="9605104032" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="unfilled">
+      <div id="aswift_2_host" style="border: none; height: 0px; width: 722px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;">
+        <iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 722px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="722" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9075045589988569&output=html&h=280&slotname=9605104032&adk=1162191509&adf=3057870885&pi=t.ma~as.9605104032&w=722&abgtt=3&fwrn=4&fwrnh=100&lmt=1727365463&rafmt=1&format=722x280&url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Fvariables-and-types&fwr=0&fwrattr=true&rpe=1&resp_fmts=3&wgl=1&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&dt=1727365462968&bpp=42&bdt=251&idt=293&shv=r20240924&mjsv=m202409230101&ptt=9&saldr=aa&abxe=1&cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727365427%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727365427%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727365427%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&prev_fmts=0x0%2C722x280&nras=1&correlator=7866505801957&frm=20&pv=1&u_tz=420&u_his=2&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_sd=1&dmc=8&adx=404&ady=1900&biw=1903&bih=911&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759842%2C31087427%2C44795921%2C95332926&oid=2&pvsid=338709303134704&tmod=1396808123&uas=0&nvt=1&ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&fc=1920&brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1920%2C911&vis=1&rsz=%7C%7CEebr%7C&abl=CS&pfx=0&fu=128&bc=31&bz=1&td=1&tdf=2&psd=W251bGwsbnVsbCxudWxsLDNd&nt=1&ifi=3&uci=a!3&btvi=1&fsb=1&dtd=306" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJW5muf54IgDFXhxnQkd1iMkkQ" data-load-complete="true">
+        </iframe>
+      </div>
+    </ins>
+    <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  <h2>การประกาศตัวแปร</h2>
+  <p>ตอนนี้เราจะมาเรียนวิธีการประกาศและกำหนดค่าเริ่มต้นให้กับตัวแปรกับตัวอย่างง่ายๆ</p>
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><stdio.h></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+< span class="token keyword">int</> b<span class="token punctuation">;</span>
+b <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> c <span class="token operator">=</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Value of c is %d"</span><span class="token punctuation">,</span> c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+  <p>ในตัวอย่าง เราได้สร้างตัวแปรสามตัวคือ <code>a</code>, <code>b</code> และ <code>c</code> ที่มีชนิดข้อมูลเป็น <code>int</code> และเรารวมค่าของ <code>a</code> และ <code>b</code> แล้วเก็บไว้ในตัวแปร <code>c</code> ข้างล่างนี้เป็นผลลัพธ์ของโปรแกรม</p>
+<pre class="code-result language-result"><code class=" language-result">Value of c is 15
+</code></pre>
+  <p>อย่างไรก็ตาม คุณสามารถประกาศชนิดข้อมูลอื่นได้ ซึ่งมันไม่อยากเกินไป มาดูตัวอย่างเพิ่มเติม</p>
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><stdio.h></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">float</span> PI <span class="token operator">=</span> <span class="token number">3.14</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> r<span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"Enter circle radius %d"</span><span class="token punctuation">,</span> <span class="token operator">&</span>r<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">double</span> result <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> PI <span class="token operator">*</span> r<span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Area is %f"</span><span class="token punctuation">,</span> result <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+  <p>ในตัวอย่าง แสดงให้คุณเห็นการใช้ตัวแปรประเภทต่างๆ ในภาษา C นั้นมีข้อมูลประเภทต่างๆ ที่ให้เราสามารถจัดการกับข้อมูลที่แตกต่างกันออกไป เช่น ตัวเลขจำนวนเต็ม ตัวเลขจำนวนจริง หรือข้อมูลแบบตัวอักษร ซึ่งข้อมูลแต่ละประเภทมีรูปแบบการใช้งานและขนาดของข้อมูลที่แตกต่างกัน ดังแสดงในตารางก่อนหน้า ต่อไปเราจะอธิบายและแสดงตัวอย่างของการใช้ข้อมูลประเภทต่างๆ ในภาษา C สำหรับเขียนโปรแกรม</p>
+  <h2>Boolean</h2>
+  <p>Boolean เป็นประเภทข้อมูลที่มีได้เพียงสองค่าคือจริง <code>true</code> และเท็จ <code>false</code> ซึ่งเป็นประเภทของตัวแปรสำหรับเก็บค่าที่เป็นไปได้เพียงสองค่า เช่น กลางวันและกลางคืน สีขาวและสีดำ ร้อนและหนาว เป็นต้น ข้อมูลประเภทนี้มักจะใช้สำหรับสร้าง Expression สำหรับเงื่อนไขการทำงานของโปรแกรม ในภาษา C ค่าของ Boolean นั้นใช้ <code>1</code> หรือ <code>true</code> สำหรับค่าที่เป็นจริงและ <code>0</code> หรือ <code>false</code> สำหรับค่าที่เป็นเท็จ มาดูตัวอย่างการใช้งาน</p>
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><stdio.h></span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><stdbool.h></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span> <span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+bool gender <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+bool open <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>gender<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"This is the boy.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">else</span>
+<span class="token punctuation">{</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"This is the girl.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>open<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"The door is open.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">else</span>
+<span class="token punctuation">{</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"The door is not open.\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+  <p>ในตัวอย่าง เป็นการใช้งานตัวแปรประเภท Boolean ในภาษา C ในตัวแปร <code>gender</code> เราได้กำหนดตัวแปรให้หมายถึงเพศ ถ้าในตัวแปรนั้นมีค่าเป็นจริงจะหมายถึงเป็นผู้ชาย และถ้ามีค่าเป็นเท็จจะหมายถึงเป็นผู้หญิง และตัวแปร <code>open</code> ใช้สำหรับเก็บสถานะการเปิดและปิดของประตู เมื่อตัวแปรมีค่าเป็นจริงจะหมายถึงประตูถูกเปิดอยู่ และเมื่อค่าในตัวแปรเป็นเท็จก็หมายความว่าประตูนั้นไม่ได้เปิด</p>
+<pre class="code-result language-result"><code class=" language-result">This is the boy.
+The door is not open.
+</code></pre>
+  <p>ในคอมไพเลอร์ของภาษา C ในปัจจุบันนั้น ข้อมูลประเภท bool นั้นถูกนำออกแล้ว ดังนั้นเพื่อใช้ข้อมูลประเภทนี้ เราต้องทำเข้าไลบรารี่จาก <code>stdbool.h</code> สำหรับการใช้งาน และคอมไพลเลอร์ของคุณสนับสนุนเวอร์ชัน C99 ด้วย อย่างไรก็ตามมีหลายวิธีที่จะ Implement ข้อมูลประเภท bool ถ้าหากคุณใช้บ่อยๆ ในโปรแกรม หรือสามารถใช้ข้อมูลประเภท Integer แทนได้</p>
+  <h2>Char ตัวอักษร</h2>
+  <p>Char เป็นประเภทข้อมูลที่ใช้สำหรับเก็บตัวอักษรจำนวนหนึ่งตัวอักษรใน ASCII ภาษา C นั้นยังไม่ได้สนับสนุนการเก็บข้อมูลแบบ String แต่คุณสามารถทำแบบนั้นได้ โดยการใช้ Char array เพื่อเก็บตัวอักษรที่ต่อกันหลายตัว มาดูตัวอย่างการใช้งานตัวแปรประเภท <code>char</code> ในภาษา C</p>
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><stdio.h></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">char</span> n <span class="token operator">=</span> <span class="token string">'A'</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%c\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">char</span> <span class="token operator">*</span>name <span class="token operator">=</span> <span class="token string">"marcuscode"</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%s"</span><span class="token punctuation">,</span> name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">char</span> extension<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">".com"</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%s"</span><span class="token punctuation">,</span> extension<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+  <p>ในตัวอย่าง เป็นการประกาศตัวแปรประเภท <code>char</code> โดยการเก็บตัวอักษร <code>'A'</code> ตัวอักษรทุกตัวนั้นมีรหัส ASCII ของมันในฐาน 10 ในภาษา C นั้นข้อมูลประเภท Char และ Integer สามารถแปลงค่าได้โดยวิธี implicit และ Explicit type casting ยกตัวอย่างเช่น เมื่อเราต้องการค่าที่หมายถึง A และสามารถใช้ 65 แทนได้ดังตัวอย่างข้างล่าง</p>
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">char</span> a <span class="token operator">=</span> <span class="token number">65</span><span class="token punctuation">;</span> <span class="token comment">// A</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token string">'A'</span><span class="token punctuation">;</span> <span class="token comment">// 65</span>
+</code></pre>
+  <p>เราสามารถเก็บตัวอักษรที่มากกว่าหนึ่งตัวอักษรได้ โดยเราเรียกว่าอาเรย์ หรือ Array of char ซึ่งสามารถสร้างได้ทั้งในรูปแบบของอาเรย์ปกติและพอยน์เตอร์ นี่เป็นผลลัพธ์การทำงานของโปรแกรมในการใช้งานข้อมูลประเภท Char และ Char อาเรย์</p>
+<pre class="code-result language-result"><code class=" language-result">A
+65
+marcuscode.com
+</code></pre>
+  <div class="my-3">
+<!-- marcuscode - middle banner -->
+<ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-client="ca-pub-9075045589988569" data-ad-slot="9605104032" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="unfilled">
+  <div id="aswift_3_host" style="border: none; height: 0px; width: 722px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;">
+    <iframe id="aswift_3" name="aswift_3" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 722px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="722" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&client=ca-pub-9075045589988569&output=html&h=280&slotname=9605104032&adk=1162191509&adf=3595001987&pi=t.ma~as.9605104032&w=722&abgtt=3&fwrn=4&fwrnh=100&lmt=1727365481&rafmt=1&format=722x280&url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Fvariables-and-types&fwr=0&fwrattr=true&rpe=1&resp_fmts=3&wgl=1&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&dt=1727365463101&bpp=35&bdt=383&idt=35&shv=r20240924&mjsv=m202409230101&ptt=9&saldr=aa&abxe=1&cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727365427%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727365427%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727365427%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&prev_fmts=0x0%2C722x280%2C722x280%2C255x600%2C255x600%2C1005x124%2C722x280%2C722x280%2C722x280%2C722x280&nras=6&correlator=7866505801957&frm=20&pv=1&u_tz=420&u_his=2&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_sd=1&dmc=8&adx=404&ady=5169&biw=1903&bih=911&scr_x=0&scr_y=1556&eid=44759876%2C44759927%2C44759842%2C31087427%2C44795921%2C95332926&oid=2&psts=AOrYGskUS9ELp_Qef7JHt8lAd89gkT54aFHV2hnfXjozIKFnt7_eM4CaY1hVVIxiis_PurBD5fRrTxyFHTC227hZCVvIpZN1JDKQG3TQtCB5MitEow4Fsw&pvsid=338709303134704&tmod=1396808123&uas=0&nvt=1&ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&fc=1920&brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1920%2C911&vis=1&rsz=%7C%7CEebr%7C&abl=CS&pfx=0&fu=128&bc=31&bz=1&td=1&tdf=2&psd=W251bGwsbnVsbCxudWxsLDNd&nt=1&ifi=4&uci=a!4&btvi=8&fsb=1&dtd=18608" data-google-container-id="a!4" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COz6_u_54IgDFQBynQkdoIk7XA" data-load-complete="true">
+    </iframe>
+  </div>
+</ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
+  <h2>Integer ตัวเลขจำนวนเต็ม</h2>
+  <p>Integer เป็นประเภทข้อมูลแบบจำนวนเต็ม ซึ่งข้อมูลแบบ Integer นั้นจะประกอบไปด้วยหลายขนาด เช่น <code>short</code>  <code>int</code> และ <code>long</code> ซึ่งจะเก็บข้อมูลในระยะที่แตกต่างกัน เรามักจะใช้ตัวแปรประเภท Integer สำหรับเก็บข้อมูลที่นับได้ เช่น จำนวนของผลไม้ในตระกร้า จำนวนของคนในห้อง จำนวนของรถที่วิ่งบนท้องถนน เป็นต้น มาดูตัวอย่างการใช้งานตัวแปรประเภท Integer ในภาษา C</p>
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><stdio.h></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> apple <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> orange <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> total <span class="token operator">=</span> apple <span class="token operator">+</span> orange<span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d apples and %d oranges\n"</span><span class="token punctuation">,</span> apple<span class="token punctuation">,</span> orange<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"I have %d fruits in total"</span><span class="token punctuation">,</span> total<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+  <p>ในตัวอย่าง เป็นการใช้งานตัวแปรประเภท Integer สำหรับเก็บจำนวนของผลไม้แต่ละชนิด และหาผลรวมของผลไม้ทั้งสองในตัวแปร <code>total</code> ต่อไปเราจะพูดเกี่ยวกับค่ามากสุดและค่าน้อยสุดของข้อมูลประเภท Integer ในภาษา C ข้างล่างนี้เป็นตัวอย่างของโปรแกรม</p>
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><stdio.h></span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><limits.h></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Maximum value of int: %d\n"</span><span class="token punctuation">,</span> INT_MAX<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Minimum  value of int: %d\n"</span><span class="token punctuation">,</span> INT_MIN<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> a <span class="token operator">=</span> INT_MAX<span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+a <span class="token operator">=</span> a <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+  <p>ในตัวอย่าง เป็นโปรแกรมในการแสดงค่ามากสุดและค่าน้อยสุดของข้อมูลประเภท Integer โดยใช้ค่าคงที่ <code>INT_MAX</code> และ <code>INT_MIN</code> ซึ่งเป็นค่าที่กำหนดโดย Marco ที่อยู่ในไลบรารี่ <code>limits.h</code> ของภาษา C และเราทดสอบการทำงานของโปรแกรมโดยการกำหนดค่ามากสุดให้กับตัวแปร <code>a</code> และเพิ่มค่าของตัวแปรขึ้นไป 1 ผลลัพธ์ที่ได้คือค่าในตัวแปรนั้นเกิด Overflow และเป็นที่น้อยที่สุดของ Integer ซึ่งจะได้ผลลัพธ์ตามข้างล่าง</p>
+<pre class="code-result language-result"><code class=" language-result">Maximum value of int: 2147483647
+Minimum value of int: -2147483648
+2147483647
+-2147483648
+</code></pre>
+  <h2>Floating-point numbers ตัวเลขจำนวนจริง</h2>
+  <p>Floating-point number เป็นประเภทข้อมูลสำหรับเก็บตัวเลขจำนวนจริง ในภาษา C จะมีอยู่สองประเภทคือ <code>float</code> และ <code>double</code> สิ่งที่แตกต่างกันคือขนาดของพื้นที่ที่ใช้ในการจัดเก็บ และข้อมูลประเภท <code>double</code> นั้นจะเก็บจำนวนของทศนิยมได้มากกว่า ข้อมูลประเภทนี้จะใช้เก็บข้อมูลที่มีค่าเป็นเศษส่วนหรือตัวเลขที่มีเลขหลังจุดทศนิยม ยกตัวอย่างเช่น ข้อมูลการคำนวณทางวิทยาศาสตร์ เป็นต้น มาดูตัวอย่างการประกาศตัวแปรและใช้งาน</p>
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string"><stdio.h></span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">float</span> pi <span class="token operator">=</span> <span class="token number">3.14f</span><span class="token punctuation">;</span>
+<span class="token keyword">float</span> half <span class="token operator">=</span> <span class="token number">3</span> <span class="token operator">/</span> <span class="token number">2.0f</span><span class="token punctuation">;</span>
+<span class="token keyword">float</span> half2 <span class="token operator">=</span> <span class="token number">3</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Pi: %f\n"</span><span class="token punctuation">,</span> pi<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Half of 3: %f\n"</span><span class="token punctuation">,</span> half<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Half of 3: %f\n"</span><span class="token punctuation">,</span> half2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">double</span> gravity <span class="token operator">=</span> <span class="token number">9.807</span><span class="token punctuation">;</span>
+<span class="token keyword">double</span> earth_mass <span class="token operator">=</span> <span class="token number">5.972E24</span><span class="token punctuation">;</span>
+<span class="token keyword">double</span> meter <span class="token operator">=</span> <span class="token number">1E-3</span><span class="token punctuation">;</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Earth gravity: %lf m/s^2\n"</span><span class="token punctuation">,</span> gravity<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Earth mass: %lf kg\n"</span><span class="token punctuation">,</span> earth_mass<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"1 centimeter: %lf meter\n"</span><span class="token punctuation">,</span> meter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+  <p>ในตัวอย่าง เป็นการใช้งานตัวแปรสำหรับเก็บข้อมูลในรูปแบบของทศนิยมทั้งตัวแปรประเภท <code>float</code> และ <code>double</code> ในส่วนแรกเราได้ประกาศตัวแปร <code>float</code> จำนวนสามตัวและกำหนดค่าให้กับตัวแปร ค่าของข้อมูลประเภท <code>float</code> นั้นจะลงท้ายด้วย <code>f</code> หรือ <code>F</code> เสมอ</p>
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">float</span> half <span class="token operator">=</span> <span class="token number">3</span> <span class="token operator">/</span> <span class="token number">2.0f</span><span class="token punctuation">;</span>
+<span class="token keyword">float</span> half2 <span class="token operator">=</span> <span class="token number">3</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>
+</code></pre>
+  <p>ต่อมาเป็นการทดสอบการหารตัวเลขในตัวแปร <code>half</code> และ <code>half2</code> เพื่อให้คุณเข้าใจและเห็นความแตกต่างของสิ่งที่เกิดขึ้น การคูณหรือการหารตัวเลขในภาษา C นั้นจะได้ผลลัพธ์เป็น Integer ถ้าหากตัวเลขทั้งสองตัวนั้นเป็นประเภท Integer เหมือนในตัวแปร <code>half2</code> ถ้าหากมีตัวแปรอย่างน้อยหนึ่งตัวแปรที่เป็น <code>float</code> หรือ <code>double</code> จะได้ข้อมูลเป็น <code>float</code> หรือ <code>double</code> นี่จึงเป็นสิ่งที่ต้องควรระวังในการเขียนโปรแกรม</p>
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">double</span> gravity <span class="token operator">=</span> <span class="token number">9.807</span><span class="token punctuation">;</span>
+<span class="token keyword">double</span> earth_mass <span class="token operator">=</span> <span class="token number">5.972E24</span><span class="token punctuation">;</span>
+<span class="token keyword">double</span> meter <span class="token operator">=</span> <span class="token number">1E-3</span><span class="token punctuation">;</span>
+</code></pre>
+  <p>สามตัวแปรต่อมาเป็นการประกาศตัวแปรประเภท <code>double</code> สำหรับตัวแปรทั้งสองประเภทนั้นสามารถประกาศในรูปแบบสัญกรณ์วิทยาศาสตร์ได้ เช่นในตัวอย่างในตัวแปร <code>earth_mass</code> เป็นการกำหนดค่าแบบย่อซึ่งมีค่าเท่ากับ <code>5.972 x 10^24</code> และในตัวแปร <code>meter</code> นั้นมีค่าเท่ากับ <code>1 x 10^-3</code>
+  </p>
+<pre class="code-result language-result"><code class=" language-result">Pi: 3.140000
+Half of 3: 1.500000
+Half of 3: 1.000000
+Earth gravity: 9.807000 m/s^2
+Earth mass: 5972000000000000300000000.000000 kg
+1 centimeter: 0.001000 meter
+</code></pre>
+  <p>นี่เป็นผลลัพธ์ของโปรแกรมในการทำงานกับประเภทข้อมูลแบบทศนิยมในภาษา C ด้วยตัวแปรแบบ <code>float</code> และ <code>double</code>
+  </p>
+  <p>ในบทนี้ คุณได้เรียนรู้เกี่ยวกับการประกาศและใช้งานตัวแปรในภาษา C และได้รู้จักประเภทข้อมูลชนิดต่างๆ ซึ่งใช้ในการเก็บข้อมูลที่แตกต่างกันในการเขียนโปรแกรม</p>
+</article>
+</div>
+</div>
+            </div>
+          </div>
+          <!-- ============================================================== -->
+          <!-- End Container fluid  -->
+          <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+      </div>
+    </div>
+    <div class="dark-transparent sidebartoggler"></div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- End Page -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      function handleSidebar() {
+        document
+          .querySelectorAll(".sidebartoggler")
+          .forEach(function (element) {
+            element.addEventListener("click", function () {
+document
+  .querySelectorAll(".sidebartoggler")
+  .forEach(function (el) {
+el.checked = true;
+  });
+document
+  .getElementById("main-wrapper")
+  .classList.toggle("show-sidebar");
+document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+  el.classList.toggle("close");
+});
+var dataTheme = document.body.getAttribute("data-sidebartype");
+if (dataTheme === "full") {
+  document.body.setAttribute("data-sidebartype", "mini-sidebar");
+} else {
+  document.body.setAttribute("data-sidebartype", "full");
+}
+            });
+          });
+      }
+
+      handleSidebar();
+
+      function findMatchingElement() {
+        var currentUrl = window.location.href;
+        var anchors = document.querySelectorAll("#sidebarnav a");
+        for (var i = 0; i < anchors.length; i++) {
+          if (anchors[i].href === currentUrl) {
+            return anchors[i];
+          }
+        }
+
+        return null; // Return null if no matching element is found
+      }
+      var elements = findMatchingElement();
+
+      // Do something with the matching element
+      if (elements) {
+        elements.classList.add("active");
+      }
+
+      document
+        .querySelectorAll("ul#sidebarnav ul li a.active")
+        .forEach(function (link) {
+          link.closest("ul").classList.add("in");
+          link.closest("ul").parentElement.classList.add("selected");
+        });
+
+      document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+        const isActive = li.classList.contains("selected");
+        if (isActive) {
+          const anchor = li.querySelector("a");
+          if (anchor) {
+            anchor.classList.add("active");
+          }
+        }
+      });
+
+      document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+        link.addEventListener("click", function (e) {
+          const isActive = this.classList.contains("active");
+          const parentUl = this.closest("ul");
+          if (!isActive) {
+            // hide any open menus and remove all other classes
+            parentUl.querySelectorAll("ul").forEach(function (submenu) {
+submenu.classList.remove("in");
+            });
+            parentUl.querySelectorAll("a").forEach(function (navLink) {
+navLink.classList.remove("active");
+            });
+
+            // open our new menu and add the open class
+            const submenu = this.nextElementSibling;
+            if (submenu) {
+submenu.classList.add("in");
+            }
+
+            this.classList.add("active");
+          } else {
+            this.classList.remove("active");
+            parentUl.classList.remove("active");
+            const submenu = this.nextElementSibling;
+            if (submenu) {
+submenu.classList.remove("in");
+            }
+          }
+        });
+      });
+    </script>
+    <script src="../assets/libs/prismjs/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+    <!-- End JS -->
+  </body>
+</html>

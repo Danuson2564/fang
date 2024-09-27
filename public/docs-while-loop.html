@@ -1,0 +1,929 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+<!-- ============================================================== -->
+<!-- End Topbar header -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<!--Desktop view sidebar menu-->
+<aside class="left-sidebar with-vertical">
+  <!-- Sidebar scroll-->
+  <!-- ============================================================== -->
+  <!-- Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4"
+  >
+    <a href="../index.html" class="text-nowrap logo-img">
+      <img
+        src="../assets/images/logos/dark-logo.svg"
+        class="dark-logo"
+        alt="Logo-Dark"
+      />
+    </a>
+    <a
+      href="javascript:void(0)"
+      class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none"
+    >
+      <i class="ti ti-x"></i>
+    </a>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Logo -->
+  <!-- ============================================================== -->
+  <div
+    class="scroll-sidebar"
+    style="height: calc(100vh - 100px)"
+    data-simplebar
+  >
+    <!-- Sidebar navigation-->
+    <nav class="sidebar-nav">
+      <ul id="sidebarnav" class="">
+        <nav class="nav nav-pills flex-column sidebar-nav">
+          <ul class="list-unstyled">
+            <!--Getting Started-->
+            <li class="nav-small-cap">
+              <span class="hide-menu">Getting Started</span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="introduction.html"
+              >
+                <i class="ti ti-home-2"></i> Introduction
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
+              <i class="ti ti-packages"></i> Package Structure
+            </a>
+          </li> -->
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-start.html"
+              >
+                <i class="ti ti-brand-abstract"></i> Quick Start
+              </a>
+            </li>
+            <!--CUSTOMIZATION-->
+            <li>
+              <span class="sidebar-divider lg"></span>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Lesson content </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-program-struct.html"
+              >
+                โครงสร้างของโปรแกรม
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-variables-and-types.html"
+              >
+                ตัวแปรและประเภทข้อมูล
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-constants.html"
+              >
+                ค่าคงที่
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-typography.html"
+              >
+                ตัวดำเนินการ
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-input-output.html"
+              >
+                อินพุต เอาต์พุต พื้นฐาน
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-if-else-statements.html"
+              >
+                คำสั่ง if else
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-switch-case-statement.html"
+              >
+                คำสั่ง switch case
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-while-loop.html"
+              >
+                คำสั่งวนซ้ำ while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-for-loop.html"
+              >
+                คำสั่งวนซ้ำ for loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-do-while-loop.html"
+              >
+                คำสั่งวนซ้ำ do-while loop
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="docs-break-and-continue.html"
+              >
+                คำสั่ง break และ continue
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <span class="hide-menu">Team </span>
+            </li>
+            <li class="sidebar-item">
+              <a
+                class="nav-link sidebar-link d-flex align-items-center"
+                href="team.html"
+              >
+                ผู้จัดทำ
+              </a>
+            </li>
+            <!-- <li class="sidebar-item">
+            <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
+              <i class="ti ti-refresh-dot"></i>Changelog
+            </a>
+          </li> -->
+          </ul>
+        </nav>
+      </ul>
+    </nav>
+    <!-- End Sidebar navigation -->
+  </div>
+  <!-- End Sidebar scroll-->
+</aside>
+
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<div class="page-wrapper">
+  <!-- ============================================================== -->
+  <!-- Topbar header - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <header class="topbar position-relative">
+<div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
+  <!-- ============================================================== -->
+  <!-- Toggle which is visible on mobile only -->
+  <!-- ============================================================== -->
+  <!-- Logo icon -->
+  <a href="../index.html">
+<b class="logo-icon d-xl-none d-block">
+  <!-- Dark Logo icon -->
+  <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
+</b>
+<!--End Logo icon -->
+  </a>
+  <div class="d-flex align-items-center">
+<!---Mobile view canvas button--->
+<a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+  <i class="ti ti-menu-2"></i>
+</a>
+  </div>
+</div>
+  </header>
+  <!-- ============================================================== -->
+  <!-- Page wrapper  -->
+  <!-- ============================================================== -->
+  <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
+<!-- ============================================================== -->
+<!-- Container fluid  -->
+<!-- ============================================================== -->
+<div class="container-fluid mt-4">
+  <div class="mt-1">
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="d-sm-flex align-items-center justify-content-between">
+  <!-- <h4 class="mb-4 pb-2 fs-5">Change Global Skin Color</h3> -->
+</div>
+<article class="article-container mb-4" style="height: auto !important;">
+  <h1>คำสั่งวนซ้ำ while loop ในภาษา C</h1>
+
+  <section>
+      <div class="text-body-secondary cleafix mb-3">
+                          </div>
+  </section>
+
+  <p>ในบทนี้ คุณจะได้เรียนรู้การใช้งานคำสั่ง while loop ในภาษา C สำหรับควบคุมเพื่อให้โปรแกรมทำงานซ้ำๆ จากเงื่อนไขที่กำหนด เราจะพูดถึงการใช้งานคำสั่ง while loop ในพื้นฐาน และตัวอย่างการประยุกต์ใช้ในการเขียนโปรแกรมรูปแบบต่างๆ นี่เป็นเนื้อหาในบทนี้</p>
+
+<ul>
+<li>การใช้งานคำสั่ง while loop</li>
+<li>การใช้ลูปเพื่อนับตัวเลขถอยหลัง</li>
+<li>การตรวจสอบจำนวนเฉพาะ</li>
+<li>การใช้คำสั่ง while loop กับอาเรย์</li>
+<li>การกำหนด loop ที่ซ้อนกัน</li>
+<li>การแยกตัวประกอบของตัวเลข</li>
+</ul>
+
+<h2>การใช้งานคำสั่ง while loop</h2>
+
+<p>คำสั่ง while loop เป็นคำสั่งวนซ้ำที่เป็นพื้นฐานและเรียบง่ายที่สุดในภาษา C มันใช้สำหรับควบคุมเพื่อให้โปรแกรมทำงานบางอย่างซ้ำๆ จากเงื่อนไขที่กำหนด ซึ่งการทำงานในรูปแบบนี้เป็นเรื่องปกติในการเขียนโปรแกรม นี่เป็นรูปแบบการใช้งานคำสั่ง while loop ในภาษา C</p><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-9075045589988569" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 280px;" data-ad-status="filled"><div id="aswift_6_host" style="border: none; height: 280px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_6" name="aswift_6" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:714px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="714" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&amp;client=ca-pub-9075045589988569&amp;output=html&amp;h=280&amp;adk=158584644&amp;adf=3057870885&amp;w=714&amp;abgtt=3&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1727371049&amp;num_ads=1&amp;rafmt=1&amp;armr=3&amp;sem=mc&amp;pwprc=8964824057&amp;ad_type=text_image&amp;format=714x280&amp;url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Fwhile-loop&amp;fwr=0&amp;pra=3&amp;rh=179&amp;rw=713&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;fa=27&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&amp;dt=1727371049648&amp;bpp=13&amp;bdt=3292&amp;idt=-M&amp;shv=r20240924&amp;mjsv=m202409230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727371034%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&amp;gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727371034%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&amp;eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727371034%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&amp;prev_fmts=0x0%2C722x280%2C252x600%2C252x600&amp;nras=2&amp;correlator=5521688117968&amp;frm=20&amp;pv=1&amp;u_tz=420&amp;u_his=14&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=12&amp;ady=943&amp;biw=1108&amp;bih=911&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759837%2C95342016%2C95339678&amp;oid=2&amp;psts=AOrYGskcN-ODfVZyVeyFTaXUeQiLU_TSRbJKwj63mXzMSTnsXfwGeotuAcV_BRuo3D75LrVel8K7LcdkCLdjEcMAS-8YaQwH&amp;pvsid=812893505943978&amp;tmod=721002215&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&amp;fc=1408&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1125%2C911&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=128&amp;bc=31&amp;bz=1.71&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=7&amp;uci=a!7&amp;btvi=2&amp;fsb=1&amp;dtd=245" data-google-container-id="a!7" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CPGkj8-O4YgDFfFKnQkdlScJKA" data-load-complete="true"></iframe></div></ins></div>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">while (condition) {
+// statements
+}
+</code></pre>
+
+<p>ในการใช้งานคำสั่ง while loop นั้นจะประกอบไปด้วยสองส่วนคือ การกำหนดเงื่อนไข <code>condition</code> สำหรับลูปเพื่อทำงานและส่วนของคำสั่งที่ต้องการให้ทำงานในขณะที่เงื่อนไขเป็นจริง ซึ่งเราจะกำหนดภายในบล็อค <code>{}</code> ของคำสั่ง</p>
+
+<p>เงื่อนไขสามารถเป็นนิพจน์ใดๆ ที่เป็น Boolean หรือสามารถประเมินค่าเป็น Boolean และในขณะที่โปรแกรมทำงานในลูป เมื่อถึงบางช่วงจังหวะคุณต้องทำให้เงื่อนไขเป็นเท็จเพื่อจบการทำงานของลูป ไม่เช่นนั้นโปรแกรมจะทำงานในลูปตลอดไปหรือเรียกว่า Infinity loop</p>
+
+<p>สำหรับตัวอย่างแรกในบทนี้ เรามาเริ่มต้นด้วยการเขียนโปรแกรมนับเลขจาก 1-10 โดยการใช้งานคำสั่ง while loop ในภาษา C ซึ่งมันเป็นตัวอย่างที่เรียบง่ายที่สุดสำหรับแสดงการใช้งานลูป เป็นตัวอย่างของโปรแกรม</p>
+
+<div class="codehead">counting_numbers.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+n<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Loop ended\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-9075045589988569" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 280px;" data-ad-status="filled"><div id="aswift_7_host" style="border: none; height: 280px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_7" name="aswift_7" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:714px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="714" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&amp;client=ca-pub-9075045589988569&amp;output=html&amp;h=280&amp;adk=158584644&amp;adf=956123257&amp;w=714&amp;abgtt=3&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1727371049&amp;num_ads=1&amp;rafmt=1&amp;armr=3&amp;sem=mc&amp;pwprc=8964824057&amp;ad_type=text_image&amp;format=714x280&amp;url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Fwhile-loop&amp;fwr=0&amp;pra=3&amp;rh=179&amp;rw=713&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;fa=27&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&amp;dt=1727371049648&amp;bpp=18&amp;bdt=3292&amp;idt=-M&amp;shv=r20240924&amp;mjsv=m202409230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727371034%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&amp;gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727371034%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&amp;eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727371034%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&amp;prev_fmts=0x0%2C722x280%2C252x600%2C252x600%2C714x280&amp;nras=3&amp;correlator=5521688117968&amp;frm=20&amp;pv=1&amp;u_tz=420&amp;u_his=14&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=12&amp;ady=1988&amp;biw=1108&amp;bih=911&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759837%2C95342016%2C95339678&amp;oid=2&amp;psts=AOrYGskcN-ODfVZyVeyFTaXUeQiLU_TSRbJKwj63mXzMSTnsXfwGeotuAcV_BRuo3D75LrVel8K7LcdkCLdjEcMAS-8YaQwH&amp;pvsid=812893505943978&amp;tmod=721002215&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&amp;fc=1408&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1125%2C911&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=128&amp;bc=31&amp;bz=1.71&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=8&amp;uci=a!8&amp;btvi=3&amp;fsb=1&amp;dtd=257" data-google-container-id="a!8" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CLvCkM-O4YgDFepdnQkdKcsdSg" data-load-complete="true"></iframe></div></ins></div>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Loop ended
+</code></pre><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-9075045589988569" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 280px;" data-ad-status="filled"><div id="aswift_8_host" style="border: none; height: 280px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_8" name="aswift_8" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:714px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="714" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&amp;client=ca-pub-9075045589988569&amp;output=html&amp;h=280&amp;adk=158584644&amp;adf=2536209055&amp;w=714&amp;abgtt=3&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1727371049&amp;num_ads=1&amp;rafmt=1&amp;armr=3&amp;sem=mc&amp;pwprc=8964824057&amp;ad_type=text_image&amp;format=714x280&amp;url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Fwhile-loop&amp;fwr=0&amp;pra=3&amp;rh=179&amp;rw=713&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;fa=27&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&amp;dt=1727371049648&amp;bpp=15&amp;bdt=3292&amp;idt=-M&amp;shv=r20240924&amp;mjsv=m202409230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727371034%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&amp;gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727371034%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&amp;eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727371034%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&amp;prev_fmts=0x0%2C722x280%2C252x600%2C252x600%2C714x280%2C714x280&amp;nras=4&amp;correlator=5521688117968&amp;frm=20&amp;pv=1&amp;u_tz=420&amp;u_his=14&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=12&amp;ady=2625&amp;biw=1108&amp;bih=911&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759837%2C95342016%2C95339678&amp;oid=2&amp;psts=AOrYGskcN-ODfVZyVeyFTaXUeQiLU_TSRbJKwj63mXzMSTnsXfwGeotuAcV_BRuo3D75LrVel8K7LcdkCLdjEcMAS-8YaQwH&amp;pvsid=812893505943978&amp;tmod=721002215&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&amp;fc=1408&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1125%2C911&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=128&amp;bc=31&amp;bz=1.71&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=9&amp;uci=a!9&amp;btvi=4&amp;fsb=1&amp;dtd=273" data-google-container-id="a!9" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNuKkc-O4YgDFRlZnQkdyuUvLQ" data-load-complete="true"></iframe></div></ins></div>
+
+<p>นี่เป็นตัวอย่างพื้นฐานสำหรับการใช้งานคำสั่ง while loop ลูป เราได้ใช้มันนับตัวเลขจาก 1-10 และแสดงค่าออกทางหน้าจอ ต่อไปมาดูคำอธิบายในแต่ละส่วนว่าโปรแกรมทำงานอย่างไร</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เราเริ่มต้นจากการประกาศตัวแปร <code>n</code> ที่มีค่าเป็น <code>1</code> สำหรับใช้ในการนับเลข นี่เป็นการกำหนดค่าเริ่มต้นสำหรับคำสั่ง while loop เพื่อทำงาน ซึ่งมักจะทำก่อนที่ลูปจะเริ่มทำงานหรือก่อนจะถึงบล็อคของคำสั่ง while loop</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+n<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>จากนั้นเป็นการสร้างลูปโดยการกำหนดเงื่อนไขเป็น <code>n &lt;= 10</code> นี่หมายความว่าเราต้องการให้โปรแกรมทำงานในลูปในขณะตัวแปร <code>n</code> มีค่าน้อยกว่าหรือเท่ากับ <code>10</code> และภายในบล็อคของคำสั่ง while loop เราได้แสดงค่าของตัวแปรออกทางหน้าจอ</p><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-9075045589988569" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 280px;" data-ad-status="filled"><div id="aswift_9_host" style="border: none; height: 280px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_9" name="aswift_9" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:714px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="714" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&amp;client=ca-pub-9075045589988569&amp;output=html&amp;h=280&amp;adk=158584644&amp;adf=2367164580&amp;w=714&amp;abgtt=3&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1727371049&amp;num_ads=1&amp;rafmt=1&amp;armr=3&amp;sem=mc&amp;pwprc=8964824057&amp;ad_type=text_image&amp;format=714x280&amp;url=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc%2Fwhile-loop&amp;fwr=0&amp;pra=3&amp;rh=179&amp;rw=713&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;fa=27&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTI5LjAuNjY2OC42MCIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTI5LjAuNjY2OC42MCJdLFsiTm90PUE_QnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyOS4wLjY2NjguNjAiXV0sMF0.&amp;dt=1727371049648&amp;bpp=17&amp;bdt=3292&amp;idt=-M&amp;shv=r20240924&amp;mjsv=m202409230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dfae370265f482c34%3AT%3D1727355222%3ART%3D1727371034%3AS%3DALNI_Mb-fPxOjbC8NEqAe8q5Hu6GhGYaQQ&amp;gpic=UID%3D00000f1ebf5458a9%3AT%3D1727355222%3ART%3D1727371034%3AS%3DALNI_MYFBoRDS7O5xxvzDHEgasZLgQkh2w&amp;eo_id_str=ID%3D7bb03b70eeb824df%3AT%3D1727355222%3ART%3D1727371034%3AS%3DAA-AfjaRhq6RwGAu-DiWnL06N1LK&amp;prev_fmts=0x0%2C722x280%2C252x600%2C252x600%2C714x280%2C714x280%2C714x280&amp;nras=5&amp;correlator=5521688117968&amp;frm=20&amp;pv=1&amp;u_tz=420&amp;u_his=14&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1032&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=12&amp;ady=3341&amp;biw=1108&amp;bih=911&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759837%2C95342016%2C95339678&amp;oid=2&amp;psts=AOrYGskcN-ODfVZyVeyFTaXUeQiLU_TSRbJKwj63mXzMSTnsXfwGeotuAcV_BRuo3D75LrVel8K7LcdkCLdjEcMAS-8YaQwH&amp;pvsid=812893505943978&amp;tmod=721002215&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fmarcuscode.com%2Flang%2Fc&amp;fc=1408&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1032%2C1125%2C911&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=128&amp;bc=31&amp;bz=1.71&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=10&amp;uci=a!a&amp;btvi=5&amp;fsb=1&amp;dtd=285" data-google-container-id="a!a" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CKPCkc-O4YgDFYRTnQkd1PYH7g" data-load-complete="true"></iframe></div></ins></div>
+
+<pre class=" language-c"><code class=" language-c">n<span class="token operator">++</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>ในตอนท้ายของลูป เราเพิ่มค่าในตัวแปร <code>n</code> ขึ้นไปหนึ่งค่า นี่เป็นคำสั่งที่จะทำให้ค่าในตัวแปรเพิ่มขึ้นเรื่อยๆ สำหรับการทำงานแต่ละรอบของลูป จนกระทั่งค่าในตัวแปรมากว่า <code>10</code> ซึ่งนี่จะทำให้เงื่อนไขเป็นเท็จและลูปจบการทำงาน</p>
+
+<p>คุณสามารถลองเปลี่ยนคำสั่งเพิ่มค่าในตัวแปร <code>n</code> ให้เพิ่มค่าทีละสองได้ ยกตัวอย่างเช่น</p>
+
+<pre class=" language-c"><code class=" language-c">n <span class="token operator">+=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>จากนั้นรันโปรแกรมอีกครั้ง และนี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">1
+3
+5
+7
+9
+Loop ended
+</code></pre><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-9075045589988569" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 280px;"><div id="aswift_10_host" style="border: none; height: 280px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins></div>
+
+<p>ในรอบนี้ จะเห็นว่าโปรแกรมทำงานในลูปเพียง 5 รอบเท่านั้น เนื่องจากตัวเลขเพิ่มขึ้นทีละสอง และทำให้เงื่อนไขเป็นเท็จเร็วขึ้น ดังนั้น กล่าวคือภายในบล็อคของคำสั่ง while loop คุณมีหน้าที่ควบคุมการทำงานของลูปเพื่อจบการทำงานในแบบที่ต้องการ</p>
+
+<h2>การใช้ลูปเพื่อนับตัวเลขถอยหลัง</h2>
+
+<p>ต่อไปเป็นตัวอย่างการใช้คำสั่ง while loop สำหรับสร้างตัวนับถอยหลังเพื่อปล่อยจรวดไปยังอวกาศอันไกลโพ้น อาจเป็นดาวอังคารหรือที่ไหนสักแห่งซึ่งเราก็ไม่แน่ใจ แต่นี่เป็นโค้ดสำหรับภาระกิจการปล่อยจรวดของเรา</p>
+
+<div class="codehead">count_down.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Count down started\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>n <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+n<span class="token operator">--</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Now! Firing the Rocket\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-9075045589988569" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 280px;"><div id="aswift_11_host" style="border: none; height: 280px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins></div>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Count down started
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+Now! Firing the Rocket
+</code></pre>
+
+<p>นี่เป็นโปรแกรมนับถอยหลังโดยมันจะเริ่มจาก 10 สำหรับการปล่อยจรวด คุณสามารถจินตนาการได้ว่าคุณจะใช้มันทำอะไรก็ได้ ไม่ใช่เพียงแค่การปล่อยจรวด</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>คล้ายกับตัวอย่างก่อนหน้า เรากำหนดค่าเริ่มต้นในตัวแปร <code>n</code> เป็น <code>10</code> เนื่องจากเราต้องการนับตัวเลขถอยหลังจาก 10 จากนั้นกำหนดเงื่อนไขในคำสั่ง while loop เป็น <code>n &gt;= 0</code> ซึ่งหมายความว่าโปรแกรมจะทำงานในลูปในขณะที่ค่าในตัวแปรนั้นมากกว่าหรือเท่ากับ <code>0</code></p>
+
+<pre class=" language-c"><code class=" language-c">n<span class="token operator">--</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>และสิ่งที่เราต้องทำกับ loop นี้เพื่อให้มันจบการทำงานก็คือลดค่าในตัวแปร <code>n</code> ลงทีละ 1 ในแต่ละรอบของการทำงานในลูป นั่นจะทำให้เมื่อค่าในตัวแปรน้อยกว่า <code>0</code> โปรแกรมจบการทำงาน และจรวดถูกปล่อยในตอนท้ายของโปรแกรม</p>
+
+<p>ตัวอย่างนี้ไม่ได้มีอะไรพิเศษไปจากตัวอย่างก่อนหน้า เราเพียงแค่เปลี่ยนวิธีการนับตัวเลขจากเดินหน้าเป็นถอยหลังเท่านั้น แต่นี่จะช่วยให้คุณเห็นความหลากหลายของการนำลูปมาใช้งานในการเขียนโปรแกรม นั่นคือคุณสามารถใช้ลูปทำอะไรก็ได้ที่มีการทำงานซ้ำๆ ในกรณีนี้คือการนับเลขนั่นเอง</p>
+
+<div class="my-3">
+<!-- marcuscode - middle banner -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-9075045589988569" data-ad-slot="9605104032" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done"><div id="aswift_2_host" style="border: none; height: 280px; width: 714px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<h2>การตรวจสอบจำนวนเฉพาะ</h2>
+
+<p>ในตัวอย่างก่อนหน้า เราได้แสดงการนับเลขโดยการใช้ลูป นี่เป็นตัวอย่างพื้นฐานในการเรียนรู้การใช้งานลูปที่สามารถเข้าใจได้ง่าย ต่อไปมาดูตัวอย่างของการใช้งานลูปที่เริ่มซับซ้อนขึ้น</p>
+
+<p>คุณคงจะทราบว่าจำนวนเฉพาะคือตัวเลขจำนวนเต็มที่มากกว่า 1 ที่มีเพียงตัวเลขสองตัวเท่านั้นที่หารลงตัวนั่นคือ 1 และตัวมันเอง และใช่แล้ว ในตัวอย่างนี้ เราจะมาเขียนโปรแกรมเพื่อตรวจสอบว่าตัวเลขเป็นจำนวนเฉพาะหรือไม่ นี่เป็นตัวอย่างของโปรแกรม</p>
+
+<div class="codehead">prime_number.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Prime number checker\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter a number: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> divisible <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;=</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">%</span> i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  divisible<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>divisible <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d is prime number\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d is not prime number\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรมจากการรันโปรแกรมสองครั้ง และเรากรอกตัวเลขเป็น 5 และ 18 ตามลำดับ</p>
+
+<pre class="code-result language-result"><code class=" language-result">Prime number checker
+Enter a number: 5
+5 is prime number
+</code></pre>
+
+<pre class="code-result language-result"><code class=" language-result">Prime number checker
+Enter a number: 18
+18 is not prime number
+</code></pre>
+
+<p>นี่เป็นตัวอย่างของโปรแกรมสำหรับตรวจสอบว่าตัวเลขเป็นจำนวนเฉพาะหรือไม่ โดยรับค่าที่ต้องการตรวจสอบผ่านทางคีย์บอร์ด ต่อไปเป็นการอธิบายว่าแต่ละส่วนของโปรแกรมมีการทำงานอย่างไร</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>ในตอนที่โปรแกรมเริ่มต้น เราได้ประกาศตัวแปร <code>n</code> และรับค่ามาจากคีย์บอร์ด นี่เป็นตัวเลขที่จะนำมาตรวจสอบว่ามันเป็นจำนวนเฉพาะหรือไม่</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> divisible <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>และนี่เป็นการกำหนดเงื่อนไขเริ่มต้นสำหรับลูปเพื่อทำงาน โดยเราจะใช้ตัวแปร <code>i</code> เป็นตัวนับจาก 1-n เพื่อวนหาตัวเลขทั้งหมดที่หาร <code>n</code> ลงตัว และถ้าหากมีการหารลงตัวเกิดขึ้น เรานับมันด้วยตัวแปร <code>divisible</code></p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;=</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">%</span> i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+divisible<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ดังนั้นเราสร้าง while loop โดยกำหนดเงื่อนไขเป็น <code>i &lt;= n</code> เราจะค้นหาตัวเลขที่อยู่ระหว่าง 1 - n ว่ามีตัวเลขไหนที่หาร <code>n</code> ลงตัวบ้าง ทุกครั้งที่มีการหารลงตัว เราใช้ตัวแปร <code>divisible</code> สำหรับนับ จากนั้นเพิ่มค่าค่าในตัวแปร <code>i</code> ขึ้นไป <code>1</code> เพื่อตรวจสอบตัวเลขใหม่ในลูปถัดไป</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>divisible <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d is prime number\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d is not prime number\n"</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>และเมื่อลูปจบการทำงาน เราจะทราบว่ามีกี่จำนวนที่หาร <code>n</code> ลงตัว และเนื่องจากเราตรวจสอบตัวเลขทั้งหมดจาก <code>1-n</code> ถ้าหากมันเป็นจำนวนเฉพาะ นั่นหมายความว่าค่าที่นับได้จากตัวแปร <code>divisible</code> จะมีค่าเท่ากับ <code>2</code> และเราใช้มันเป็นเงื่อนไขในการตรวจสอบ</p>
+
+<p>มีอีกหลายวิธีที่สามารถใช้ในการตรวจสอบว่าตัวเลขเป็นจำนวนเฉพาะ สำหรับตัวอย่างนี้ เราเลือกวิธีการเขียนที่ตรงไปตรงมาโดยหลีกเลี่ยงคำสั่งอื่น เช่นคำสั่ง <code>break</code> เนื่องจากเราต้องการมุ่งเน้นที่การใช้งานคำสั่ง while loop เป็นหลัก</p>
+
+<h2>การใช้คำสั่ง while loop กับอาเรย์</h2>
+
+<p>อาเรย์เป็นประเภทข้อมูลในภาษา C ที่เก็บข้อมูลในรูปแบบของลำดับ และแต่ละค่าในอาเรย์สามารถเข้าถึงได้จาก Index ที่เป็นลำดับต่อเนื่องกัน ดังนั้นการใช้งานลูปกับอาเรย์ ทำให้เราสามารถวนอ่านค่าทั้งหมดในอาเรย์ได้อย่างง่ายดาย</p>
+
+<p>ในตัวอย่างนี้เป็นการใช้งานคำสั่ง while loop กับอาเรย์ เรามาเขียนโปรแกรมสำหรับหาผลรวมและค่าเฉลี่ยของตัวเลขในอาเรย์ นี่เป็นตัวอย่าง</p>
+
+<div class="codehead">sum_n_average.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> numbers<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> size <span class="token operator">=</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>numbers<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> size<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+sum <span class="token operator">+=</span> numbers<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Sum: %d\n"</span><span class="token punctuation">,</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Average: %f\n"</span><span class="token punctuation">,</span> sum <span class="token operator">/</span> <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span>size<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">Sum: 53
+Average: 7.571429
+</code></pre>
+
+<p>ในตัวอย่าง เป็นโปรแกรมสำหรับหาผลรวมและค่าเฉลี่ยของตัวเลขในอาเรย์ คุณสามารถจินตนาการได้ว่าอาเรย์สามารถมีสมาชิกเท่าไหร่ก็ได้ และเราสามารถวนมันได้ด้วยคำสั่ง loop</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> numbers<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> size <span class="token operator">=</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>numbers<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>นี่เป็นประกาศอาเรย์เริ่มต้นสำหรับหาผลรวมและค่าเฉลี่ย และเพื่อนับจำนวนสมาชิกในอาเรย์ ฟังก์ชัน <code>sizeof</code> ส่งค่ากลับเป็นไบท์ของข้อมูล เมื่อเราหารขนาดของอาเรย์และขนาดของประเภทข้อมูลของอาเรย์ <code>int</code> เราจะได้จำนวนของสมาชิกทั้งหมดในอาเรย์และเก็บในตัวแปร <code>size</code></p>
+
+<p>นั่นหมายความว่าหากคุณเพิ่มตัวเลขเข้าไปในอาเรย์ ขนาดของมันจะถูกคำนวณหาอัตโนมัติ ซึ่งเป็นวิธีทียืดหยุ่นสำหรับตรวจสอบขนาดของอาเรย์ในตอนที่โปรแกรมทำงาน</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>จากนั้นเราประกาศตัวแปร <code>i</code> ที่จะใช้เป็น Index เพื่อวนอ่านค่าในอาเรย์ และตัวแปร <code>sum</code> สำหรับเก็บผลรวมของตัวเลขในอาเรย์</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> size<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+sum <span class="token operator">+=</span> numbers<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>และเริ่มต้น while loop ด้วยการกำหนดเงื่อนไขเป็น <code>i &lt; size</code> นั่นเป็นเพราะ Index ของอาเรย์จะเริ่มจาก <code>0</code> ไปจนถึง <code>size - 1</code> นัั่นเอง จากนั้นภายในลูปนำแต่ละค่าในอาเรย์ <code>numbers[i]</code> มาบวกเก็บไว้ในตัวแปร <code>sum</code> และเพิ่มค่าในตัวแปร <code>i</code> ขึ้นไปหนึ่งสำหรับค่าต่อไปของอาเรย์</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Sum: %d\n"</span><span class="token punctuation">,</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Average: %f\n"</span><span class="token punctuation">,</span> sum <span class="token operator">/</span> <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span>size<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เมื่อลูปจบการทำงาน เราจะได้รับผลรวมของตัวเลขในอาเรย์เก็บไว้ในตัวแปร <code>sum</code> เราสามารถหาค่าเฉลี่ยได้จากนำผลรวมหารด้วยจำนวนสมาชิกทั้งหมดในอาเรย์ และแสดงผลสรุปออกทางหน้าจอ</p>
+
+<h2>การกำหนด loop ที่ซ้อนกัน</h2>
+
+<p>เหมือนกับคำสั่งควบคุมประเภทอื่นๆ ลูปสามารถที่จะซ้อนกันได้ การใช้งานของลูปในลักษณะนี้มักใช้กับอาเรย์สองมิติ หรือการทำงานในรูปแบบของตาราง M x N เช่นเมื่อต้องการทำงาน M อย่าง และในแต่ละอย่างจะมีงานที่ต้องการทำอีก N อย่าง</p>
+
+<p>เราจะเริ่มจากตัวอย่างง่ายๆ เราคิดว่าคุณคงจะเคยเล่นหรือเห็นตารางของหมากรุกมาก่อน มาสร้างตารางของหมากรุกโดยการใช้คำสั่ง while loop แบบซ้อนกันในภาษา C นี่เป็นตัวอย่าง</p>
+
+<div class="codehead">chess_table.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">int</span> M <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">,</span> N <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> M<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>j <span class="token operator">&lt;</span> N<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>i <span class="token operator">+</span> j<span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"X"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">" "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  j<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">X X X X
+X X X X
+X X X X
+X X X X
+X X X X
+X X X X
+X X X X
+X X X X
+</code></pre>
+
+<p>ในตัวอย่างนี้เราได้สร้างตารางของหมากรุกด้วยคำสั่ง while loop แบบซ้อนกัน ที่มีขนาด 8 แถวและ 8 หลัก</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> M <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">,</span> N <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>นี่เป็นการกำหนดค่าเริ่มต้นสำหรับ while loop เพื่อทำงาน ในการเขียนโปรแกรมแบบลูปซ้อนกัน ให้คิดว่าแต่ละลูปนั้นมีการทำงานของมันเอง เนื่องจากงานของเราคือต้องการสร้างตารางหมากรุก ดังนั้นในลูปแรกใช้สำหรับการสร้างแต่ละแถว</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> M<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token comment">// inter loop</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>หากโฟกัสเพียงแค่ loop ด้านนอก จะเห็นว่าหน้าที่ของมันคือการสร้างแถวเป็นจำนวน M แถว ตอนนี้เพียงคิดว่า loop ด้านในจะเป็นอะไรก็ได้ที่เราต้องการทำ ลองลบลูปด้านในโปรแกรมออกให้เหลือเท่ากับตัวอย่างด้านบน จะเห็นว่ามีเพียงบรรทัดว่างเปล่า 8 ที่ถูกแสดงออกทางหน้าจอ</p>
+
+<p>เมื่อเราจัดตั้ง loop ด้านนอกให้สามารถทำงานได้ตามที่ต้องการแล้ว ต่อไปเป็นการกำหนดการทำงานให้กับ loop ด้านในเพื่อวาดตัวอักษรลงในตาราง ทุกอย่างที่คุณเขียนในลูปนี้จะถูกนำไปใช้สำหรับทุกแถวจากลูปด้านนอก</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>j <span class="token operator">&lt;</span> N<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>i <span class="token operator">+</span> j<span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"X"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">" "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+j<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>เราประกาศตัวแปร <code>j</code> สำหรับนับการทำงานของลูปด้านในเพื่อวนทำงาน <code>N</code> รอบสำหรับแสดงแต่ละหลักในแถว และสร้างเงื่อนไขเพื่อให้แสดงแบบสลับตารางตาข่าย โดยการนำแถวและหลักมาบวกกันและหารด้วย <code>2</code> ถ้าหากการหารลงตัวเราแสดงตัวอักษร <code>X</code> ไม่เช่นนั้นแสดงช่องว่างแทน</p>
+
+<p>และในตอนท้ายเมื่อ loop ทั้งสองทำงานเสร็จสิ้น เราจะได้ตารางของหมากรุกขนาด 8 x 8 ที่แสดงผลออกทางหน้าจอ คุณสามารถลองเปลี่ยนขนาดของตารางในตัวแปร <code>M</code> และ <code>N</code> และรันโปรแกรมเพื่อดูผลลัพธ์อีกครั้งได้</p>
+
+<p>การทำงานกับ loop นั้นเป็นเรื่องที่สนุก จากตัวอย่างก่อนหน้าสำหรับการวาดตารางหมากรุก เราสามารถเปลี่ยนเงื่อนไขเพื่อให้วาดภาพอื่นได้ นี่เป็นตัวอย่างของการวาดกรอบสี่เหลี่ยมล้อมรอบตาราง</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> i <span class="token operator">==</span> N <span class="token operator">-</span> <span class="token number">1</span> <span class="token operator">||</span> j <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> j <span class="token operator">==</span> M <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"*"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">" "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>คุณเพียงแค่เปลี่ยนโค้ดใน loop ด้านในและรันโปรแกรมอีกครั้ง นี่เป็นผลลัพธ์การทำงานของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">********
+*      *
+*      *
+*      *
+*      *
+*      *
+*      *
+********
+</code></pre>
+
+<p>จากนั้นลองเปลี่ยนเงื่อนไขเป็นนี่เพื่อวาดเส้นตามแนวแทยงจากมุมทั้งสองและลองรันโปรแกรมอีกครั้งเพื่อดูผลลัพธ์</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> i <span class="token operator">==</span> N <span class="token operator">-</span> <span class="token number">1</span> <span class="token operator">||</span> j <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> j <span class="token operator">==</span> M <span class="token operator">-</span> <span class="token number">1</span> <span class="token operator">||</span> i <span class="token operator">==</span> j <span class="token operator">||</span> i <span class="token operator">==</span> M <span class="token operator">-</span> j <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"*"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">" "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>และนี่เป็นผลลัพธ์ของโปรแกรม</p>
+
+<pre class="code-result language-result"><code class=" language-result">********
+**    **
+* *  * *
+*  **  *
+*  **  *
+* *  * *
+**    **
+********
+</code></pre>
+
+<p>นี่ราวกับว่าเราอยู่ในการเรียนของวิชาศิลปะ ใช่แล้ว การเขียนโปรแกรมสามารถใช้สำหรับสร้างงานศิลปะได้ และคุณควรจะลองทำมัน</p>
+
+<h2>การแยกตัวประกอบของตัวเลข</h2>
+
+<p>ในตอนที่คุณเรียนวิชาคณิตศาสตร์ คุณยังจำวิธีการแยกตัวประกอบของตัวเลขได้หรือไม่ การแยกตัวประกอบคือการแบ่งตัวเลขออกเป็นชุดของจำนวนเฉพาะซึ่งเมื่อคูณกันจะได้ตัวเลขตัวเดิม ซึ่งนี่มีประโยชน์มากในการเขียนโปรแกรมขั้นสูง นี่เป็นตัวอย่างของการแยกตัวประกอบของตัวเลข</p>
+
+<pre class="code-syntax language-syntax"><code class=" language-syntax">6 = 2 x 3
+28 = 2 x 2 x 7
+345 = 3 x 5 x 23
+15450 = 2 x 3 x 5 x 5 x 103
+</code></pre>
+
+<p>และในตัวอย่างนี้ เราจะเขียนโปรแกรมเพื่อแยกตัวประกอบของตัวเลขใดๆ ที่รับค่าเข้ามาผ่านทางคีย์บอร์ด นี่เป็นตัวอย่างของโปรแกรมสำหรับแยกตัวประกอบของตัวเลขในภาษา C</p>
+
+<div class="codehead">number_factorization.c</div>
+
+<pre class=" language-c"><code class=" language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdlib.h&gt;</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Prime Factorization Calculator\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Enter a number: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> n<span class="token punctuation">;</span>
+<span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> factors<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> index <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token comment">// find prime factors</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> n<span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>j <span class="token operator">&lt;=</span> i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> j <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      factors<span class="token punctuation">[</span>index<span class="token operator">++</span><span class="token punctuation">]</span> <span class="token operator">=</span> j<span class="token punctuation">;</span>
+      i <span class="token operator">=</span> i <span class="token operator">/</span> j<span class="token punctuation">;</span>
+      <span class="token keyword">break</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  j<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// display result</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d = "</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> index<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> factors<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> index <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">" x "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>นี่เป็นผลลัพธ์การทำงานของโปรแกรม เราสามารถใช้มันสำหรับแยกตัวประกอบของตัวเลขจำนวนเต็มใดๆ คุณสามารถลองมันกับตัวเลขของคุณ</p>
+
+<pre class="code-result language-result"><code class=" language-result">Prime Factorization Calculator
+Enter a number: 18
+18 = 2 x 3 x 3
+</code></pre>
+
+<pre class="code-result language-result"><code class=" language-result">Prime Factorization Calculator
+Enter a number: 100
+100 = 2 x 2 x 5 x 5
+</code></pre>
+
+<p>ต่อไปเราจะอธิบายการทำของมันในรูปแบบที่ง่ายที่สุด โดยโฟกัสที่การใช้งาน loop เป็นหลัก โปรแกรมเริ่มต้นทำงานโดยถามให้ผู้ใช้กรอกตัวเลขเพื่อแยกตัวประกอบและเก็บไว้ในตัวแปร <code>n</code></p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> factors<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> index <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>เราประกาศอารย์สำหรับเก็บค่าตัวประกอบจำนวนเฉพาะทั้งหมดที่สามารถแยกได้ และประกาศตัวแปร <code>index</code> สำหรับนับจำนวนตัวประกอบที่พบและใช้สำหรับกำหนดค่าดังกล่าวให้กับอาเรย์</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> i <span class="token operator">=</span> n<span class="token punctuation">;</span>
+</code></pre>
+
+<p>เรากำหนดค่าเริ่มต้นสำหรับ while loop เพื่อทำงานโดยกำหนดค่าให้กับตัวแปร <code>i</code> โดยให้มีค่าเริ่มต้นเท่ากับ <code>n</code> นั่นเป็นเพราะว่าค่านี้จะเปลี่ยนไปตลอดเวลาในขณะที่โปรแกรมทำงาน และเราต้องการรับษาค่าในตัวแปร <code>n</code> เอาไว้</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token comment">// inner loop</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>จากนั้นเริ่มต้นการทำงานของ while loop นี่จะทำงานโดยการหาตัวเลขมาหาร <code>i</code> ในขณะที่ค่าในตัวแปรนั้นมากกว่า <code>i</code> และเมื่อค่าในตัวแปรน้อยกว่าหรือเท่ากับ <code>1</code> ซึ่งจะทำให้เงื่อนไขเป็นเท็จ หมายความว่าการแยกตัวประกอบเสร็จสิ้นนั่นเอง</p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>j <span class="token operator">&lt;=</span> i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> j <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+factors<span class="token punctuation">[</span>index<span class="token operator">++</span><span class="token punctuation">]</span> <span class="token operator">=</span> j<span class="token punctuation">;</span>
+i <span class="token operator">=</span> i <span class="token operator">/</span> j<span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+j<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>ส่วน loop ด้านในนั้นทำหน้าที่สำหรับหาตัวเลขที่หาร <code>i</code> ลงตัวโดยวนจาก <code>2</code> ถึง <code>i</code> เราใช้ตัวแปร <code>j</code> สำหรับการวนที่ลูปนี้ หากพบกับตัวเลขที่สามารถหารลงตัว จะถือว่าตัวเลขดังกล่าวเป็นตัวประกอบของ <code>n</code> และเราเก็บมันลงอาเรย์ <code>factors</code></p>
+
+<pre class=" language-c"><code class=" language-c">i <span class="token operator">=</span> i <span class="token operator">/</span> j<span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span>
+</code></pre>
+
+<p>จากนั้นลดค่าในตัวแปร <code>i</code> ลงให้เท่ากับผลจากการหารตัวมันเองด้วย <code>j</code> และจบการทำงานของลูปภายในด้วยคำสั่ง <code>break</code> ที่จะส่งการทำงานกลับมายังลูปด้านนอก และลูปด้านนอกจะทำการตรวจสอบเงื่อนไขของมัน (<code>i &gt; 1</code>) อีกครั้ง นี่แสดงว่าค่าในตัวแปร <code>i</code> ลดลงแล้ว</p>
+
+<p>ถ้าหากเงื่อนไขยังคงเป็นจริง โปรแกรมจะทำงานที่ลูปด้านในเช่นเดิม แต่กับค่าของ <code>i</code> ที่ลดลงแล้ว และวนทำเช่นนี้ไปเรื่อยๆ จนกว่าค่าในตัวแปร <code>i</code> จะมีค่าน้อยกว่าหรือเท่ากับ <code>1</code> เพื่อจบการทำงานของลูป และในตอนท้ายเราจะได้ตัวประกอบทั้งหมดที่แยกได้เก็บในตัวแปรอาเรย์ <code>factors</code></p>
+
+<pre class=" language-c"><code class=" language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d = "</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> index<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> factors<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> index <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">" x "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+<p>สุดท้ายเป็นการแสดงผลลัพธ์ออกทางหน้าจอ โดยการใช้คำสั่ง while loop เพื่อวนอ่านค่าในอาเรย์เช่นเดิม คุณได้เห็นเราได้ทำเช่นนี้ในตัวอย่างของการหาผลรวมของตัวเลขในอาเรย์ และนี่ก็คือทั้งหมดของโปรแกรมแยกตัวประกอบนี้</p>
+
+<p>ในบทนี้ คุณได้เรียนรู้การใช้งานคำสั่ง while loop สำหรับควบคุมโปรแกรมเพื่อให้ทำงานซ้ำๆ ภายใต้เงื่อนไขที่กำหนด เราได้แสดงตัวอย่างการใช้งานในรูปแบบต่างๆ เพื่อให้คุณสามารถนำไปประยุกต์ใช้ในงานของคุณได้</p>
+
+          </article>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End Container fluid  -->
+<!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Page wrapper  -->
+  <!-- ============================================================== -->
+</div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  function handleSidebar() {
+document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+  element.addEventListener("click", function () {
+document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+  el.checked = true;
+});
+document
+  .getElementById("main-wrapper")
+  .classList.toggle("show-sidebar");
+document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+  el.classList.toggle("close");
+});
+var dataTheme = document.body.getAttribute("data-sidebartype");
+if (dataTheme === "full") {
+  document.body.setAttribute("data-sidebartype", "mini-sidebar");
+} else {
+  document.body.setAttribute("data-sidebartype", "full");
+}
+  });
+});
+  }
+
+  handleSidebar();
+
+  function findMatchingElement() {
+var currentUrl = window.location.href;
+var anchors = document.querySelectorAll("#sidebarnav a");
+for (var i = 0; i < anchors.length; i++) {
+  if (anchors[i].href === currentUrl) {
+return anchors[i];
+  }
+}
+
+return null; // Return null if no matching element is found
+  }
+  var elements = findMatchingElement();
+
+  // Do something with the matching element
+  if (elements) {
+elements.classList.add("active");
+  }
+
+  document
+.querySelectorAll("ul#sidebarnav ul li a.active")
+.forEach(function (link) {
+  link.closest("ul").classList.add("in");
+  link.closest("ul").parentElement.classList.add("selected");
+});
+
+  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
+const isActive = li.classList.contains("selected");
+if (isActive) {
+  const anchor = li.querySelector("a");
+  if (anchor) {
+anchor.classList.add("active");
+  }
+}
+  });
+
+  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
+link.addEventListener("click", function (e) {
+  const isActive = this.classList.contains("active");
+  const parentUl = this.closest("ul");
+  if (!isActive) {
+// hide any open menus and remove all other classes
+parentUl.querySelectorAll("ul").forEach(function (submenu) {
+  submenu.classList.remove("in");
+});
+parentUl.querySelectorAll("a").forEach(function (navLink) {
+  navLink.classList.remove("active");
+});
+
+// open our new menu and add the open class
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.add("in");
+}
+
+this.classList.add("active");
+  } else {
+this.classList.remove("active");
+parentUl.classList.remove("active");
+const submenu = this.nextElementSibling;
+if (submenu) {
+  submenu.classList.remove("in");
+}
+  }
+});
+  });
+</script>
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

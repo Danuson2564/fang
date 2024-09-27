@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Flexy Bootstrap Admin</title>
+  <script src="script.js" defer></script>
+  <!-- Owl Carousel  -->
+  <link rel="stylesheet" href="../assets/libs/aos/dist/aos.css" />
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="../assets/images/logos/preloader.svg" alt="loader" class="lds-ripple img-fluid" />
+  </div>
+  <div class="landingpage">
+    <div class="main-wrapper">
+      <header class="topheader py-3" id="top">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light ps-0">
+            <!-- Logo will be here -->
+            <a class="navbar-brand" href="../landingpage/index.html">
+              <img src="../assets/images/logos/dark-logo.svg" alt="img-fluid" />
+            </a>
+
+            <!--Toggle button-->
+            <button class="navbar-toggler navbar-toggler-right border-0 p-0 fs-8" type="button" data-bs-toggle="offcanvas" href="#right-sidebar">
+              <iconify-icon icon="solar:hamburger-menu-line-duotone"></iconify-icon>
+            </button>
+
+            <!-- This is the navigation menu -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto stylish-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../docs/index.html" target="_blank">Documentation</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- mobile sidebar -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="right-sidebar" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menus</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav stylish-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="introduction.html" target="_blank">Documentation</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <!-- start banner -->
+      <section class="hero-section position-relative overflow-hidden mb-0 mb-lg-5">
+        <div class="container" style="margin-top: 150px;">
+          <div class="row align-items-center">
+            <div class="col-xl-6">
+              <div class="hero-content my-5 my-xl-0">
+                        <textarea class="language-c" id="code" placeholder="code C"></textarea>
+                <textarea id="input" placeholder="Enter input here..."></textarea>
+                <!-- <button id="run-button">Run Code</button> -->
+                <div class="d-sm-flex align-items-center gap-3" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                  <a id="run-button" class="btn btn-outline-primary d-block scroll-link px-7 py-6">Run Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="hero-content">
+        <pre class="language-c"id="output">
+        </pre>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <style>
+
+textarea {
+    color: #fff;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: #1f2a3d;
+    border-radius: .3em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+pre {
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+  </style>
+  <div class="dark-transparent sidebartoggler"></div>
+  <script src="../assets/js/vendor.min.js"></script>
+  <!-- Import Js Files -->
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/js/theme/app.init.js"></script>
+  <script src="../assets/js/theme/theme.js"></script>
+  <script src="../assets/js/theme/app.min.js"></script>
+
+  <!-- solar icons -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <script src="../assets/libs/aos/dist/aos.js"></script>
+  <script src="../assets/js/landingpage/landingpage.js"></script>
+</body>
+
+</html>

@@ -19,7 +19,7 @@ function displayOutput(result) {
     if (result.error) {
         outputElement.textContent = `Error: ${result.error}`;
     } else {
-        outputElement.textContent = `Output:\n${result.output}\nMessage: ${result.message}`;
+        outputElement.textContent = `${result.output}`;
         if (result.expected) {
             outputElement.textContent += `\nExpected Output:\n${result.expected}`;
         }
